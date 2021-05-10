@@ -1,0 +1,7 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          '@sitegeist/inspectorgadget-plugin':
+            resource: 'resource://Sitegeist.InspectorGadget/Public/JavaScript/Plugin.js'

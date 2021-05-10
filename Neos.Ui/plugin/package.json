@@ -1,0 +1,12 @@
+{
+    "name": "@sitegeist/inspectorgadget-plugin",
+    "license": "MIT",
+    "version": "0.0.0",
+    "scripts": {
+        "build": "neos-react-scripts build",
+        "watch": "neos-react-scripts watch"
+    },
+    "neos": {
+        "buildTargetDirectory": "../../Resources/Public/JavaScript"
+    }
+}
