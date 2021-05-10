@@ -1,5 +1,12 @@
-import manifest from '@neos-project/neos-ui-extensibility';
+import manifest, {SynchronousRegistry} from '@neos-project/neos-ui-extensibility';
 
-manifest('@sitegeist/inspectorgadget-plugin', {}, (globalRegistry) => {
-    alert('InspectorGadget!!!');
+import {registerInspectorEditor} from '@sitegeist/inspectorgadget-inspector-editor';
+
+manifest('@sitegeist/inspectorgadget-plugin', {}, (globalRegistry, {store, configuration, routes}) => {
+    const neosContextProperties = {globalRegistry, store, configuration, routes};
+    registerInspectorEditor(neosContextProperties);
+
+    globalRegistry.set('@sitegeist/inspectorgadget/editors', new SynchronousRegistry(`
+        # Sitegeist.InspectorGadget Editors Registry
+    `))
 });

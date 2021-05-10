@@ -1,0 +1,19 @@
+{
+    "name": "@sitegeist/inspectorgadget-inspector-editor",
+    "license": "MIT",
+    "version": "0.0.0",
+    "main": "./lib/index.js",
+    "scripts": {
+        "build": "rm -rf lib && tsc -p tsconfig.build.json",
+        "watch": "tsc -w -p tsconfig.build.json"
+    },
+    "dependencies": {
+        "@neos-project/react-ui-components": "^7.0.2",
+        "@sitegeist/inspectorgadget-neos-bridge": "^0.0.0",
+        "final-form": "^4.20.2",
+        "react-final-form": "^6.5.3"
+    },
+    "devDependencies": {
+        "typescript": "^4.2.4"
+    }
+}
