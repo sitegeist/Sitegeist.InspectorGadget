@@ -1,9 +1,9 @@
 import * as React from 'react';
-import * as ReactFinalForm from 'react-final-form';
 
 import {Button} from '@neos-project/react-ui-components';
 
-import {useCurrentlyFocusedNode, useNodeType, useGlobalRegistry} from '@sitegeist/inspectorgadget-neos-bridge';
+import {useCurrentlyFocusedNode, NeosContext, useNeos, useNodeType, useGlobalRegistry, useSelector} from '@sitegeist/inspectorgadget-neos-bridge';
+import {useEditorTransactions, Presentation} from '@sitegeist/inspectorgadget-core';
 
 interface Props {
     neos: unknown
@@ -27,50 +27,47 @@ interface Props {
     renderSecondaryInspector: (id: undefined | string, contents: any) => void
 }
 
+interface Editor {
+    Preview: React.ComponentType<{
+        value: any
+        api: typeof Presentation
+    }>
+}
+
 export const InspectorEditor: React.FC<Props> = props => {
-    const globalRegistry = useGlobalRegistry();
     const node = useCurrentlyFocusedNode();
+    const globalRegistry = useGlobalRegistry();
     const nodeType = useNodeType(node.nodeType);
     const {type} = nodeType?.properties[props.identifier]!;
-    const Editor: undefined | React.ComponentType<{
-        api: typeof ReactFinalForm
-    }> = globalRegistry.get('@sitegeist/inspectorgadget/editors')?.get(type);
+    const tx = useEditorTransactions();
+    const editValueObject = React.useCallback(async () => {
+        const result = await tx.editValueObject(
+            type,
+            props.value
+        );
 
-    const openSecondaryInspector = React.useCallback(() => {
-        props.renderSecondaryInspector('SITEGEIST_INSPECTOR_GADGET::' + props.identifier, () => (
-            <div>
-                <h1>Edit: {props.label}</h1>
-                {Editor ? (
-                    <ReactFinalForm.Form
-                        initialValues={props.value}
-                        onSubmit={(values: any) => console.log('Submit', values)}
-                    >
-                        {({handleSubmit, values}) => {
-                            props.commit(values);
+        if (result.change) {
+            props.commit(result.value);
+        }
+    }, [props.value, tx.editValueObject, props.options]);
 
-                            return (
-                                <form onSubmit={handleSubmit}>
-                                    <Editor
-                                        api={ReactFinalForm}
-                                        />
-                                </form>
-                            );
-                        }}
-                    </ReactFinalForm.Form>
-                ) : `Missing Editor for: "${type}"`}
-            </div>
-        ));
-    }, [props.renderSecondaryInspector, props.label, props.value, props.commit, type])
-
-    console.log('InspectorEditor::type', nodeType?.properties[props.identifier].type);
-    console.log('InspectorEditor::options', props.options);
+    const Editor: undefined | Editor = globalRegistry.get('@sitegeist/inspectorgadget/editors')?.get(type ?? '');
 
     return (
         <div>
-            {props.value ? (
-                <pre>{JSON.stringify(props.value, null, 2)}</pre>
+            {props.value ? Editor ? (
+                <button onClick={editValueObject}>
+                    <Editor.Preview
+                        value={props.value}
+                        api={Presentation}
+                    />
+                </button>
             ) : (
-                <Button onClick={openSecondaryInspector}>
+                <>
+                    Missing Editor for {type}
+                </>
+            ) : (
+                <Button onClick={editValueObject}>
                     Create Value Object
                 </Button>
             )}

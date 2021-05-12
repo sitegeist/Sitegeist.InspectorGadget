@@ -3,10 +3,14 @@ import * as React from 'react';
 import {SynchronousRegistry} from '@neos-project/neos-ui-extensibility';
 
 import {INeosContextProperties, NeosContext} from '@sitegeist/inspectorgadget-neos-bridge';
+import {IEditor, EditorContext} from '@sitegeist/inspectorgadget-core';
 
 import {InspectorEditor} from './InspectorEditor';
 
-export function registerInspectorEditor(neosContextProperties: INeosContextProperties): void {
+export function registerInspectorEditor(
+    neosContextProperties: INeosContextProperties,
+    editor: IEditor
+): void {
     const inspectorRegistry = neosContextProperties.globalRegistry.get('inspector');
     if (!inspectorRegistry) {
         console.warn('[Sitegeist.InspectorGadget]: Could not find inspector registry.');
@@ -24,7 +28,9 @@ export function registerInspectorEditor(neosContextProperties: INeosContextPrope
     editorsRegistry.set('Sitegeist.InspectorGadget/Inspector/Editor', {
         component: (props: any) => (
             <NeosContext.Provider value={neosContextProperties}>
-                <InspectorEditor {...props}/>
+                <EditorContext.Provider value={editor}>
+                    <InspectorEditor {...props}/>
+                </EditorContext.Provider>
             </NeosContext.Provider>
         )
     });

@@ -6,9 +6,11 @@ export {
 export type {INeosContextProperties, IGlobalRegistry} from './Extensibility'
 export {
     NeosContext,
+    useNeos,
     useGlobalRegistry,
     useConfiguration,
-    useRoutes
+    useRoutes,
+    useSelector
 } from './Extensibility';
 
 export {useAssetSummary} from './Media';

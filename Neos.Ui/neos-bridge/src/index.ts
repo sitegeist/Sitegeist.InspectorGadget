@@ -6,10 +6,12 @@ export type {
 } from './domain';
 export {
     NeosContext,
+    useNeos,
     useAssetSummary,
     useCurrentlyFocusedNode,
     useNodeType,
     useGlobalRegistry,
     useConfiguration,
-    useRoutes
+    useRoutes,
+    useSelector
 } from './domain';
