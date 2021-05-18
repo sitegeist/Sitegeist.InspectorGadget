@@ -41,9 +41,17 @@
             "Sitegeist\\InspectorGadget\\": "Classes"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Sitegeist\\InspectorGadget\\Tests\\": "Tests"
+        }
+    },
     "extra": {
         "neos": {
             "package-key": "Sitegeist.InspectorGadget"
         }
+    },
+    "scripts": {
+        "test": "bin/phpunit -c phpunit.xml --enforce-time-limit --coverage-html Build/Reports/coverage Tests"
     }
 }
