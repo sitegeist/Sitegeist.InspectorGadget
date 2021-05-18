@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 namespace Sitegeist\InspectorGadget\Tests\Fixtures;
 
-final class ArrayBasedValueObject
+final class ArrayBasedValueObject implements \JsonSerializable
 {
     /**
      * @var array
@@ -29,6 +29,14 @@ final class ArrayBasedValueObject
      * @return array
      */
     public function getValue(): array
+    {
+        return $this->value;
+    }
+
+    /**
+     * @return array<mixed>
+     */
+    public function jsonSerialize()
     {
         return $this->value;
     }

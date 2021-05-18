@@ -28697,12 +28697,9 @@ var SingleItemEditor = function SingleItemEditor(props) {
 var ListEditor = function ListEditor(props) {
     var Editor = useEditorForType(props.itemType);
     var addValueObject = useEditValueObject({}, props.itemType, React.useCallback(function (value) {
-        var _a, _b;
-        props.commit({
-            array: __spreadArray(__spreadArray([], __read((_b = (_a = props.value) === null || _a === void 0 ? void 0 : _a.array) !== null && _b !== void 0 ? _b : [])), [value])
-        });
+        props.commit(Array.isArray(props.value) ? __spreadArray(__spreadArray([], __read(props.value)), [value]) : [value]);
     }, [props.commit, props.value]));
-    return Editor ? React.createElement("div", null, "List Editor", React.createElement(react_ui_components_1.Button, { onClick: addValueObject }, "Add Value Object")) : React.createElement(React.Fragment, null, "Missing Editor for ", props.itemType);
+    return Editor ? React.createElement("div", null, React.createElement("pre", null, JSON.stringify(props.value, null, 2)), "List Editor", React.createElement(react_ui_components_1.Button, { onClick: addValueObject }, "Add Value Object")) : React.createElement(React.Fragment, null, "Missing Editor for ", props.itemType);
 };
 var templateObject_1;
 //# sourceMappingURL=InspectorEditor.js.map

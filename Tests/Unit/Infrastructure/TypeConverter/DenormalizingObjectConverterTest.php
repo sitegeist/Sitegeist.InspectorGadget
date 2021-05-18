@@ -15,6 +15,24 @@ final class DenormalizingObjectConverterTest extends UnitTestCase
      * @test
      * @return void
      */
+    public function identifiesDenormalizableClasses(): void
+    {
+        $this->assertTrue(DenormalizingObjectConverter::isDenormalizable(ArrayBasedValueObject::class));
+        $this->assertTrue(DenormalizingObjectConverter::isDenormalizable(StringBasedValueObject::class));
+        $this->assertTrue(DenormalizingObjectConverter::isDenormalizable(BooleanBasedValueObject::class));
+        $this->assertTrue(DenormalizingObjectConverter::isDenormalizable(IntegerBasedValueObject::class));
+        $this->assertTrue(DenormalizingObjectConverter::isDenormalizable(FloatBasedValueObject::class));
+
+        $this->assertFalse(DenormalizingObjectConverter::isDenormalizable(UnitTestCase::class));
+        $this->assertFalse(DenormalizingObjectConverter::isDenormalizable(DenormalizingObjectConverter::class));
+        $this->assertFalse(DenormalizingObjectConverter::isDenormalizable(\stdClass::class));
+        $this->assertFalse(DenormalizingObjectConverter::isDenormalizable(\DateTimeInterface::class));
+    }
+
+    /**
+     * @test
+     * @return void
+     */
     public function canConvertFromArray(): void
     {
         $typeConverter = new DenormalizingObjectConverter();

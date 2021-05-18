@@ -178,19 +178,20 @@ const SingleItemEditor: React.FC<{
 };
 
 const ListEditor: React.FC<{
-    value: undefined | {array: object[]}
+    value: undefined | object[]
     itemType: string
-    commit(value: {array: object[]}): void
+    commit(value: object[]): void
 }> = props => {
     const Editor = useEditorForType(props.itemType);
     const addValueObject = useEditValueObject({}, props.itemType, React.useCallback((value: any) => {
-        props.commit({
-            array: [...(props.value?.array ?? []), value]
-        });
+        props.commit(
+            Array.isArray(props.value) ? [...props.value, value] : [value]
+        );
     }, [props.commit, props.value]));
 
     return Editor ? (
         <div>
+            <pre>{JSON.stringify(props.value, null, 2)}</pre>
             List Editor
             <Button onClick={addValueObject}>
                 Add Value Object

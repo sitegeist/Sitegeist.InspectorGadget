@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 namespace Sitegeist\InspectorGadget\Tests\Fixtures;
 
-final class FloatBasedValueObject
+final class FloatBasedValueObject implements \JsonSerializable
 {
     /**
      * @var float
@@ -29,6 +29,14 @@ final class FloatBasedValueObject
      * @return float
      */
     public function getValue(): float
+    {
+        return $this->value;
+    }
+
+    /**
+     * @return float
+     */
+    public function jsonSerialize()
     {
         return $this->value;
     }

@@ -54,17 +54,30 @@ final class DenormalizingObjectConverter implements TypeConverterInterface
      */
     public function canConvertFrom($source, $targetType)
     {
+        return self::canConvertFromSourceType(gettype($source), $targetType);
+    }
+
+    /**
+     * @param string $sourceType
+     * @param string $targetType
+     * @return boolean
+     */
+    public static function canConvertFromSourceType(string $sourceType, string $targetType): bool
+    {
         if (class_exists($targetType)) {
-            switch (gettype($source)) {
+            switch ($sourceType) {
                 case 'array':
                     return method_exists($targetType, 'fromArray');
                 case 'string':
                     return method_exists($targetType, 'fromString');
+                case 'bool':
                 case 'boolean':
                     return method_exists($targetType, 'fromBool');
+                case 'int':
                 case 'integer':
                     return method_exists($targetType, 'fromInt');
                 case 'double':
+                case 'float':
                     return method_exists($targetType, 'fromFloat');
                 default:
                     break;
@@ -72,6 +85,20 @@ final class DenormalizingObjectConverter implements TypeConverterInterface
         }
 
         return false;
+    }
+
+    /**
+     * @param string $targetType
+     * @return boolean
+     */
+    public static function isDenormalizable(string $targetType): bool
+    {
+        return self::canConvertFromSourceType('array', $targetType)
+            || self::canConvertFromSourceType('string', $targetType)
+            || self::canConvertFromSourceType('boolean', $targetType)
+            || self::canConvertFromSourceType('integer', $targetType)
+            || self::canConvertFromSourceType('double', $targetType)
+        ;
     }
 
     /**
@@ -106,6 +133,17 @@ final class DenormalizingObjectConverter implements TypeConverterInterface
      * @api
      */
     public function convertFrom($source, $targetType, array $convertedChildProperties = [], PropertyMappingConfigurationInterface $configuration = null)
+    {
+        return self::convertFromSource($source, $targetType);
+    }
+
+    /**
+     * @param mixed $source
+     * @param string $targetType
+     * @return mixed
+     * @throws TypeConverterException thrown in case a developer error occurred
+     */
+    public static function convertFromSource($source, string $targetType)
     {
         switch (gettype($source)) {
             case 'array':

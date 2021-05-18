@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 namespace Sitegeist\InspectorGadget\Tests\Fixtures;
 
-final class StringBasedValueObject
+final class StringBasedValueObject implements \JsonSerializable
 {
     /**
      * @var string
@@ -29,6 +29,14 @@ final class StringBasedValueObject
      * @return string
      */
     public function getValue(): string
+    {
+        return $this->value;
+    }
+
+    /**
+     * @return string
+     */
+    public function jsonSerialize()
     {
         return $this->value;
     }

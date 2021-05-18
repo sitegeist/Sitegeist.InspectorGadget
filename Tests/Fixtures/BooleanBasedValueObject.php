@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 namespace Sitegeist\InspectorGadget\Tests\Fixtures;
 
-final class BooleanBasedValueObject
+final class BooleanBasedValueObject implements \JsonSerializable
 {
     /**
      * @var bool
@@ -29,6 +29,14 @@ final class BooleanBasedValueObject
      * @return bool
      */
     public function getValue(): bool
+    {
+        return $this->value;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function jsonSerialize()
     {
         return $this->value;
     }

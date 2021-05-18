@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 namespace Sitegeist\InspectorGadget\Tests\Fixtures;
 
-final class IntegerBasedValueObject
+final class IntegerBasedValueObject implements \JsonSerializable
 {
     /**
      * @var int
@@ -29,6 +29,14 @@ final class IntegerBasedValueObject
      * @return int
      */
     public function getValue(): int
+    {
+        return $this->value;
+    }
+
+    /**
+     * @return int
+     */
+    public function jsonSerialize()
     {
         return $this->value;
     }
