@@ -2069,6 +2069,39 @@ var e=function(t){if("undefined"==typeof document)return 0;if(document.body&&(!d
 
 /***/ }),
 
+/***/ "../../node_modules/array-move/index.js":
+/*!****************************************************************************************************************!*\
+  !*** /home/behncke/Workspaces/Sitegeist/OpenSource/Sitegeist.InspectorGadget/node_modules/array-move/index.js ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+const arrayMoveMutate = (array, from, to) => {
+	const startIndex = from < 0 ? array.length + from : from;
+
+	if (startIndex >= 0 && startIndex < array.length) {
+		const endIndex = to < 0 ? array.length + to : to;
+
+		const [item] = array.splice(from, 1);
+		array.splice(endIndex, 0, item);
+	}
+};
+
+const arrayMove = (array, from, to) => {
+	array = [...array];
+	arrayMoveMutate(array, from, to);
+	return array;
+};
+
+module.exports = arrayMove;
+module.exports.mutate = arrayMoveMutate;
+
+
+/***/ }),
+
 /***/ "../../node_modules/copy-to-clipboard/index.js":
 /*!***********************************************************************************************************************!*\
   !*** /home/behncke/Workspaces/Sitegeist/OpenSource/Sitegeist.InspectorGadget/node_modules/copy-to-clipboard/index.js ***!
@@ -27955,7 +27988,7 @@ var react_ui_components_1 = __webpack_require__(/*! @neos-project/react-ui-compo
 var Container = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    display: grid;\n    grid-template-columns: 1fr 40px;\n    justify-content: stretch;\n    border: 1px solid #3f3f3f;\n    max-width: 420px;\n"], ["\n    display: grid;\n    grid-template-columns: 1fr 40px;\n    justify-content: stretch;\n    border: 1px solid #3f3f3f;\n    max-width: 420px;\n"])));
 var StyledIconButton = styled_components_1.default(react_ui_components_1.IconButton)(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n    height: 100%;\n"], ["\n    height: 100%;\n"])));
 var Deletable = function Deletable(props) {
-    return React.createElement(Container, null, React.createElement("div", null, props.children), React.createElement(StyledIconButton, { icon: "times", onClick: props.onDelete }));
+    return React.createElement(Container, null, React.createElement("div", null, props.children), React.createElement(StyledIconButton, { icon: "trash", hoverStyle: "error", onClick: props.onDelete }));
 };
 exports.Deletable = Deletable;
 var templateObject_1, templateObject_2;
@@ -28631,12 +28664,13 @@ exports.InspectorEditor = void 0;
 var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
 var styled_components_1 = __importDefault(__webpack_require__(/*! styled-components */ "../../node_modules/styled-components/dist/styled-components.browser.esm.js"));
 var react_sortable_hoc_1 = __webpack_require__(/*! react-sortable-hoc */ "../../node_modules/react-sortable-hoc/dist/react-sortable-hoc.esm.js");
+var array_move_1 = __importDefault(__webpack_require__(/*! array-move */ "../../node_modules/array-move/index.js"));
 var react_ui_components_1 = __webpack_require__(/*! @neos-project/react-ui-components */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/react-ui-components/index.js");
 var inspectorgadget_neos_bridge_1 = __webpack_require__(/*! @sitegeist/inspectorgadget-neos-bridge */ "../neos-bridge/lib/index.js");
 var inspectorgadget_core_1 = __webpack_require__(/*! @sitegeist/inspectorgadget-core */ "../dialog/lib/index.js");
 var SortableItem = react_sortable_hoc_1.SortableElement(function (_a) {
-    var value = _a.value;
-    return React.createElement("li", null, value);
+    var children = _a.children;
+    return children;
 });
 var SortableList = react_sortable_hoc_1.SortableContainer(function (_a) {
     var items = _a.items,
@@ -28650,10 +28684,10 @@ function useEditorForType(type) {
     var Editor = (_a = globalRegistry.get('@sitegeist/inspectorgadget/editors')) === null || _a === void 0 ? void 0 : _a.get(type !== null && type !== void 0 ? type : '');
     return Editor;
 }
-function useEditValueObject(value, type, commit) {
+function useEditValueObject(type, commit) {
     var _this = this;
     var tx = inspectorgadget_core_1.useEditorTransactions();
-    return React.useCallback(function () {
+    return React.useCallback(function (value) {
         return __awaiter(_this, void 0, void 0, function () {
             var result;
             return __generator(this, function (_a) {
@@ -28669,7 +28703,7 @@ function useEditValueObject(value, type, commit) {
                 }
             });
         });
-    }, [tx.editValueObject, value, type, commit]);
+    }, [tx.editValueObject, type, commit]);
 }
 var InspectorEditor = function InspectorEditor(props) {
     var _a, _b, _c;
@@ -28686,20 +28720,73 @@ var InspectorEditor = function InspectorEditor(props) {
         console.error(message, propertyConfiguration);
         return React.createElement(React.Fragment, null, "message");
     }
-    return ((_c = props.options) === null || _c === void 0 ? void 0 : _c.isCollection) ? React.createElement(ListEditor, { value: props.value, itemType: props.options.itemType, commit: props.commit }) : React.createElement(SingleItemEditor, { value: props.value, type: propertyConfiguration.type, commit: props.commit });
+    return ((_c = props.options) === null || _c === void 0 ? void 0 : _c.isCollection) ? React.createElement(ListEditor, { value: props.value, itemType: props.options.itemType, commit: props.commit }) : React.createElement(SingleItemEditor, { value: props.value, type: propertyConfiguration.type, options: props.options, commit: props.commit });
 };
 exports.InspectorEditor = InspectorEditor;
 var SingleItemEditor = function SingleItemEditor(props) {
+    var _a;
     var Editor = useEditorForType(props.type);
-    var editValueObject = useEditValueObject(props.value, props.type, props.commit);
-    return Editor ? props.value ? React.createElement(StyledButton, { onClick: editValueObject }, React.createElement(Editor.Preview, { value: props.value, api: inspectorgadget_core_1.Presentation })) : React.createElement(react_ui_components_1.Button, { onClick: editValueObject }, "Create Value Object") : React.createElement(React.Fragment, null, "Missing Editor for ", props.type);
+    var editValueObject = useEditValueObject(props.type, props.commit);
+    var deleteValueObject = function deleteValueObject() {
+        return props.commit('');
+    };
+    return Editor ? props.value ? ((_a = props.options) === null || _a === void 0 ? void 0 : _a.isNullable) ? React.createElement(inspectorgadget_core_1.Presentation.Deletable, { onDelete: deleteValueObject }, React.createElement(StyledButton, { onClick: function onClick() {
+            return editValueObject(props.value);
+        } }, React.createElement(Editor.Preview, { value: props.value, api: inspectorgadget_core_1.Presentation }))) : React.createElement(StyledButton, { onClick: function onClick() {
+            return editValueObject(props.value);
+        } }, React.createElement(Editor.Preview, { value: props.value, api: inspectorgadget_core_1.Presentation })) : React.createElement(react_ui_components_1.Button, { onClick: editValueObject }, "Create Value Object") : React.createElement(React.Fragment, null, "Missing Editor for ", props.type);
 };
 var ListEditor = function ListEditor(props) {
     var Editor = useEditorForType(props.itemType);
-    var addValueObject = useEditValueObject({}, props.itemType, React.useCallback(function (value) {
+    var addValueObject = useEditValueObject(props.itemType, React.useCallback(function (value) {
         props.commit(Array.isArray(props.value) ? __spreadArray(__spreadArray([], __read(props.value)), [value]) : [value]);
     }, [props.commit, props.value]));
-    return Editor ? React.createElement("div", null, React.createElement("pre", null, JSON.stringify(props.value, null, 2)), "List Editor", React.createElement(react_ui_components_1.Button, { onClick: addValueObject }, "Add Value Object")) : React.createElement(React.Fragment, null, "Missing Editor for ", props.itemType);
+    var tx = inspectorgadget_core_1.useEditorTransactions();
+    var editItem = React.useCallback(function (initialItemValue, itemIndex) {
+        return __awaiter(void 0, void 0, void 0, function () {
+            var result;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        return [4, tx.editValueObject(props.itemType, initialItemValue)];
+                    case 1:
+                        result = _a.sent();
+                        if (result.change) {
+                            props.commit(Array.isArray(props.value) ? props.value.map(function (currentItemValue, index) {
+                                if (index === itemIndex) {
+                                    return result.value;
+                                }
+                                return currentItemValue;
+                            }) : [result.value]);
+                        }
+                        return [2];
+                }
+            });
+        });
+    }, [props.commit, props.value, props.itemType]);
+    var deleteItem = React.useCallback(function (itemIndex) {
+        if (Array.isArray(props.value)) {
+            props.commit(props.value.filter(function (_, index) {
+                return index !== itemIndex;
+            }));
+        }
+    }, [props.commit, props.value]);
+    var handleDragEnd = React.useCallback(function (move) {
+        if (Array.isArray(props.value)) {
+            if (move.oldIndex !== move.newIndex) {
+                props.commit(array_move_1.default(props.value, move.oldIndex, move.newIndex));
+            }
+        }
+    }, [props.value]);
+    return Editor ? React.createElement("div", null, Array.isArray(props.value) ? React.createElement(SortableList, { items: props.value, onSortEnd: handleDragEnd, distance: 10, renderItem: function renderItem(item, index) {
+            return React.createElement(SortableItem, { index: index }, React.createElement(inspectorgadget_core_1.Presentation.Deletable, { onDelete: function onDelete() {
+                    return deleteItem(index);
+                } }, React.createElement(StyledButton, { onClick: function onClick() {
+                    return editItem(item, index);
+                } }, React.createElement(Editor.Preview, { value: item, api: inspectorgadget_core_1.Presentation }))));
+        } }) : null, React.createElement(react_ui_components_1.Button, { onClick: function onClick() {
+            return addValueObject({});
+        } }, "Add Value Object")) : React.createElement(React.Fragment, null, "Missing Editor for ", props.itemType);
 };
 var templateObject_1;
 //# sourceMappingURL=InspectorEditor.js.map
