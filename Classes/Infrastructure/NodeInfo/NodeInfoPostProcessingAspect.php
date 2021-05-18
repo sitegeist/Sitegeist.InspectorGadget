@@ -12,13 +12,14 @@ final class NodeInfoPostProcessingAspect
     /**
      * @Flow\Around("method(Neos\Neos\Ui\Fusion\Helper\NodeInfoHelper->renderNodeWithPropertiesAndChildrenInformation())")
      * @param JoinPointInterface $joinPoint
-     * @return void
+     * @return array<mixed>|null
      */
     public function postProcessRenderNodeWithPropertiesAndChildrenInformation(
         JoinPointInterface $joinPoint
     ) {
         $node = $joinPoint->getMethodArgument('node');
         $nodeType = $node->getNodeType();
+        /** @var array<mixed>|null $result */
         $result = $joinPoint->getAdviceChain()->proceed($joinPoint);
 
         foreach ($result['properties'] ?? [] as $propertyName => &$convertedValue) {

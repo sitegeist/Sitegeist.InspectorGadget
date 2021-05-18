@@ -18,11 +18,7 @@ jobs:
 
       - name: Run PHP Code Sniffer
         run: |
-          phpcs \
-            --standard=PSR2 \
-            --extensions=php \
-            --exclude=Generic.Files.LineLength \
-            Classes/ Tests/
+          composer lint
 
   static-analysis:
     runs-on: ubuntu-20.04
@@ -53,9 +49,7 @@ jobs:
 
       - name: Run phpstan
         run: |
-          bin/phpstan analyse \
-            --level 8 \
-            Tests/Unit Classes
+          composer analyse
 
   php-unit-tests:
     runs-on: ubuntu-20.04

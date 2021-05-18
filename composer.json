@@ -52,6 +52,8 @@
         }
     },
     "scripts": {
+        "lint": "bin/phpcs --standard=PSR2 --extensions=php --exclude=Generic.Files.LineLength Classes/ Tests/",
+        "analyse": "bin/phpstan analyse --level 8 Tests/Unit Classes",
         "test": "bin/phpunit -c phpunit.xml --enforce-time-limit --coverage-html Build/Reports/coverage Tests"
     }
 }
