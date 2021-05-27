@@ -1731,6 +1731,26 @@ module.exports = (0, _readFromConsumerApi2.default)('NeosProjectPackages')().Rea
 
 /***/ }),
 
+/***/ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/classnames/index.js":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** /home/behncke/Workspaces/Sitegeist/OpenSource/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/classnames/index.js ***!
+  \*********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _readFromConsumerApi = __webpack_require__(/*! ../../../../dist/readFromConsumerApi */ "../../node_modules/@neos-project/neos-ui-extensibility/dist/readFromConsumerApi.js");
+
+var _readFromConsumerApi2 = _interopRequireDefault(_readFromConsumerApi);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = (0, _readFromConsumerApi2.default)('vendor')().classnames;
+
+/***/ }),
+
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/prop-types/index.js":
 /*!*********************************************************************************************************************************************************************!*\
   !*** /home/behncke/Workspaces/Sitegeist/OpenSource/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/prop-types/index.js ***!
@@ -27885,22 +27905,39 @@ exports.Presentation = __importStar(__webpack_require__(/*! ./presentation */ ".
 "use strict";
 
 
-var __makeTemplateObject = undefined && undefined.__makeTemplateObject || function (cooked, raw) {
-    if (Object.defineProperty) {
-        Object.defineProperty(cooked, "raw", { value: raw });
-    } else {
-        cooked.raw = raw;
-    }
-    return cooked;
+var __createBinding = undefined && undefined.__createBinding || (Object.create ? function (o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function get() {
+            return m[k];
+        } });
+} : function (o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+});
+var __setModuleDefault = undefined && undefined.__setModuleDefault || (Object.create ? function (o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+} : function (o, v) {
+    o["default"] = v;
+});
+var __importStar = undefined && undefined.__importStar || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) {
+        if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    }__setModuleDefault(result, mod);
+    return result;
 };
 var __importDefault = undefined && undefined.__importDefault || function (mod) {
     return mod && mod.__esModule ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CardSubTitle = void 0;
-var styled_components_1 = __importDefault(__webpack_require__(/*! styled-components */ "../../node_modules/styled-components/dist/styled-components.browser.esm.js"));
-exports.CardSubTitle = styled_components_1.default.span(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    display: flex;\n    align-items: center;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    line-height: 1;\n    font-size: 12px;\n    color: #999;\n    grid-column: 1 / span 2;\n    grid-row: 2 / span 1;\n"], ["\n    display: flex;\n    align-items: center;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    line-height: 1;\n    font-size: 12px;\n    color: #999;\n    grid-column: 1 / span 2;\n    grid-row: 2 / span 1;\n"])));
-var templateObject_1;
+var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
+var classnames_1 = __importDefault(__webpack_require__(/*! classnames */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/classnames/index.js"));
+var CardSubTitle = function CardSubTitle(props) {
+    return React.createElement("span", { className: classnames_1.default('sg-ig-u-flex', 'sg-ig-u-items-center', 'sg-ig-u-overflow-hidden', 'sg-ig-u-white-space-nowrap', 'sg-ig-u-text-overflow-ellipsis', 'sg-ig-u-typography-small', 'sg-ig-u-color-gray-500', 'sg-ig-u-column-start-1', 'sg-ig-u-column-span-2', 'sg-ig-u-row-start-2', 'sg-ig-u-row-span-1') }, props.children);
+};
+exports.CardSubTitle = CardSubTitle;
 //# sourceMappingURL=CardSubTitle.js.map
 
 /***/ }),
@@ -27929,7 +27966,7 @@ var __importDefault = undefined && undefined.__importDefault || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CardTitle = void 0;
 var styled_components_1 = __importDefault(__webpack_require__(/*! styled-components */ "../../node_modules/styled-components/dist/styled-components.browser.esm.js"));
-exports.CardTitle = styled_components_1.default.span(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    display: flex;\n    align-items: center;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    line-height: 1;\n    grid-column: 2 / span 1;\n    grid-row: 1 / span ", ";\n    font-size: 14px;\n    color: #FFF;\n"], ["\n    display: flex;\n    align-items: center;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    line-height: 1;\n    grid-column: 2 / span 1;\n    grid-row: 1 / span ", ";\n    font-size: 14px;\n    color: #FFF;\n"])), function (props) {
+exports.CardTitle = styled_components_1.default.span(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    display: flex;\n    align-items: center;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    line-height: 1;\n    grid-column: 2 / span 1;\n    grid-row: 1 / span ", ";\n\n    color: #FFF;\n"], ["\n    display: flex;\n    align-items: center;\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    line-height: 1;\n    grid-column: 2 / span 1;\n    grid-row: 1 / span ", ";\n\n    color: #FFF;\n"])), function (props) {
     return props.span;
 });
 var templateObject_1;
@@ -28055,36 +28092,6 @@ var templateObject_1, templateObject_2, templateObject_3;
 
 /***/ }),
 
-/***/ "../dialog/lib/presentation/Grid.js":
-/*!******************************************!*\
-  !*** ../dialog/lib/presentation/Grid.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __makeTemplateObject = undefined && undefined.__makeTemplateObject || function (cooked, raw) {
-    if (Object.defineProperty) {
-        Object.defineProperty(cooked, "raw", { value: raw });
-    } else {
-        cooked.raw = raw;
-    }
-    return cooked;
-};
-var __importDefault = undefined && undefined.__importDefault || function (mod) {
-    return mod && mod.__esModule ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Grid = void 0;
-var styled_components_1 = __importDefault(__webpack_require__(/*! styled-components */ "../../node_modules/styled-components/dist/styled-components.browser.esm.js"));
-exports.Grid = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    display: grid;\n    gap: 16px;\n    grid-template-columns: repeat(auto-fill, minmax(max(160px, calc(50% - 8px)), calc(33.3333% - 8px)));\n    min-width: 600px;\n"], ["\n    display: grid;\n    gap: 16px;\n    grid-template-columns: repeat(auto-fill, minmax(max(160px, calc(50% - 8px)), calc(33.3333% - 8px)));\n    min-width: 600px;\n"])));
-var templateObject_1;
-//# sourceMappingURL=Grid.js.map
-
-/***/ }),
-
 /***/ "../dialog/lib/presentation/IconCard.js":
 /*!**********************************************!*\
   !*** ../dialog/lib/presentation/IconCard.js ***!
@@ -28206,65 +28213,6 @@ var templateObject_1;
 
 /***/ }),
 
-/***/ "../dialog/lib/presentation/ImageCard.js":
-/*!***********************************************!*\
-  !*** ../dialog/lib/presentation/ImageCard.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __makeTemplateObject = undefined && undefined.__makeTemplateObject || function (cooked, raw) {
-    if (Object.defineProperty) {
-        Object.defineProperty(cooked, "raw", { value: raw });
-    } else {
-        cooked.raw = raw;
-    }
-    return cooked;
-};
-var __createBinding = undefined && undefined.__createBinding || (Object.create ? function (o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function get() {
-            return m[k];
-        } });
-} : function (o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-});
-var __setModuleDefault = undefined && undefined.__setModuleDefault || (Object.create ? function (o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-} : function (o, v) {
-    o["default"] = v;
-});
-var __importStar = undefined && undefined.__importStar || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) {
-        if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    }__setModuleDefault(result, mod);
-    return result;
-};
-var __importDefault = undefined && undefined.__importDefault || function (mod) {
-    return mod && mod.__esModule ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.ImageCard = void 0;
-var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
-var styled_components_1 = __importDefault(__webpack_require__(/*! styled-components */ "../../node_modules/styled-components/dist/styled-components.browser.esm.js"));
-var CardTitle_1 = __webpack_require__(/*! ./CardTitle */ "../dialog/lib/presentation/CardTitle.js");
-var Container = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    display: grid;\n    grid-gap: 8px;\n    grid-template-columns: 75px 1fr;\n    background-color: #141414;\n    padding: 0 16px 0 0;\n"], ["\n    display: grid;\n    grid-gap: 8px;\n    grid-template-columns: 75px 1fr;\n    background-color: #141414;\n    padding: 0 16px 0 0;\n"])));
-var Image = styled_components_1.default.img(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n    display: block;\n    grid-column: 1 / span 1;\n    width: 100%;\n    height: 56px;\n    object-fit: contain;\n    background-color: #fff;\n    background-size: 10px 10px;\n    background-position: 0 0, 25px 25px;\n    background-image: linear-gradient(45deg, #cccccc 25%, transparent 25%, transparent 75%, #cccccc 75%, #cccccc), linear-gradient(45deg, #cccccc 25%, transparent 25%, transparent 75%, #cccccc 75%, #cccccc);\n"], ["\n    display: block;\n    grid-column: 1 / span 1;\n    width: 100%;\n    height: 56px;\n    object-fit: contain;\n    background-color: #fff;\n    background-size: 10px 10px;\n    background-position: 0 0, 25px 25px;\n    background-image: linear-gradient(45deg, #cccccc 25%, transparent 25%, transparent 75%, #cccccc 75%, #cccccc), linear-gradient(45deg, #cccccc 25%, transparent 25%, transparent 75%, #cccccc 75%, #cccccc);\n"])));
-var ImageCard = function ImageCard(props) {
-    return React.createElement(Container, null, React.createElement(Image, { src: props.src }), React.createElement(CardTitle_1.CardTitle, { span: 1 }, props.label));
-};
-exports.ImageCard = ImageCard;
-var templateObject_1, templateObject_2;
-//# sourceMappingURL=ImageCard.js.map
-
-/***/ }),
-
 /***/ "../dialog/lib/presentation/Layout.js":
 /*!********************************************!*\
   !*** ../dialog/lib/presentation/Layout.js ***!
@@ -28358,83 +28306,6 @@ var templateObject_1, templateObject_2, templateObject_3, templateObject_4, temp
 
 /***/ }),
 
-/***/ "../dialog/lib/presentation/Tabs.js":
-/*!******************************************!*\
-  !*** ../dialog/lib/presentation/Tabs.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __makeTemplateObject = undefined && undefined.__makeTemplateObject || function (cooked, raw) {
-    if (Object.defineProperty) {
-        Object.defineProperty(cooked, "raw", { value: raw });
-    } else {
-        cooked.raw = raw;
-    }
-    return cooked;
-};
-var __createBinding = undefined && undefined.__createBinding || (Object.create ? function (o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function get() {
-            return m[k];
-        } });
-} : function (o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-});
-var __setModuleDefault = undefined && undefined.__setModuleDefault || (Object.create ? function (o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-} : function (o, v) {
-    o["default"] = v;
-});
-var __importStar = undefined && undefined.__importStar || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) {
-        if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    }__setModuleDefault(result, mod);
-    return result;
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Tabs = void 0;
-var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
-var styled_components_1 = __importStar(__webpack_require__(/*! styled-components */ "../../node_modules/styled-components/dist/styled-components.browser.esm.js"));
-var TabHeaderList = styled_components_1.default.ul(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    display: flex;\n    margin: 0 0 -1px 0;\n    padding: 0;\n    list-style-type: none;\n\n    > * + *  {\n        margin-left: -1px;\n    }\n"], ["\n    display: flex;\n    margin: 0 0 -1px 0;\n    padding: 0;\n    list-style-type: none;\n\n    > * + *  {\n        margin-left: -1px;\n    }\n"])));
-var TabHeader = styled_components_1.default.button(templateObject_6 || (templateObject_6 = __makeTemplateObject(["\n    height: 40px;\n    ", "\n    ", "\n    border-right: 1px solid #3f3f3f;\n    border-left: 1px solid #3f3f3f;\n    color: #FFF;\n    background-color: #222;\n    line-height: 40px;\n    padding: 0 16px;\n    cursor: pointer;\n"], ["\n    height: 40px;\n    ", "\n    ", "\n    border-right: 1px solid #3f3f3f;\n    border-left: 1px solid #3f3f3f;\n    color: #FFF;\n    background-color: #222;\n    line-height: 40px;\n    padding: 0 16px;\n    cursor: pointer;\n"])), function (props) {
-    return props.isActive ? styled_components_1.css(templateObject_2 || (templateObject_2 = __makeTemplateObject(["border-top: 2px solid #00adee;"], ["border-top: 2px solid #00adee;"]))) : styled_components_1.css(templateObject_3 || (templateObject_3 = __makeTemplateObject(["border-top: 1px solid #3f3f3f;"], ["border-top: 1px solid #3f3f3f;"])));
-}, function (props) {
-    return props.isActive ? styled_components_1.css(templateObject_4 || (templateObject_4 = __makeTemplateObject(["border-bottom: 1px solid #222;"], ["border-bottom: 1px solid #222;"]))) : styled_components_1.css(templateObject_5 || (templateObject_5 = __makeTemplateObject(["border-bottom: 1px solid #3f3f3f;"], ["border-bottom: 1px solid #3f3f3f;"])));
-});
-var TabPanel = styled_components_1.default.div(templateObject_7 || (templateObject_7 = __makeTemplateObject(["\n    padding: 16px;\n    background-color: #222;\n    border: 1px solid #3f3f3f;\n"], ["\n    padding: 16px;\n    background-color: #222;\n    border: 1px solid #3f3f3f;\n"])));
-function Tabs(props) {
-    if (props.from.length < 1) {
-        throw new Error('[Sitegeist.Archaeopteryx]: Tabs must have at least one item!');
-    }
-    var header = React.createElement("header", null, React.createElement("nav", null, React.createElement(TabHeaderList, null, props.from.map(function (item) {
-        return React.createElement("li", { key: props.getKey(item) }, React.createElement(TabHeader, { type: "button", isActive: props.getKey(item) === props.activeItemKey, onClick: function onClick() {
-                if (props.onSwitchTab) {
-                    props.onSwitchTab(props.getKey(item));
-                }
-            } }, props.renderHeader(item)));
-    }))));
-    var body = props.lazy ? React.createElement("div", null, props.from.filter(function (item) {
-        return props.getKey(item) === props.activeItemKey;
-    }).map(function (item) {
-        return React.createElement(TabPanel, { key: props.getKey(item) }, props.renderPanel(item));
-    })) : React.createElement("div", null, props.from.map(function (item) {
-        return React.createElement(TabPanel, { key: props.getKey(item), hidden: props.getKey(item) !== props.activeItemKey }, props.renderPanel(item));
-    }));
-    return React.createElement("div", null, header, body);
-}
-exports.Tabs = Tabs;
-var templateObject_1, templateObject_2, templateObject_3, templateObject_4, templateObject_5, templateObject_6, templateObject_7;
-//# sourceMappingURL=Tabs.js.map
-
-/***/ }),
-
 /***/ "../dialog/lib/presentation/index.js":
 /*!*******************************************!*\
   !*** ../dialog/lib/presentation/index.js ***!
@@ -28468,18 +28339,10 @@ var __importStar = undefined && undefined.__importStar || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Layout = exports.IconLabel = exports.Grid = exports.Deletable = exports.Modal = exports.Form = exports.Tabs = exports.ImageCard = exports.IconCard = void 0;
+exports.Layout = exports.IconLabel = exports.Deletable = exports.Modal = exports.Form = exports.IconCard = void 0;
 var IconCard_1 = __webpack_require__(/*! ./IconCard */ "../dialog/lib/presentation/IconCard.js");
 Object.defineProperty(exports, "IconCard", { enumerable: true, get: function get() {
         return IconCard_1.IconCard;
-    } });
-var ImageCard_1 = __webpack_require__(/*! ./ImageCard */ "../dialog/lib/presentation/ImageCard.js");
-Object.defineProperty(exports, "ImageCard", { enumerable: true, get: function get() {
-        return ImageCard_1.ImageCard;
-    } });
-var Tabs_1 = __webpack_require__(/*! ./Tabs */ "../dialog/lib/presentation/Tabs.js");
-Object.defineProperty(exports, "Tabs", { enumerable: true, get: function get() {
-        return Tabs_1.Tabs;
     } });
 var Form_1 = __webpack_require__(/*! ./Form */ "../dialog/lib/presentation/Form.js");
 Object.defineProperty(exports, "Form", { enumerable: true, get: function get() {
@@ -28492,10 +28355,6 @@ Object.defineProperty(exports, "Modal", { enumerable: true, get: function get() 
 var Deletable_1 = __webpack_require__(/*! ./Deletable */ "../dialog/lib/presentation/Deletable.js");
 Object.defineProperty(exports, "Deletable", { enumerable: true, get: function get() {
         return Deletable_1.Deletable;
-    } });
-var Grid_1 = __webpack_require__(/*! ./Grid */ "../dialog/lib/presentation/Grid.js");
-Object.defineProperty(exports, "Grid", { enumerable: true, get: function get() {
-        return Grid_1.Grid;
     } });
 var IconLabel_1 = __webpack_require__(/*! ./IconLabel */ "../dialog/lib/presentation/IconLabel.js");
 Object.defineProperty(exports, "IconLabel", { enumerable: true, get: function get() {
@@ -28706,7 +28565,7 @@ function useEditValueObject(type, commit) {
     }, [tx.editValueObject, type, commit]);
 }
 var InspectorEditor = function InspectorEditor(props) {
-    var _a, _b, _c;
+    var _a, _b, _c, _d;
     var node = inspectorgadget_neos_bridge_1.useCurrentlyFocusedNode();
     var nodeType = inspectorgadget_neos_bridge_1.useNodeType(node.nodeType);
     var propertyConfiguration = nodeType === null || nodeType === void 0 ? void 0 : nodeType.properties[props.identifier];
@@ -28720,7 +28579,7 @@ var InspectorEditor = function InspectorEditor(props) {
         console.error(message, propertyConfiguration);
         return React.createElement(React.Fragment, null, "message");
     }
-    return ((_c = props.options) === null || _c === void 0 ? void 0 : _c.isCollection) ? React.createElement(ListEditor, { value: props.value, itemType: props.options.itemType, commit: props.commit }) : React.createElement(SingleItemEditor, { value: props.value, type: propertyConfiguration.type, options: props.options, commit: props.commit });
+    return ((_c = props.options) === null || _c === void 0 ? void 0 : _c.isCollection) ? React.createElement(ListEditor, { value: props.value, itemType: props.options.itemType, addItemLabel: (_d = props.options.addItemLabel) !== null && _d !== void 0 ? _d : 'Sitegeist.InspectorEditor:Main.addItemLabel', commit: props.commit }) : React.createElement(SingleItemEditor, { value: props.value, type: propertyConfiguration.type, options: props.options, commit: props.commit });
 };
 exports.InspectorEditor = InspectorEditor;
 var SingleItemEditor = function SingleItemEditor(props) {
@@ -28737,6 +28596,7 @@ var SingleItemEditor = function SingleItemEditor(props) {
         } }, React.createElement(Editor.Preview, { value: props.value, api: inspectorgadget_core_1.Presentation })) : React.createElement(react_ui_components_1.Button, { onClick: editValueObject }, "Create Value Object") : React.createElement(React.Fragment, null, "Missing Editor for ", props.type);
 };
 var ListEditor = function ListEditor(props) {
+    var i18n = inspectorgadget_neos_bridge_1.useI18n();
     var Editor = useEditorForType(props.itemType);
     var addValueObject = useEditValueObject(props.itemType, React.useCallback(function (value) {
         props.commit(Array.isArray(props.value) ? __spreadArray(__spreadArray([], __read(props.value)), [value]) : [value]);
@@ -28778,7 +28638,7 @@ var ListEditor = function ListEditor(props) {
             }
         }
     }, [props.value]);
-    return Editor ? React.createElement("div", null, Array.isArray(props.value) ? React.createElement(SortableList, { items: props.value, onSortEnd: handleDragEnd, distance: 10, renderItem: function renderItem(item, index) {
+    return Editor ? React.createElement(inspectorgadget_core_1.Presentation.Layout.Stack, null, Array.isArray(props.value) ? React.createElement(SortableList, { items: props.value, onSortEnd: handleDragEnd, distance: 10, renderItem: function renderItem(item, index) {
             return React.createElement(SortableItem, { index: index }, React.createElement(inspectorgadget_core_1.Presentation.Deletable, { onDelete: function onDelete() {
                     return deleteItem(index);
                 } }, React.createElement(StyledButton, { onClick: function onClick() {
@@ -28786,7 +28646,7 @@ var ListEditor = function ListEditor(props) {
                 } }, React.createElement(Editor.Preview, { value: item, api: inspectorgadget_core_1.Presentation }))));
         } }) : null, React.createElement(react_ui_components_1.Button, { onClick: function onClick() {
             return addValueObject({});
-        } }, "Add Value Object")) : React.createElement(React.Fragment, null, "Missing Editor for ", props.itemType);
+        } }, React.createElement(react_ui_components_1.Icon, { icon: "plus" }), "\xA0\xA0\xA0", i18n(props.addItemLabel))) : React.createElement(React.Fragment, null, "Missing Editor for ", props.itemType);
 };
 var templateObject_1;
 //# sourceMappingURL=InspectorEditor.js.map
@@ -29764,6 +29624,68 @@ exports.useSelector = useSelector;
 
 /***/ }),
 
+/***/ "../neos-bridge/lib/domain/Extensibility/Translation.js":
+/*!**************************************************************!*\
+  !*** ../neos-bridge/lib/domain/Extensibility/Translation.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __createBinding = undefined && undefined.__createBinding || (Object.create ? function (o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function get() {
+            return m[k];
+        } });
+} : function (o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+});
+var __setModuleDefault = undefined && undefined.__setModuleDefault || (Object.create ? function (o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+} : function (o, v) {
+    o["default"] = v;
+});
+var __importStar = undefined && undefined.__importStar || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) {
+        if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    }__setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.useI18n = void 0;
+var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
+var GlobalRegistry_1 = __webpack_require__(/*! ./GlobalRegistry */ "../neos-bridge/lib/domain/Extensibility/GlobalRegistry.js");
+function useI18n() {
+    var globalRegistry = GlobalRegistry_1.useGlobalRegistry();
+    var i18nRegistry = globalRegistry.get('i18n');
+    return React.useMemo(function () {
+        return function (idOrig, fallbackOrig, params, packageKeyOrig, sourceNameOrig, quantity) {
+            if (params === void 0) {
+                params = {};
+            }
+            if (packageKeyOrig === void 0) {
+                packageKeyOrig = 'Neos.Neos';
+            }
+            if (sourceNameOrig === void 0) {
+                sourceNameOrig = 'Main';
+            }
+            if (quantity === void 0) {
+                quantity = 0;
+            }
+            return i18nRegistry.translate(idOrig, fallbackOrig, params, packageKeyOrig, sourceNameOrig, quantity);
+        };
+    }, [i18nRegistry]);
+}
+exports.useI18n = useI18n;
+//# sourceMappingURL=Translation.js.map
+
+/***/ }),
+
 /***/ "../neos-bridge/lib/domain/Extensibility/index.js":
 /*!********************************************************!*\
   !*** ../neos-bridge/lib/domain/Extensibility/index.js ***!
@@ -29775,7 +29697,7 @@ exports.useSelector = useSelector;
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.useSelector = exports.useNeos = exports.NeosContext = exports.useRoutes = exports.useConfiguration = exports.useGlobalRegistry = void 0;
+exports.useI18n = exports.useSelector = exports.useNeos = exports.NeosContext = exports.useRoutes = exports.useConfiguration = exports.useGlobalRegistry = void 0;
 var GlobalRegistry_1 = __webpack_require__(/*! ./GlobalRegistry */ "../neos-bridge/lib/domain/Extensibility/GlobalRegistry.js");
 Object.defineProperty(exports, "useGlobalRegistry", { enumerable: true, get: function get() {
     return GlobalRegistry_1.useGlobalRegistry;
@@ -29798,6 +29720,10 @@ Object.defineProperty(exports, "useNeos", { enumerable: true, get: function get(
 var Store_1 = __webpack_require__(/*! ./Store */ "../neos-bridge/lib/domain/Extensibility/Store.js");
 Object.defineProperty(exports, "useSelector", { enumerable: true, get: function get() {
     return Store_1.useSelector;
+  } });
+var Translation_1 = __webpack_require__(/*! ./Translation */ "../neos-bridge/lib/domain/Extensibility/Translation.js");
+Object.defineProperty(exports, "useI18n", { enumerable: true, get: function get() {
+    return Translation_1.useI18n;
   } });
 //# sourceMappingURL=index.js.map
 
@@ -29953,7 +29879,7 @@ Object.defineProperty(exports, "useAssetSummary", { enumerable: true, get: funct
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.useAssetSummary = exports.useSelector = exports.useRoutes = exports.useConfiguration = exports.useGlobalRegistry = exports.useNeos = exports.NeosContext = exports.useNodeType = exports.useCurrentlyFocusedNode = void 0;
+exports.useAssetSummary = exports.useI18n = exports.useSelector = exports.useRoutes = exports.useConfiguration = exports.useGlobalRegistry = exports.useNeos = exports.NeosContext = exports.useNodeType = exports.useCurrentlyFocusedNode = void 0;
 var ContentRepository_1 = __webpack_require__(/*! ./ContentRepository */ "../neos-bridge/lib/domain/ContentRepository/index.js");
 Object.defineProperty(exports, "useCurrentlyFocusedNode", { enumerable: true, get: function get() {
     return ContentRepository_1.useCurrentlyFocusedNode;
@@ -29980,6 +29906,9 @@ Object.defineProperty(exports, "useRoutes", { enumerable: true, get: function ge
 Object.defineProperty(exports, "useSelector", { enumerable: true, get: function get() {
     return Extensibility_1.useSelector;
   } });
+Object.defineProperty(exports, "useI18n", { enumerable: true, get: function get() {
+    return Extensibility_1.useI18n;
+  } });
 var Media_1 = __webpack_require__(/*! ./Media */ "../neos-bridge/lib/domain/Media/index.js");
 Object.defineProperty(exports, "useAssetSummary", { enumerable: true, get: function get() {
     return Media_1.useAssetSummary;
@@ -29999,7 +29928,7 @@ Object.defineProperty(exports, "useAssetSummary", { enumerable: true, get: funct
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.useSelector = exports.useRoutes = exports.useConfiguration = exports.useGlobalRegistry = exports.useNodeType = exports.useCurrentlyFocusedNode = exports.useAssetSummary = exports.useNeos = exports.NeosContext = exports.q = void 0;
+exports.useI18n = exports.useSelector = exports.useRoutes = exports.useConfiguration = exports.useGlobalRegistry = exports.useNodeType = exports.useCurrentlyFocusedNode = exports.useAssetSummary = exports.useNeos = exports.NeosContext = exports.q = void 0;
 var application_1 = __webpack_require__(/*! ./application */ "../neos-bridge/lib/application/index.js");
 Object.defineProperty(exports, "q", { enumerable: true, get: function get() {
     return application_1.q;
@@ -30031,6 +29960,9 @@ Object.defineProperty(exports, "useRoutes", { enumerable: true, get: function ge
   } });
 Object.defineProperty(exports, "useSelector", { enumerable: true, get: function get() {
     return domain_1.useSelector;
+  } });
+Object.defineProperty(exports, "useI18n", { enumerable: true, get: function get() {
+    return domain_1.useI18n;
   } });
 //# sourceMappingURL=index.js.map
 

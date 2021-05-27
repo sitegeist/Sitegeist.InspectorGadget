@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import {SortableContainer, SortableElement} from 'react-sortable-hoc';
 import arrayMove from 'array-move';
 
-import {Button} from '@neos-project/react-ui-components';
+import {Icon, Button} from '@neos-project/react-ui-components';
 
-import {useCurrentlyFocusedNode, useNodeType, useGlobalRegistry} from '@sitegeist/inspectorgadget-neos-bridge';
+import {useCurrentlyFocusedNode, useNodeType, useGlobalRegistry, useI18n} from '@sitegeist/inspectorgadget-neos-bridge';
 import {useEditorTransactions, Presentation} from '@sitegeist/inspectorgadget-core';
 
 interface Props {
@@ -24,6 +24,7 @@ interface Props {
         isCollection?: boolean
         isSortable?: boolean
         itemType?: string
+        addItemLabel?: string
     }
     helpMessage: string
     helpThumbnail: string
@@ -112,6 +113,7 @@ export const InspectorEditor: React.FC<Props> = props => {
         <ListEditor
             value={props.value}
             itemType={props.options.itemType!}
+            addItemLabel={props.options.addItemLabel ?? 'Sitegeist.InspectorEditor:Main.addItemLabel'}
             commit={props.commit}
         />
     ) : (
@@ -166,8 +168,10 @@ const SingleItemEditor: React.FC<{
 const ListEditor: React.FC<{
     value: undefined | object[]
     itemType: string
+    addItemLabel: string
     commit(value: any[]): void
 }> = props => {
+    const i18n = useI18n();
     const Editor = useEditorForType(props.itemType);
     const addValueObject = useEditValueObject(props.itemType, React.useCallback((value: any) => {
         props.commit(
@@ -205,7 +209,7 @@ const ListEditor: React.FC<{
     }, [props.value]);
 
     return Editor ? (
-        <div>
+        <Presentation.Layout.Stack>
             {Array.isArray(props.value) ? (
                 <SortableList
                     items={props.value}
@@ -229,9 +233,11 @@ const ListEditor: React.FC<{
             ) : null}
 
             <Button onClick={() => addValueObject({})}>
-                Add Value Object
+                <Icon icon="plus"/>
+                &nbsp;&nbsp;&nbsp;
+                {i18n(props.addItemLabel)}
             </Button>
-        </div>
+        </Presentation.Layout.Stack>
     ) : (
         <>
             Missing Editor for {props.itemType}

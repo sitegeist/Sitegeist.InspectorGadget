@@ -10,7 +10,8 @@ export {
     useGlobalRegistry,
     useConfiguration,
     useRoutes,
-    useSelector
+    useSelector,
+    useI18n
 } from './Extensibility';
 
 export {useAssetSummary} from './Media';

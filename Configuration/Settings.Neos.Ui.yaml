@@ -5,3 +5,6 @@ Neos:
         javascript:
           '@sitegeist/inspectorgadget-plugin':
             resource: 'resource://Sitegeist.InspectorGadget/Public/JavaScript/Plugin.js'
+        stylesheets:
+          '@sitegeist/inspectorgadget-plugin':
+            resource: 'resource://Sitegeist.InspectorGadget/Public/Css/Plugin.css'

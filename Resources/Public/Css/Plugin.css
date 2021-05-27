@@ -1,0 +1,72 @@
+/* display */
+.sg-ig-u-flex {
+    display: flex;
+}
+
+/* align-items */
+.sg-ig-u-items-center {
+    align-items: center;
+}
+
+/* overflow */
+.sg-ig-u-overflow-hidden {
+    overflow: hidden;
+}
+
+/* white-space */
+.sg-ig-u-white-space-nowrap {
+    white-space: nowrap;
+}
+
+/* text-overflow */
+.sg-ig-u-text-overflow-ellipsis {
+    text-overflow: ellipsis;
+}
+
+/* typography */
+.sg-ig-u-typography-small {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.sg-ig-u-typography-regular {
+    font-size: 14px;
+    line-height: 1;
+}
+
+/* color */
+.sg-ig-u-color-white {
+    color: #fff;
+}
+.sg-ig-u-color-gray-500 {
+    color: #999;
+}
+
+/* grid column start */
+.sg-ig-u-column-start-1 {
+    grid-column-start: 1;
+}
+
+/* grid column span */
+.sg-ig-u-column-span-1 {
+    grid-column-end: span 1;
+}
+.sg-ig-u-column-span-2 {
+    grid-column-end: span 2;
+}
+
+/* grid row start */
+.sg-ig-u-row-start-1 {
+    grid-row-start: 1;
+}
+.sg-ig-u-row-start-2 {
+    grid-row-start: 2;
+}
+
+/* grid row span */
+.sg-ig-u-row-span-1 {
+    grid-row-end: span 1;
+}
+.sg-ig-u-row-span-2 {
+    grid-row-end: span 2;
+}
