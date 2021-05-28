@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import {useGlobalRegistry} from '../Extensibility';
 import {INodeType, NodeTypeName} from './NodeType';
 

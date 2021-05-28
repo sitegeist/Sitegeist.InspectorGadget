@@ -3,15 +3,9 @@ export {
     useNodeType
 } from './ContentRepository';
 
-export type {INeosContextProperties, IGlobalRegistry} from './Extensibility'
+export type {INeosContextProperties} from './Extensibility';
 export {
-    NeosContext,
-    useNeos,
     useGlobalRegistry,
-    useConfiguration,
-    useRoutes,
-    useSelector,
-    useI18n
+    useI18n,
+    NeosContext
 } from './Extensibility';
-
-export {useAssetSummary} from './Media';

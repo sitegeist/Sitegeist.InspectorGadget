@@ -1,18 +1,10 @@
-export {q} from './application';
-
 export type {
-    INeosContextProperties,
-    IGlobalRegistry
+    INeosContextProperties
 } from './domain';
 export {
-    NeosContext,
-    useNeos,
-    useAssetSummary,
+    useGlobalRegistry,
     useCurrentlyFocusedNode,
     useNodeType,
-    useGlobalRegistry,
-    useConfiguration,
-    useRoutes,
-    useSelector,
-    useI18n
+    useI18n,
+    NeosContext,
 } from './domain';

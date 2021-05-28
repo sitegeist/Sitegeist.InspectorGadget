@@ -902,33 +902,6 @@ exports.SynchronousMetaRegistry = SynchronousMetaRegistry_1["default"];
 
 /***/ }),
 
-/***/ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-backend-connector/index.js":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** /home/behncke/Workspaces/Sitegeist/OpenSource/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-backend-connector/index.js ***!
-  \*************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.fetchWithErrorHandling = undefined;
-
-var _readFromConsumerApi = __webpack_require__(/*! ../../../../dist/readFromConsumerApi */ "../../node_modules/@neos-project/neos-ui-extensibility/dist/readFromConsumerApi.js");
-
-var _readFromConsumerApi2 = _interopRequireDefault(_readFromConsumerApi);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = (0, _readFromConsumerApi2.default)('NeosProjectPackages')().NeosUiBackendConnectorDefault;
-var fetchWithErrorHandling = (0, _readFromConsumerApi2.default)('NeosProjectPackages')().NeosUiBackendConnector.fetchWithErrorHandling;
-exports.fetchWithErrorHandling = fetchWithErrorHandling;
-
-/***/ }),
-
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-editors/index.js":
 /*!***************************************************************************************************************************************************************************************!*\
   !*** /home/behncke/Workspaces/Sitegeist/OpenSource/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-editors/index.js ***!
@@ -26089,15 +26062,23 @@ Object.defineProperty(exports, "Field", { enumerable: true, get: function get() 
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Field = exports.registerDialog = void 0;
+exports.useEditorForType = exports.Field = exports.registerDialog = void 0;
 var Dialog_1 = __webpack_require__(/*! ./Dialog */ "../core/lib/application/Dialog/index.js");
 Object.defineProperty(exports, "registerDialog", { enumerable: true, get: function get() {
-    return Dialog_1.registerDialog;
-  } });
+        return Dialog_1.registerDialog;
+    } });
 var Field_1 = __webpack_require__(/*! ./Field */ "../core/lib/application/Field/index.js");
 Object.defineProperty(exports, "Field", { enumerable: true, get: function get() {
-    return Field_1.Field;
-  } });
+        return Field_1.Field;
+    } });
+var inspectorgadget_neos_bridge_1 = __webpack_require__(/*! @sitegeist/inspectorgadget-neos-bridge */ "../neos-bridge/lib/index.js");
+function useEditorForType(type) {
+    var _a;
+    var globalRegistry = inspectorgadget_neos_bridge_1.useGlobalRegistry();
+    var Editor = (_a = globalRegistry.get('@sitegeist/inspectorgadget/editors')) === null || _a === void 0 ? void 0 : _a.get(type !== null && type !== void 0 ? type : '');
+    return Editor;
+}
+exports.useEditorForType = useEditorForType;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
@@ -26332,93 +26313,6 @@ Object.defineProperty(exports, "useEditorTransactions", { enumerable: true, get:
 
 /***/ }),
 
-/***/ "../core/lib/domain/Form/Field.js":
-/*!****************************************!*\
-  !*** ../core/lib/domain/Form/Field.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __assign = undefined && undefined.__assign || function () {
-    __assign = Object.assign || function (t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) {
-                if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-            }
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
-var __createBinding = undefined && undefined.__createBinding || (Object.create ? function (o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function get() {
-            return m[k];
-        } });
-} : function (o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-});
-var __setModuleDefault = undefined && undefined.__setModuleDefault || (Object.create ? function (o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-} : function (o, v) {
-    o["default"] = v;
-});
-var __importStar = undefined && undefined.__importStar || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) {
-        if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    }__setModuleDefault(result, mod);
-    return result;
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.FieldGroup = exports.Field = void 0;
-var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
-var react_final_form_1 = __webpack_require__(/*! react-final-form */ "../../node_modules/react-final-form/dist/react-final-form.es.js");
-var FieldGroupContext = React.createContext(null);
-function Field(props) {
-    var groupPrefix = React.useContext(FieldGroupContext);
-    var name = groupPrefix !== null ? groupPrefix + "." + props.name : props.name;
-    return React.createElement(react_final_form_1.Field, __assign({}, props, { name: name }));
-}
-exports.Field = Field;
-;
-var FieldGroup = function FieldGroup(props) {
-    return React.createElement(FieldGroupContext.Provider, { value: props.prefix }, props.children);
-};
-exports.FieldGroup = FieldGroup;
-//# sourceMappingURL=Field.js.map
-
-/***/ }),
-
-/***/ "../core/lib/domain/Form/index.js":
-/*!****************************************!*\
-  !*** ../core/lib/domain/Form/index.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.FieldGroup = exports.Field = void 0;
-var Field_1 = __webpack_require__(/*! ./Field */ "../core/lib/domain/Form/Field.js");
-Object.defineProperty(exports, "Field", { enumerable: true, get: function get() {
-    return Field_1.Field;
-  } });
-Object.defineProperty(exports, "FieldGroup", { enumerable: true, get: function get() {
-    return Field_1.FieldGroup;
-  } });
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-
 /***/ "../core/lib/domain/index.js":
 /*!***********************************!*\
   !*** ../core/lib/domain/index.js ***!
@@ -26430,7 +26324,7 @@ Object.defineProperty(exports, "FieldGroup", { enumerable: true, get: function g
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.FieldGroup = exports.Field = exports.useEditorTransactions = exports.useEditorValue = exports.useEditorState = exports.EditorContext = exports.createEditor = void 0;
+exports.useEditorTransactions = exports.useEditorValue = exports.useEditorState = exports.EditorContext = exports.createEditor = void 0;
 var Editor_1 = __webpack_require__(/*! ./Editor */ "../core/lib/domain/Editor/index.js");
 Object.defineProperty(exports, "createEditor", { enumerable: true, get: function get() {
     return Editor_1.createEditor;
@@ -26446,13 +26340,6 @@ Object.defineProperty(exports, "useEditorValue", { enumerable: true, get: functi
   } });
 Object.defineProperty(exports, "useEditorTransactions", { enumerable: true, get: function get() {
     return Editor_1.useEditorTransactions;
-  } });
-var Form_1 = __webpack_require__(/*! ./Form */ "../core/lib/domain/Form/index.js");
-Object.defineProperty(exports, "Field", { enumerable: true, get: function get() {
-    return Form_1.Field;
-  } });
-Object.defineProperty(exports, "FieldGroup", { enumerable: true, get: function get() {
-    return Form_1.FieldGroup;
   } });
 //# sourceMappingURL=index.js.map
 
@@ -26491,13 +26378,16 @@ var __importStar = undefined && undefined.__importStar || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Presentation = exports.useEditorTransactions = exports.useEditorValue = exports.useEditorState = exports.EditorContext = exports.createEditor = exports.Field = exports.registerDialog = void 0;
+exports.Presentation = exports.useEditorTransactions = exports.useEditorValue = exports.useEditorState = exports.EditorContext = exports.createEditor = exports.useEditorForType = exports.Field = exports.registerDialog = void 0;
 var application_1 = __webpack_require__(/*! ./application */ "../core/lib/application/index.js");
 Object.defineProperty(exports, "registerDialog", { enumerable: true, get: function get() {
         return application_1.registerDialog;
     } });
 Object.defineProperty(exports, "Field", { enumerable: true, get: function get() {
         return application_1.Field;
+    } });
+Object.defineProperty(exports, "useEditorForType", { enumerable: true, get: function get() {
+        return application_1.useEditorForType;
     } });
 var domain_1 = __webpack_require__(/*! ./domain */ "../core/lib/domain/index.js");
 Object.defineProperty(exports, "createEditor", { enumerable: true, get: function get() {
@@ -26613,6 +26503,53 @@ var CardTitle = function CardTitle(props) {
 };
 exports.CardTitle = CardTitle;
 //# sourceMappingURL=CardTitle.js.map
+
+/***/ }),
+
+/***/ "../core/lib/presentation/Clickable.js":
+/*!*********************************************!*\
+  !*** ../core/lib/presentation/Clickable.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __createBinding = undefined && undefined.__createBinding || (Object.create ? function (o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function get() {
+            return m[k];
+        } });
+} : function (o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+});
+var __setModuleDefault = undefined && undefined.__setModuleDefault || (Object.create ? function (o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+} : function (o, v) {
+    o["default"] = v;
+});
+var __importStar = undefined && undefined.__importStar || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) {
+        if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    }__setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = undefined && undefined.__importDefault || function (mod) {
+    return mod && mod.__esModule ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Clickable = void 0;
+var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
+var classnames_1 = __importDefault(__webpack_require__(/*! classnames */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/classnames/index.js"));
+var Clickable = function Clickable(props) {
+    return React.createElement("button", { className: classnames_1.default('sg-ig-block', 'sg-ig-w-full', 'sg-ig-p-0', 'sg-ig-bg-transparent', 'sg-ig-border-none', 'sg-ig-cursor-pointer'), onClick: props.onClick }, props.children);
+};
+exports.Clickable = Clickable;
+//# sourceMappingURL=Clickable.js.map
 
 /***/ }),
 
@@ -26858,6 +26795,56 @@ exports.Modal = Modal;
 
 /***/ }),
 
+/***/ "../core/lib/presentation/Sortable.js":
+/*!********************************************!*\
+  !*** ../core/lib/presentation/Sortable.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __createBinding = undefined && undefined.__createBinding || (Object.create ? function (o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function get() {
+            return m[k];
+        } });
+} : function (o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+});
+var __setModuleDefault = undefined && undefined.__setModuleDefault || (Object.create ? function (o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+} : function (o, v) {
+    o["default"] = v;
+});
+var __importStar = undefined && undefined.__importStar || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) {
+        if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    }__setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Sortable = void 0;
+var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
+var react_sortable_hoc_1 = __webpack_require__(/*! react-sortable-hoc */ "../../node_modules/react-sortable-hoc/dist/react-sortable-hoc.esm.js");
+var Item = react_sortable_hoc_1.SortableElement(function (_a) {
+    var children = _a.children;
+    return children;
+});
+var List = react_sortable_hoc_1.SortableContainer(function (_a) {
+    var items = _a.items,
+        renderItem = _a.renderItem;
+    return React.createElement("div", null, items.map(renderItem));
+});
+exports.Sortable = { Item: Item, List: List };
+//# sourceMappingURL=Sortable.js.map
+
+/***/ }),
+
 /***/ "../core/lib/presentation/index.js":
 /*!*****************************************!*\
   !*** ../core/lib/presentation/index.js ***!
@@ -26891,7 +26878,7 @@ var __importStar = undefined && undefined.__importStar || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Layout = exports.Deletable = exports.Modal = exports.Form = exports.IconCard = void 0;
+exports.Layout = exports.Clickable = exports.Sortable = exports.Deletable = exports.Modal = exports.Form = exports.IconCard = void 0;
 var IconCard_1 = __webpack_require__(/*! ./IconCard */ "../core/lib/presentation/IconCard.js");
 Object.defineProperty(exports, "IconCard", { enumerable: true, get: function get() {
         return IconCard_1.IconCard;
@@ -26907,6 +26894,14 @@ Object.defineProperty(exports, "Modal", { enumerable: true, get: function get() 
 var Deletable_1 = __webpack_require__(/*! ./Deletable */ "../core/lib/presentation/Deletable.js");
 Object.defineProperty(exports, "Deletable", { enumerable: true, get: function get() {
         return Deletable_1.Deletable;
+    } });
+var Sortable_1 = __webpack_require__(/*! ./Sortable */ "../core/lib/presentation/Sortable.js");
+Object.defineProperty(exports, "Sortable", { enumerable: true, get: function get() {
+        return Sortable_1.Sortable;
+    } });
+var Clickable_1 = __webpack_require__(/*! ./Clickable */ "../core/lib/presentation/Clickable.js");
+Object.defineProperty(exports, "Clickable", { enumerable: true, get: function get() {
+        return Clickable_1.Clickable;
     } });
 exports.Layout = __importStar(__webpack_require__(/*! ./Layout */ "../core/lib/presentation/Layout.js"));
 //# sourceMappingURL=index.js.map
@@ -27061,30 +27056,10 @@ var __importDefault = undefined && undefined.__importDefault || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.InspectorEditor = void 0;
 var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
-var classnames_1 = __importDefault(__webpack_require__(/*! classnames */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/classnames/index.js"));
-var react_sortable_hoc_1 = __webpack_require__(/*! react-sortable-hoc */ "../../node_modules/react-sortable-hoc/dist/react-sortable-hoc.esm.js");
 var array_move_1 = __importDefault(__webpack_require__(/*! array-move */ "../../node_modules/array-move/index.js"));
 var react_ui_components_1 = __webpack_require__(/*! @neos-project/react-ui-components */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/react-ui-components/index.js");
 var inspectorgadget_neos_bridge_1 = __webpack_require__(/*! @sitegeist/inspectorgadget-neos-bridge */ "../neos-bridge/lib/index.js");
 var inspectorgadget_core_1 = __webpack_require__(/*! @sitegeist/inspectorgadget-core */ "../core/lib/index.js");
-var SortableItem = react_sortable_hoc_1.SortableElement(function (_a) {
-    var children = _a.children;
-    return children;
-});
-var SortableList = react_sortable_hoc_1.SortableContainer(function (_a) {
-    var items = _a.items,
-        renderItem = _a.renderItem;
-    return React.createElement("div", null, items.map(renderItem));
-});
-var StyledButton = function StyledButton(props) {
-    return React.createElement("button", { className: classnames_1.default('sg-ig-block', 'sg-ig-w-full', 'sg-ig-p-0', 'sg-ig-bg-transparent', 'sg-ig-border-none', 'sg-ig-cursor-pointer'), onClick: props.onClick }, props.children);
-};
-function useEditorForType(type) {
-    var _a;
-    var globalRegistry = inspectorgadget_neos_bridge_1.useGlobalRegistry();
-    var Editor = (_a = globalRegistry.get('@sitegeist/inspectorgadget/editors')) === null || _a === void 0 ? void 0 : _a.get(type !== null && type !== void 0 ? type : '');
-    return Editor;
-}
 function useEditValueObject(type, commit) {
     var _this = this;
     var tx = inspectorgadget_core_1.useEditorTransactions();
@@ -27126,20 +27101,20 @@ var InspectorEditor = function InspectorEditor(props) {
 exports.InspectorEditor = InspectorEditor;
 var SingleItemEditor = function SingleItemEditor(props) {
     var _a;
-    var Editor = useEditorForType(props.type);
+    var Editor = inspectorgadget_core_1.useEditorForType(props.type);
     var editValueObject = useEditValueObject(props.type, props.commit);
     var deleteValueObject = function deleteValueObject() {
         return props.commit('');
     };
-    return Editor ? props.value ? ((_a = props.options) === null || _a === void 0 ? void 0 : _a.isNullable) ? React.createElement(inspectorgadget_core_1.Presentation.Deletable, { onDelete: deleteValueObject }, React.createElement(StyledButton, { onClick: function onClick() {
+    return Editor ? props.value ? ((_a = props.options) === null || _a === void 0 ? void 0 : _a.isNullable) ? React.createElement(inspectorgadget_core_1.Presentation.Deletable, { onDelete: deleteValueObject }, React.createElement(inspectorgadget_core_1.Presentation.Clickable, { onClick: function onClick() {
             return editValueObject(props.value);
-        } }, React.createElement(Editor.Preview, { value: props.value, api: inspectorgadget_core_1.Presentation }))) : React.createElement(StyledButton, { onClick: function onClick() {
+        } }, React.createElement(Editor.Preview, { value: props.value, api: inspectorgadget_core_1.Presentation }))) : React.createElement(inspectorgadget_core_1.Presentation.Clickable, { onClick: function onClick() {
             return editValueObject(props.value);
         } }, React.createElement(Editor.Preview, { value: props.value, api: inspectorgadget_core_1.Presentation })) : React.createElement(react_ui_components_1.Button, { onClick: editValueObject }, "Create Value Object") : React.createElement(React.Fragment, null, "Missing Editor for ", props.type);
 };
 var ListEditor = function ListEditor(props) {
     var i18n = inspectorgadget_neos_bridge_1.useI18n();
-    var Editor = useEditorForType(props.itemType);
+    var Editor = inspectorgadget_core_1.useEditorForType(props.itemType);
     var addValueObject = useEditValueObject(props.itemType, React.useCallback(function (value) {
         props.commit(Array.isArray(props.value) ? __spreadArray(__spreadArray([], __read(props.value)), [value]) : [value]);
     }, [props.commit, props.value]));
@@ -27180,10 +27155,10 @@ var ListEditor = function ListEditor(props) {
             }
         }
     }, [props.value]);
-    return Editor ? React.createElement(inspectorgadget_core_1.Presentation.Layout.Stack, null, Array.isArray(props.value) ? React.createElement(SortableList, { items: props.value, onSortEnd: handleDragEnd, distance: 10, renderItem: function renderItem(item, index) {
-            return React.createElement(SortableItem, { index: index }, React.createElement(inspectorgadget_core_1.Presentation.Deletable, { onDelete: function onDelete() {
+    return Editor ? React.createElement(inspectorgadget_core_1.Presentation.Layout.Stack, null, Array.isArray(props.value) ? React.createElement(inspectorgadget_core_1.Presentation.Sortable.List, { items: props.value, onSortEnd: handleDragEnd, distance: 10, renderItem: function renderItem(item, index) {
+            return React.createElement(inspectorgadget_core_1.Presentation.Sortable.Item, { index: index }, React.createElement(inspectorgadget_core_1.Presentation.Deletable, { onDelete: function onDelete() {
                     return deleteItem(index);
-                } }, React.createElement(StyledButton, { onClick: function onClick() {
+                } }, React.createElement(inspectorgadget_core_1.Presentation.Clickable, { onClick: function onClick() {
                     return editItem(item, index);
                 } }, React.createElement(Editor.Preview, { value: item, api: inspectorgadget_core_1.Presentation }))));
         } }) : null, React.createElement(react_ui_components_1.Button, { onClick: function onClick() {
@@ -27268,450 +27243,6 @@ exports.registerInspectorEditor = registerInspectorEditor;
 
 /***/ }),
 
-/***/ "../neos-bridge/lib/application/FlowQuery.js":
-/*!***************************************************!*\
-  !*** ../neos-bridge/lib/application/FlowQuery.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importDefault = undefined && undefined.__importDefault || function (mod) {
-    return mod && mod.__esModule ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q = void 0;
-var Backend_1 = __webpack_require__(/*! ../domain/Backend */ "../neos-bridge/lib/domain/Backend/index.js");
-var neos_ui_backend_connector_1 = __importDefault(__webpack_require__(/*! @neos-project/neos-ui-backend-connector */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-backend-connector/index.js"));
-function q(context) {
-    var q = neos_ui_backend_connector_1.default.get().q;
-    return new Backend_1.FlowQuery(q(Array.isArray(context) ? context.map(function (cp) {
-        return cp.toString();
-    }) : context.toString()));
-}
-exports.q = q;
-//# sourceMappingURL=FlowQuery.js.map
-
-/***/ }),
-
-/***/ "../neos-bridge/lib/application/index.js":
-/*!***********************************************!*\
-  !*** ../neos-bridge/lib/application/index.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q = void 0;
-var FlowQuery_1 = __webpack_require__(/*! ./FlowQuery */ "../neos-bridge/lib/application/FlowQuery.js");
-Object.defineProperty(exports, "q", { enumerable: true, get: function get() {
-    return FlowQuery_1.q;
-  } });
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-
-/***/ "../neos-bridge/lib/domain/Backend/Endpoints.js":
-/*!******************************************************!*\
-  !*** ../neos-bridge/lib/domain/Backend/Endpoints.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importDefault = undefined && undefined.__importDefault || function (mod) {
-    return mod && mod.__esModule ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.endpoints = void 0;
-var neos_ui_backend_connector_1 = __importDefault(__webpack_require__(/*! @neos-project/neos-ui-backend-connector */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-backend-connector/index.js"));
-var endpoints = function endpoints() {
-    return neos_ui_backend_connector_1.default.get().endpoints;
-};
-exports.endpoints = endpoints;
-//# sourceMappingURL=Endpoints.js.map
-
-/***/ }),
-
-/***/ "../neos-bridge/lib/domain/Backend/FlowQuery.js":
-/*!******************************************************!*\
-  !*** ../neos-bridge/lib/domain/Backend/FlowQuery.js ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __assign = undefined && undefined.__assign || function () {
-    __assign = Object.assign || function (t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) {
-                if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-            }
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
-var __awaiter = undefined && undefined.__awaiter || function (thisArg, _arguments, P, generator) {
-    function adopt(value) {
-        return value instanceof P ? value : new P(function (resolve) {
-            resolve(value);
-        });
-    }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) {
-            try {
-                step(generator.next(value));
-            } catch (e) {
-                reject(e);
-            }
-        }
-        function rejected(value) {
-            try {
-                step(generator["throw"](value));
-            } catch (e) {
-                reject(e);
-            }
-        }
-        function step(result) {
-            result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
-        }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-var __generator = undefined && undefined.__generator || function (thisArg, body) {
-    var _ = { label: 0, sent: function sent() {
-            if (t[0] & 1) throw t[1];return t[1];
-        }, trys: [], ops: [] },
-        f,
-        y,
-        t,
-        g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {
-        return this;
-    }), g;
-    function verb(n) {
-        return function (v) {
-            return step([n, v]);
-        };
-    }
-    function step(op) {
-        if (f) throw new TypeError("Generator is already executing.");
-        while (_) {
-            try {
-                if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-                if (y = 0, t) op = [op[0] & 2, t.value];
-                switch (op[0]) {
-                    case 0:case 1:
-                        t = op;break;
-                    case 4:
-                        _.label++;return { value: op[1], done: false };
-                    case 5:
-                        _.label++;y = op[1];op = [0];continue;
-                    case 7:
-                        op = _.ops.pop();_.trys.pop();continue;
-                    default:
-                        if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {
-                            _ = 0;continue;
-                        }
-                        if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {
-                            _.label = op[1];break;
-                        }
-                        if (op[0] === 6 && _.label < t[1]) {
-                            _.label = t[1];t = op;break;
-                        }
-                        if (t && _.label < t[2]) {
-                            _.label = t[2];_.ops.push(op);break;
-                        }
-                        if (t[2]) _.ops.pop();
-                        _.trys.pop();continue;
-                }
-                op = body.call(thisArg, _);
-            } catch (e) {
-                op = [6, e];y = 0;
-            } finally {
-                f = t = 0;
-            }
-        }if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };
-    }
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.FlowQuery = void 0;
-var ContextPath_1 = __webpack_require__(/*! ../ContentRepository/ContextPath */ "../neos-bridge/lib/domain/ContentRepository/ContextPath.js");
-var FlowQuery = function () {
-    function FlowQuery(q) {
-        this.q = q;
-    }
-    FlowQuery.prototype.find = function (selector) {
-        this.q = this.q.find(selector);
-        return this;
-    };
-    FlowQuery.prototype.children = function (selector) {
-        this.q = this.q.children(selector);
-        return this;
-    };
-    FlowQuery.prototype.neosUiDefaultNodes = function (baseNodeType, loadingDepth, toggledNodes, clipboardNodesContextPaths) {
-        this.q = this.q.neosUiDefaultNodes(baseNodeType, loadingDepth, toggledNodes.map(function (cp) {
-            return cp.toString();
-        }), clipboardNodesContextPaths.map(function (cp) {
-            return cp.toString();
-        }));
-        return this;
-    };
-    FlowQuery.prototype.search = function (searchTerm, nodeTypeFilter) {
-        this.q = this.q.search(searchTerm, nodeTypeFilter);
-        return this;
-    };
-    FlowQuery.prototype.get = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_a) {
-                return [2, this.q.get().then(function (nodes) {
-                    return nodes.map(function (node) {
-                        return __assign(__assign({}, node), { contextPath: ContextPath_1.ContextPath.fromString(node.contextPath) });
-                    }).filter(function (node) {
-                        return node.contextPath;
-                    });
-                })];
-            });
-        });
-    };
-    FlowQuery.prototype.getForTree = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_a) {
-                return [2, this.q.getForTree().then(function (nodes) {
-                    return nodes.map(function (node) {
-                        return __assign(__assign({}, node), { contextPath: ContextPath_1.ContextPath.fromString(node.contextPath) });
-                    }).filter(function (node) {
-                        return node.contextPath;
-                    });
-                })];
-            });
-        });
-    };
-    FlowQuery.prototype.getForTreeWithParents = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_a) {
-                return [2, this.q.getForTreeWithParents().then(function (nodes) {
-                    return nodes.map(function (node) {
-                        return __assign(__assign({}, node), { contextPath: ContextPath_1.ContextPath.fromString(node.contextPath) });
-                    }).filter(function (node) {
-                        return node.contextPath;
-                    });
-                })];
-            });
-        });
-    };
-    return FlowQuery;
-}();
-exports.FlowQuery = FlowQuery;
-//# sourceMappingURL=FlowQuery.js.map
-
-/***/ }),
-
-/***/ "../neos-bridge/lib/domain/Backend/index.js":
-/*!**************************************************!*\
-  !*** ../neos-bridge/lib/domain/Backend/index.js ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.endpoints = exports.FlowQuery = void 0;
-var FlowQuery_1 = __webpack_require__(/*! ./FlowQuery */ "../neos-bridge/lib/domain/Backend/FlowQuery.js");
-Object.defineProperty(exports, "FlowQuery", { enumerable: true, get: function get() {
-    return FlowQuery_1.FlowQuery;
-  } });
-var Endpoints_1 = __webpack_require__(/*! ./Endpoints */ "../neos-bridge/lib/domain/Backend/Endpoints.js");
-Object.defineProperty(exports, "endpoints", { enumerable: true, get: function get() {
-    return Endpoints_1.endpoints;
-  } });
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-
-/***/ "../neos-bridge/lib/domain/ContentRepository/ContextPath.js":
-/*!******************************************************************!*\
-  !*** ../neos-bridge/lib/domain/ContentRepository/ContextPath.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __createBinding = undefined && undefined.__createBinding || (Object.create ? function (o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function get() {
-            return m[k];
-        } });
-} : function (o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-});
-var __setModuleDefault = undefined && undefined.__setModuleDefault || (Object.create ? function (o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-} : function (o, v) {
-    o["default"] = v;
-});
-var __importStar = undefined && undefined.__importStar || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) {
-        if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    }__setModuleDefault(result, mod);
-    return result;
-};
-var __read = undefined && undefined.__read || function (o, n) {
-    var m = typeof Symbol === "function" && o[Symbol.iterator];
-    if (!m) return o;
-    var i = m.call(o),
-        r,
-        ar = [],
-        e;
-    try {
-        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) {
-            ar.push(r.value);
-        }
-    } catch (error) {
-        e = { error: error };
-    } finally {
-        try {
-            if (r && !r.done && (m = i["return"])) m.call(i);
-        } finally {
-            if (e) throw e.error;
-        }
-    }
-    return ar;
-};
-var __values = undefined && undefined.__values || function (o) {
-    var s = typeof Symbol === "function" && Symbol.iterator,
-        m = s && o[s],
-        i = 0;
-    if (m) return m.call(o);
-    if (o && typeof o.length === "number") return {
-        next: function next() {
-            if (o && i >= o.length) o = void 0;
-            return { value: o && o[i++], done: !o };
-        }
-    };
-    throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.useDocumentNodeContextPath = exports.useSiteNodeContextPath = exports.ContextPath = void 0;
-var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
-var Store_1 = __webpack_require__(/*! ../Extensibility/Store */ "../neos-bridge/lib/domain/Extensibility/Store.js");
-var ContextPath = function () {
-    function ContextPath(path, context) {
-        this.path = path;
-        this.context = context;
-    }
-    ContextPath.fromString = function (string) {
-        var _a = __read((string !== null && string !== void 0 ? string : '').split('@'), 2),
-            path = _a[0],
-            context = _a[1];
-        if (path && string) {
-            return new ContextPath(path, context);
-        }
-        return null;
-    };
-    ContextPath.prototype.adopt = function (pathLike) {
-        var _a = __read((pathLike !== null && pathLike !== void 0 ? pathLike : '').split('@'), 1),
-            path = _a[0];
-        if (path) {
-            return new ContextPath(path, this.context);
-        }
-        return null;
-    };
-    ContextPath.prototype.getIntermediateContextPaths = function (other) {
-        var e_1, _a;
-        if (other.path.startsWith(this.path)) {
-            var segments = other.path.split('/');
-            var result = [];
-            try {
-                for (var _b = __values(segments.entries()), _c = _b.next(); !_c.done; _c = _b.next()) {
-                    var _d = __read(_c.value, 1),
-                        index = _d[0];
-                    var path = segments.slice(0, -index).join('/');
-                    if (path) {
-                        result.push(new ContextPath(path, this.context));
-                    }
-                    if (path === this.path) {
-                        break;
-                    }
-                }
-            } catch (e_1_1) {
-                e_1 = { error: e_1_1 };
-            } finally {
-                try {
-                    if (_c && !_c.done && (_a = _b.return)) _a.call(_b);
-                } finally {
-                    if (e_1) throw e_1.error;
-                }
-            }
-            return result;
-        }
-        return [];
-    };
-    ContextPath.prototype.equals = function (other) {
-        return this.path === other.path && this.context === other.context;
-    };
-    ContextPath.prototype.toString = function () {
-        return this.path + "@" + this.context;
-    };
-    Object.defineProperty(ContextPath.prototype, "depth", {
-        get: function get() {
-            var _a, _b;
-            return (_b = (_a = this.path.match(/\//g)) === null || _a === void 0 ? void 0 : _a.length) !== null && _b !== void 0 ? _b : 0;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    return ContextPath;
-}();
-exports.ContextPath = ContextPath;
-function useSiteNodeContextPath() {
-    var siteNodeContextPath = Store_1.useSelector(function (state) {
-        var _a, _b;return (_b = (_a = state.cr) === null || _a === void 0 ? void 0 : _a.nodes) === null || _b === void 0 ? void 0 : _b.siteNode;
-    });
-    var result = React.useMemo(function () {
-        if (siteNodeContextPath) {
-            return ContextPath.fromString(siteNodeContextPath);
-        }
-        return null;
-    }, [siteNodeContextPath]);
-    return result;
-}
-exports.useSiteNodeContextPath = useSiteNodeContextPath;
-function useDocumentNodeContextPath() {
-    var documentNodeContextPath = Store_1.useSelector(function (state) {
-        var _a, _b;return (_b = (_a = state.cr) === null || _a === void 0 ? void 0 : _a.nodes) === null || _b === void 0 ? void 0 : _b.documentNode;
-    });
-    var result = React.useMemo(function () {
-        if (documentNodeContextPath) {
-            return ContextPath.fromString(documentNodeContextPath);
-        }
-        return null;
-    }, [documentNodeContextPath]);
-    return result;
-}
-exports.useDocumentNodeContextPath = useDocumentNodeContextPath;
-//# sourceMappingURL=ContextPath.js.map
-
-/***/ }),
-
 /***/ "../neos-bridge/lib/domain/ContentRepository/Node.js":
 /*!***********************************************************!*\
   !*** ../neos-bridge/lib/domain/ContentRepository/Node.js ***!
@@ -27722,156 +27253,10 @@ exports.useDocumentNodeContextPath = useDocumentNodeContextPath;
 "use strict";
 
 
-var __assign = undefined && undefined.__assign || function () {
-    __assign = Object.assign || function (t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) {
-                if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-            }
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
-var __awaiter = undefined && undefined.__awaiter || function (thisArg, _arguments, P, generator) {
-    function adopt(value) {
-        return value instanceof P ? value : new P(function (resolve) {
-            resolve(value);
-        });
-    }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) {
-            try {
-                step(generator.next(value));
-            } catch (e) {
-                reject(e);
-            }
-        }
-        function rejected(value) {
-            try {
-                step(generator["throw"](value));
-            } catch (e) {
-                reject(e);
-            }
-        }
-        function step(result) {
-            result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
-        }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-var __generator = undefined && undefined.__generator || function (thisArg, body) {
-    var _ = { label: 0, sent: function sent() {
-            if (t[0] & 1) throw t[1];return t[1];
-        }, trys: [], ops: [] },
-        f,
-        y,
-        t,
-        g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {
-        return this;
-    }), g;
-    function verb(n) {
-        return function (v) {
-            return step([n, v]);
-        };
-    }
-    function step(op) {
-        if (f) throw new TypeError("Generator is already executing.");
-        while (_) {
-            try {
-                if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-                if (y = 0, t) op = [op[0] & 2, t.value];
-                switch (op[0]) {
-                    case 0:case 1:
-                        t = op;break;
-                    case 4:
-                        _.label++;return { value: op[1], done: false };
-                    case 5:
-                        _.label++;y = op[1];op = [0];continue;
-                    case 7:
-                        op = _.ops.pop();_.trys.pop();continue;
-                    default:
-                        if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {
-                            _ = 0;continue;
-                        }
-                        if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {
-                            _.label = op[1];break;
-                        }
-                        if (op[0] === 6 && _.label < t[1]) {
-                            _.label = t[1];t = op;break;
-                        }
-                        if (t && _.label < t[2]) {
-                            _.label = t[2];_.ops.push(op);break;
-                        }
-                        if (t[2]) _.ops.pop();
-                        _.trys.pop();continue;
-                }
-                op = body.call(thisArg, _);
-            } catch (e) {
-                op = [6, e];y = 0;
-            } finally {
-                f = t = 0;
-            }
-        }if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };
-    }
-};
-var __values = undefined && undefined.__values || function (o) {
-    var s = typeof Symbol === "function" && Symbol.iterator,
-        m = s && o[s],
-        i = 0;
-    if (m) return m.call(o);
-    if (o && typeof o.length === "number") return {
-        next: function next() {
-            if (o && i >= o.length) o = void 0;
-            return { value: o && o[i++], done: !o };
-        }
-    };
-    throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.useCurrentlyFocusedNode = exports.useNodeSummary = void 0;
-var react_use_1 = __webpack_require__(/*! react-use */ "../../node_modules/react-use/esm/index.js");
+exports.useCurrentlyFocusedNode = void 0;
 var neos_ui_redux_store_1 = __webpack_require__(/*! @neos-project/neos-ui-redux-store */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-redux-store/index.js");
-var Backend_1 = __webpack_require__(/*! ../Backend */ "../neos-bridge/lib/domain/Backend/index.js");
 var Store_1 = __webpack_require__(/*! ../Extensibility/Store */ "../neos-bridge/lib/domain/Extensibility/Store.js");
-function useNodeSummary(identifier) {
-    var _this = this;
-    var contextForNodeLinking = Store_1.useSelector(neos_ui_redux_store_1.selectors.UI.NodeLinking.contextForNodeLinking);
-    return react_use_1.useAsync(function () {
-        return __awaiter(_this, void 0, void 0, function () {
-            var result, result_1, result_1_1, nodeSummary;
-            var e_1, _a;
-            return __generator(this, function (_b) {
-                switch (_b.label) {
-                    case 0:
-                        return [4, Backend_1.endpoints().searchNodes(__assign(__assign({}, contextForNodeLinking), { nodeIdentifiers: [identifier] }))];
-                    case 1:
-                        result = _b.sent();
-                        if (Array.isArray(result)) {
-                            try {
-                                for (result_1 = __values(result), result_1_1 = result_1.next(); !result_1_1.done; result_1_1 = result_1.next()) {
-                                    nodeSummary = result_1_1.value;
-                                    return [2, nodeSummary];
-                                }
-                            } catch (e_1_1) {
-                                e_1 = { error: e_1_1 };
-                            } finally {
-                                try {
-                                    if (result_1_1 && !result_1_1.done && (_a = result_1.return)) _a.call(result_1);
-                                } finally {
-                                    if (e_1) throw e_1.error;
-                                }
-                            }
-                        }
-                        return [2, null];
-                }
-            });
-        });
-    }, [identifier]);
-}
-exports.useNodeSummary = useNodeSummary;
 function useCurrentlyFocusedNode() {
     return Store_1.useSelector(neos_ui_redux_store_1.selectors.CR.Nodes.focusedSelector);
 }
@@ -27891,7 +27276,7 @@ exports.useCurrentlyFocusedNode = useCurrentlyFocusedNode;
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.useNodeTypes = exports.useNodeType = exports.NodeTypeName = void 0;
+exports.useNodeType = exports.NodeTypeName = void 0;
 var NodeTypesRegistry_1 = __webpack_require__(/*! ./NodeTypesRegistry */ "../neos-bridge/lib/domain/ContentRepository/NodeTypesRegistry.js");
 function NodeTypeName(name) {
     return name;
@@ -27903,16 +27288,6 @@ function useNodeType(nodeTypeName) {
     return (_a = nodeTypesRegistry.get(nodeTypeName)) !== null && _a !== void 0 ? _a : null;
 }
 exports.useNodeType = useNodeType;
-function useNodeTypes(baseNodeTypeName) {
-    var _a;
-    var nodeTypesRegistry = NodeTypesRegistry_1.useNodeTypesRegistry();
-    return (_a = nodeTypesRegistry.getSubTypesOf(baseNodeTypeName).map(function (nodeTypeName) {
-        return nodeTypesRegistry === null || nodeTypesRegistry === void 0 ? void 0 : nodeTypesRegistry.get(nodeTypeName);
-    }).filter(function (n) {
-        return n;
-    })) !== null && _a !== void 0 ? _a : [];
-}
-exports.useNodeTypes = useNodeTypes;
 //# sourceMappingURL=NodeType.js.map
 
 /***/ }),
@@ -27961,32 +27336,6 @@ Object.defineProperty(exports, "useNodeType", { enumerable: true, get: function 
     return NodeType_1.useNodeType;
   } });
 //# sourceMappingURL=index.js.map
-
-/***/ }),
-
-/***/ "../neos-bridge/lib/domain/Extensibility/Configuration.js":
-/*!****************************************************************!*\
-  !*** ../neos-bridge/lib/domain/Extensibility/Configuration.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.useConfiguration = void 0;
-var NeosContext_1 = __webpack_require__(/*! ./NeosContext */ "../neos-bridge/lib/domain/Extensibility/NeosContext.js");
-function useConfiguration(selector) {
-    var neos = NeosContext_1.useNeos();
-    if (selector) {
-        return selector(neos.configuration);
-    } else {
-        return neos.configuration;
-    }
-}
-exports.useConfiguration = useConfiguration;
-//# sourceMappingURL=Configuration.js.map
 
 /***/ }),
 
@@ -28057,34 +27406,6 @@ function useNeos() {
 }
 exports.useNeos = useNeos;
 //# sourceMappingURL=NeosContext.js.map
-
-/***/ }),
-
-/***/ "../neos-bridge/lib/domain/Extensibility/Routes.js":
-/*!*********************************************************!*\
-  !*** ../neos-bridge/lib/domain/Extensibility/Routes.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.useRoutes = void 0;
-var NeosContext_1 = __webpack_require__(/*! ./NeosContext */ "../neos-bridge/lib/domain/Extensibility/NeosContext.js");
-function useRoutes(selector) {
-    var neos = NeosContext_1.useNeos();
-    if (neos.routes) {
-        if (selector) {
-            return selector(neos.routes);
-        } else {
-            return neos.routes;
-        }
-    }
-}
-exports.useRoutes = useRoutes;
-//# sourceMappingURL=Routes.js.map
 
 /***/ }),
 
@@ -28238,18 +27559,10 @@ exports.useI18n = useI18n;
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.useI18n = exports.useSelector = exports.useNeos = exports.NeosContext = exports.useRoutes = exports.useConfiguration = exports.useGlobalRegistry = void 0;
+exports.useI18n = exports.useSelector = exports.useNeos = exports.NeosContext = exports.useGlobalRegistry = void 0;
 var GlobalRegistry_1 = __webpack_require__(/*! ./GlobalRegistry */ "../neos-bridge/lib/domain/Extensibility/GlobalRegistry.js");
 Object.defineProperty(exports, "useGlobalRegistry", { enumerable: true, get: function get() {
     return GlobalRegistry_1.useGlobalRegistry;
-  } });
-var Configuration_1 = __webpack_require__(/*! ./Configuration */ "../neos-bridge/lib/domain/Extensibility/Configuration.js");
-Object.defineProperty(exports, "useConfiguration", { enumerable: true, get: function get() {
-    return Configuration_1.useConfiguration;
-  } });
-var Routes_1 = __webpack_require__(/*! ./Routes */ "../neos-bridge/lib/domain/Extensibility/Routes.js");
-Object.defineProperty(exports, "useRoutes", { enumerable: true, get: function get() {
-    return Routes_1.useRoutes;
   } });
 var NeosContext_1 = __webpack_require__(/*! ./NeosContext */ "../neos-bridge/lib/domain/Extensibility/NeosContext.js");
 Object.defineProperty(exports, "NeosContext", { enumerable: true, get: function get() {
@@ -28270,145 +27583,6 @@ Object.defineProperty(exports, "useI18n", { enumerable: true, get: function get(
 
 /***/ }),
 
-/***/ "../neos-bridge/lib/domain/Media/Asset.js":
-/*!************************************************!*\
-  !*** ../neos-bridge/lib/domain/Media/Asset.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __awaiter = undefined && undefined.__awaiter || function (thisArg, _arguments, P, generator) {
-    function adopt(value) {
-        return value instanceof P ? value : new P(function (resolve) {
-            resolve(value);
-        });
-    }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) {
-            try {
-                step(generator.next(value));
-            } catch (e) {
-                reject(e);
-            }
-        }
-        function rejected(value) {
-            try {
-                step(generator["throw"](value));
-            } catch (e) {
-                reject(e);
-            }
-        }
-        function step(result) {
-            result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
-        }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-var __generator = undefined && undefined.__generator || function (thisArg, body) {
-    var _ = { label: 0, sent: function sent() {
-            if (t[0] & 1) throw t[1];return t[1];
-        }, trys: [], ops: [] },
-        f,
-        y,
-        t,
-        g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {
-        return this;
-    }), g;
-    function verb(n) {
-        return function (v) {
-            return step([n, v]);
-        };
-    }
-    function step(op) {
-        if (f) throw new TypeError("Generator is already executing.");
-        while (_) {
-            try {
-                if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-                if (y = 0, t) op = [op[0] & 2, t.value];
-                switch (op[0]) {
-                    case 0:case 1:
-                        t = op;break;
-                    case 4:
-                        _.label++;return { value: op[1], done: false };
-                    case 5:
-                        _.label++;y = op[1];op = [0];continue;
-                    case 7:
-                        op = _.ops.pop();_.trys.pop();continue;
-                    default:
-                        if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {
-                            _ = 0;continue;
-                        }
-                        if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {
-                            _.label = op[1];break;
-                        }
-                        if (op[0] === 6 && _.label < t[1]) {
-                            _.label = t[1];t = op;break;
-                        }
-                        if (t && _.label < t[2]) {
-                            _.label = t[2];_.ops.push(op);break;
-                        }
-                        if (t[2]) _.ops.pop();
-                        _.trys.pop();continue;
-                }
-                op = body.call(thisArg, _);
-            } catch (e) {
-                op = [6, e];y = 0;
-            } finally {
-                f = t = 0;
-            }
-        }if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };
-    }
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.useAssetSummary = void 0;
-var react_use_1 = __webpack_require__(/*! react-use */ "../../node_modules/react-use/esm/index.js");
-var Backend_1 = __webpack_require__(/*! ../Backend */ "../neos-bridge/lib/domain/Backend/index.js");
-function useAssetSummary(assetIdentifier) {
-    var _this = this;
-    return react_use_1.useAsync(function () {
-        return __awaiter(_this, void 0, void 0, function () {
-            var result;
-            return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0:
-                        return [4, Backend_1.endpoints().assetDetail(assetIdentifier)];
-                    case 1:
-                        result = _a.sent();
-                        return [2, result];
-                }
-            });
-        });
-    }, [assetIdentifier]);
-}
-exports.useAssetSummary = useAssetSummary;
-//# sourceMappingURL=Asset.js.map
-
-/***/ }),
-
-/***/ "../neos-bridge/lib/domain/Media/index.js":
-/*!************************************************!*\
-  !*** ../neos-bridge/lib/domain/Media/index.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.useAssetSummary = void 0;
-var Asset_1 = __webpack_require__(/*! ./Asset */ "../neos-bridge/lib/domain/Media/Asset.js");
-Object.defineProperty(exports, "useAssetSummary", { enumerable: true, get: function get() {
-    return Asset_1.useAssetSummary;
-  } });
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-
 /***/ "../neos-bridge/lib/domain/index.js":
 /*!******************************************!*\
   !*** ../neos-bridge/lib/domain/index.js ***!
@@ -28420,7 +27594,7 @@ Object.defineProperty(exports, "useAssetSummary", { enumerable: true, get: funct
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.useAssetSummary = exports.useI18n = exports.useSelector = exports.useRoutes = exports.useConfiguration = exports.useGlobalRegistry = exports.useNeos = exports.NeosContext = exports.useNodeType = exports.useCurrentlyFocusedNode = void 0;
+exports.NeosContext = exports.useI18n = exports.useGlobalRegistry = exports.useNodeType = exports.useCurrentlyFocusedNode = void 0;
 var ContentRepository_1 = __webpack_require__(/*! ./ContentRepository */ "../neos-bridge/lib/domain/ContentRepository/index.js");
 Object.defineProperty(exports, "useCurrentlyFocusedNode", { enumerable: true, get: function get() {
     return ContentRepository_1.useCurrentlyFocusedNode;
@@ -28429,30 +27603,14 @@ Object.defineProperty(exports, "useNodeType", { enumerable: true, get: function 
     return ContentRepository_1.useNodeType;
   } });
 var Extensibility_1 = __webpack_require__(/*! ./Extensibility */ "../neos-bridge/lib/domain/Extensibility/index.js");
-Object.defineProperty(exports, "NeosContext", { enumerable: true, get: function get() {
-    return Extensibility_1.NeosContext;
-  } });
-Object.defineProperty(exports, "useNeos", { enumerable: true, get: function get() {
-    return Extensibility_1.useNeos;
-  } });
 Object.defineProperty(exports, "useGlobalRegistry", { enumerable: true, get: function get() {
     return Extensibility_1.useGlobalRegistry;
-  } });
-Object.defineProperty(exports, "useConfiguration", { enumerable: true, get: function get() {
-    return Extensibility_1.useConfiguration;
-  } });
-Object.defineProperty(exports, "useRoutes", { enumerable: true, get: function get() {
-    return Extensibility_1.useRoutes;
-  } });
-Object.defineProperty(exports, "useSelector", { enumerable: true, get: function get() {
-    return Extensibility_1.useSelector;
   } });
 Object.defineProperty(exports, "useI18n", { enumerable: true, get: function get() {
     return Extensibility_1.useI18n;
   } });
-var Media_1 = __webpack_require__(/*! ./Media */ "../neos-bridge/lib/domain/Media/index.js");
-Object.defineProperty(exports, "useAssetSummary", { enumerable: true, get: function get() {
-    return Media_1.useAssetSummary;
+Object.defineProperty(exports, "NeosContext", { enumerable: true, get: function get() {
+    return Extensibility_1.NeosContext;
   } });
 //# sourceMappingURL=index.js.map
 
@@ -28469,20 +27627,10 @@ Object.defineProperty(exports, "useAssetSummary", { enumerable: true, get: funct
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.useI18n = exports.useSelector = exports.useRoutes = exports.useConfiguration = exports.useGlobalRegistry = exports.useNodeType = exports.useCurrentlyFocusedNode = exports.useAssetSummary = exports.useNeos = exports.NeosContext = exports.q = void 0;
-var application_1 = __webpack_require__(/*! ./application */ "../neos-bridge/lib/application/index.js");
-Object.defineProperty(exports, "q", { enumerable: true, get: function get() {
-    return application_1.q;
-  } });
+exports.NeosContext = exports.useI18n = exports.useNodeType = exports.useCurrentlyFocusedNode = exports.useGlobalRegistry = void 0;
 var domain_1 = __webpack_require__(/*! ./domain */ "../neos-bridge/lib/domain/index.js");
-Object.defineProperty(exports, "NeosContext", { enumerable: true, get: function get() {
-    return domain_1.NeosContext;
-  } });
-Object.defineProperty(exports, "useNeos", { enumerable: true, get: function get() {
-    return domain_1.useNeos;
-  } });
-Object.defineProperty(exports, "useAssetSummary", { enumerable: true, get: function get() {
-    return domain_1.useAssetSummary;
+Object.defineProperty(exports, "useGlobalRegistry", { enumerable: true, get: function get() {
+    return domain_1.useGlobalRegistry;
   } });
 Object.defineProperty(exports, "useCurrentlyFocusedNode", { enumerable: true, get: function get() {
     return domain_1.useCurrentlyFocusedNode;
@@ -28490,20 +27638,11 @@ Object.defineProperty(exports, "useCurrentlyFocusedNode", { enumerable: true, ge
 Object.defineProperty(exports, "useNodeType", { enumerable: true, get: function get() {
     return domain_1.useNodeType;
   } });
-Object.defineProperty(exports, "useGlobalRegistry", { enumerable: true, get: function get() {
-    return domain_1.useGlobalRegistry;
-  } });
-Object.defineProperty(exports, "useConfiguration", { enumerable: true, get: function get() {
-    return domain_1.useConfiguration;
-  } });
-Object.defineProperty(exports, "useRoutes", { enumerable: true, get: function get() {
-    return domain_1.useRoutes;
-  } });
-Object.defineProperty(exports, "useSelector", { enumerable: true, get: function get() {
-    return domain_1.useSelector;
-  } });
 Object.defineProperty(exports, "useI18n", { enumerable: true, get: function get() {
     return domain_1.useI18n;
+  } });
+Object.defineProperty(exports, "NeosContext", { enumerable: true, get: function get() {
+    return domain_1.NeosContext;
   } });
 //# sourceMappingURL=index.js.map
 

@@ -1,13 +1,10 @@
 import {Any} from 'ts-toolbelt';
-import {useAsync} from 'react-use';
 
 import {selectors} from '@neos-project/neos-ui-redux-store';
 
-import {endpoints} from '../Backend';
-
 import {ContextPath} from './ContextPath';
 import {NodeTypeName} from './NodeType';
-import { useSelector } from '../Extensibility/Store';
+import {useSelector} from '../Extensibility/Store';
 
 
 type NodeAggregateIdentifier = Any.Type<string, 'NodeAggregateIdentifier'>;
@@ -48,24 +45,6 @@ export interface INodeSummary {
     label: string
     breadcrumb: string
     nodeType: NodeTypeName
-}
-
-export function useNodeSummary(identifier: NodeAggregateIdentifier) {
-    const contextForNodeLinking: any = useSelector(selectors.UI.NodeLinking.contextForNodeLinking);
-    return useAsync(async () => {
-        const result = await endpoints().searchNodes({
-            ...contextForNodeLinking,
-            nodeIdentifiers: [identifier]
-        });
-
-        if (Array.isArray(result)) {
-            for (const nodeSummary of result) {
-                return nodeSummary as INodeSummary;
-            }
-        }
-
-        return null;
-    }, [identifier]);
 }
 
 export function useCurrentlyFocusedNode(): INode {

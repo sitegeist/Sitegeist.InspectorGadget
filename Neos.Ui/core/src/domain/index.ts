@@ -6,5 +6,3 @@ export {
     useEditorValue,
     useEditorTransactions
 } from './Editor';
-
-export {Field, FieldGroup} from './Form';

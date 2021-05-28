@@ -1,6 +1,5 @@
-import * as React from 'react';
 import {Any} from 'ts-toolbelt';
-import { useNodeTypesRegistry } from './NodeTypesRegistry';
+import {useNodeTypesRegistry} from './NodeTypesRegistry';
 
 export type NodeTypeName = Any.Type<string, 'NodeTypeName'>;
 export function NodeTypeName(name: string): NodeTypeName {
@@ -23,11 +22,4 @@ export interface INodeType {
 export function useNodeType(nodeTypeName: NodeTypeName): null | INodeType {
     const nodeTypesRegistry = useNodeTypesRegistry();
     return nodeTypesRegistry.get(nodeTypeName) ?? null;
-}
-
-export function useNodeTypes(baseNodeTypeName: NodeTypeName): INodeType[] {
-    const nodeTypesRegistry = useNodeTypesRegistry();
-    return nodeTypesRegistry.getSubTypesOf(baseNodeTypeName).map(
-        nodeTypeName => nodeTypesRegistry?.get(nodeTypeName)
-    ).filter(n => n) as INodeType[] ?? [];
 }

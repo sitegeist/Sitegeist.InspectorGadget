@@ -13,8 +13,7 @@
         "@sitegeist/inspectorgadget-neos-bridge": "^0.0.0",
         "array-move": "^3.0.1",
         "final-form": "^4.20.2",
-        "react-final-form": "^6.5.3",
-        "react-sortable-hoc": "^2.0.0"
+        "react-final-form": "^6.5.3"
     },
     "devDependencies": {
         "typescript": "^4.2.4"

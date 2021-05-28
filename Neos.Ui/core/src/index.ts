@@ -1,4 +1,4 @@
-export {registerDialog, Field} from './application';
+export {registerDialog, Field, useEditorForType} from './application';
 
 export type {IEditor} from './domain';
 export {

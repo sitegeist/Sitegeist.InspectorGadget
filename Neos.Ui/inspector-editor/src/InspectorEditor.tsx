@@ -1,12 +1,10 @@
 import * as React from 'react';
-import cx from 'classnames';
-import {SortableContainer, SortableElement} from 'react-sortable-hoc';
 import arrayMove from 'array-move';
 
 import {Icon, Button} from '@neos-project/react-ui-components';
 
-import {useCurrentlyFocusedNode, useNodeType, useGlobalRegistry, useI18n} from '@sitegeist/inspectorgadget-neos-bridge';
-import {useEditorTransactions, Presentation} from '@sitegeist/inspectorgadget-core';
+import {useCurrentlyFocusedNode, useNodeType, useI18n} from '@sitegeist/inspectorgadget-neos-bridge';
+import {useEditorTransactions, Presentation, useEditorForType} from '@sitegeist/inspectorgadget-core';
 
 interface Props {
     neos: unknown
@@ -34,54 +32,6 @@ interface Props {
     hooks: null | any
     commit: (value: any) => void
     renderSecondaryInspector: (id: undefined | string, contents: any) => void
-}
-
-interface Editor {
-    Preview: React.ComponentType<{
-        value: any
-        api: typeof Presentation
-    }>
-}
-
-const SortableItem = SortableElement(({children}: {children: React.ReactElement}) => children);
-
-const SortableList = SortableContainer(({
-    items,
-    renderItem
-}: {
-    items: any[]
-    renderItem: (item: any, index: number) => React.ReactElement
-}) => {
-  return (
-    <div>
-      {items.map(renderItem)}
-    </div>
-  );
-});
-
-const StyledButton: React.FC<{
-    onClick?: (ev: any) => void
-}> = props => (
-    <button
-        className={cx(
-            'sg-ig-block',
-            'sg-ig-w-full',
-            'sg-ig-p-0',
-            'sg-ig-bg-transparent',
-            'sg-ig-border-none',
-            'sg-ig-cursor-pointer'
-        )}
-        onClick={props.onClick}
-    >
-        {props.children}
-    </button>
-);
-
-function useEditorForType(type: string): undefined | Editor {
-    const globalRegistry = useGlobalRegistry();
-    const Editor: undefined | Editor = globalRegistry.get('@sitegeist/inspectorgadget/editors')?.get(type ?? '');
-
-    return Editor;
 }
 
 function useEditValueObject(
@@ -149,20 +99,20 @@ const SingleItemEditor: React.FC<{
 
     return Editor ? props.value ? props.options?.isNullable ? (
         <Presentation.Deletable onDelete={deleteValueObject}>
-            <StyledButton onClick={() => editValueObject(props.value)}>
+            <Presentation.Clickable onClick={() => editValueObject(props.value)}>
                 <Editor.Preview
                     value={props.value}
                     api={Presentation}
                 />
-            </StyledButton>
+            </Presentation.Clickable>
         </Presentation.Deletable>
     ) : (
-        <StyledButton onClick={() => editValueObject(props.value)}>
+        <Presentation.Clickable onClick={() => editValueObject(props.value)}>
             <Editor.Preview
                 value={props.value}
                 api={Presentation}
             />
-        </StyledButton>
+        </Presentation.Clickable>
     ) : (
         <Button onClick={editValueObject}>
             Create Value Object
@@ -220,23 +170,23 @@ const ListEditor: React.FC<{
     return Editor ? (
         <Presentation.Layout.Stack>
             {Array.isArray(props.value) ? (
-                <SortableList
+                <Presentation.Sortable.List
                     items={props.value}
                     onSortEnd={handleDragEnd}
                     distance={10}
                     renderItem={(item, index) => (
-                        <SortableItem index={index}>
+                        <Presentation.Sortable.Item index={index}>
                             <Presentation.Deletable onDelete={() => deleteItem(index)}>
-                                <StyledButton
+                                <Presentation.Clickable
                                     onClick={() => editItem(item, index)}
                                 >
                                     <Editor.Preview
                                         value={item}
                                         api={Presentation}
                                     />
-                                </StyledButton>
+                                </Presentation.Clickable>
                             </Presentation.Deletable>
-                        </SortableItem>
+                        </Presentation.Sortable.Item>
                     )}
                 />
             ) : null}
