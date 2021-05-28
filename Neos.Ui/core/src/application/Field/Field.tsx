@@ -1,16 +1,7 @@
 import * as React from 'react';
-import styled from 'styled-components';
 import {Field as ReactFinalFormField} from 'react-final-form';
 
 import {EditorEnvelope} from '@neos-project/neos-ui-editors';
-
-const Container = styled.div`
-    ul, li {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-    }
-`;
 
 export const Field: React.FC<{
     name: string
@@ -21,7 +12,7 @@ export const Field: React.FC<{
     <ReactFinalFormField
         name={props.name}
     >{({input, meta}: {input: any, meta: any}) => (
-        <Container>
+        <div className="fix-neos-ui-validation-messages">
             <EditorEnvelope
                 identifier={`Sitegeist-InspectorGadget-${props.name}`}
                 label={props.label}
@@ -31,6 +22,6 @@ export const Field: React.FC<{
                 value={input.value}
                 commit={input.onChange}
             />
-        </Container>
+        </div>
     )}</ReactFinalFormField>
 );

@@ -1,0 +1,9 @@
+@tailwind components;
+@tailwind utilities;
+
+.fix-neos-ui-validation-messages ul,
+.fix-neos-ui-validation-messages li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}

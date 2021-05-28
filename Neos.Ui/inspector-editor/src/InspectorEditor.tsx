@@ -1,5 +1,5 @@
 import * as React from 'react';
-import styled from 'styled-components';
+import cx from 'classnames';
 import {SortableContainer, SortableElement} from 'react-sortable-hoc';
 import arrayMove from 'array-move';
 
@@ -59,14 +59,23 @@ const SortableList = SortableContainer(({
   );
 });
 
-const StyledButton = styled.button`
-    display: block;
-    width: 100%;
-    padding: 0;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-`;
+const StyledButton: React.FC<{
+    onClick?: (ev: any) => void
+}> = props => (
+    <button
+        className={cx(
+            'sg-ig-block',
+            'sg-ig-w-full',
+            'sg-ig-p-0',
+            'sg-ig-bg-transparent',
+            'sg-ig-border-none',
+            'sg-ig-cursor-pointer'
+        )}
+        onClick={props.onClick}
+    >
+        {props.children}
+    </button>
+);
 
 function useEditorForType(type: string): undefined | Editor {
     const globalRegistry = useGlobalRegistry();
@@ -99,14 +108,14 @@ export const InspectorEditor: React.FC<Props> = props => {
         const message = `[Sitegeist.InspectorGadget]: Could not determine type of property "${props.identifier}".`;
 
         console.error(message, propertyConfiguration);
-        return <>message</>;
+        return <>{message}</>;
     }
 
     if (props.options?.isCollection && !props.options?.itemType) {
         const message = `[Sitegeist.InspectorGadget]: Could not determine itemType of collection property "${props.identifier}".`;
 
         console.error(message, propertyConfiguration);
-        return <>message</>;
+        return <>{message}</>;
     }
 
     return props.options?.isCollection ? (
