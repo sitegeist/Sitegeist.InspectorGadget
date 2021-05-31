@@ -25,7 +25,6 @@ interface Editor {
     validator(values: any): Generator<{
         field: string
         message: string
-        external?: boolean
     }>
     Form: React.ComponentType<{
         api: {
@@ -54,14 +53,14 @@ export const Dialog: React.FC = () => {
                         const result: {[key: string]: any} = {};
 
                         if (Editor) {
-                            for (const {field, message, external} of Editor.validator(values)) {
-                                result[field] = {message, external};
+                            for (const {field, message} of Editor.validator(values)) {
+                                result[field] = message;
                             }
                         }
 
                         return result;
                     }}
-                >{({handleSubmit, valid, dirty}) => (
+                >{({handleSubmit, valid}) => (
                     <StyledForm
                         renderBody={() => Editor ? (
                             <Editor.Form
@@ -80,7 +79,7 @@ export const Dialog: React.FC = () => {
                                 <Button
                                     style="success"
                                     type="submit"
-                                    disabled={!valid || !dirty}
+                                    disabled={!valid}
                                 >
                                     Apply
                                 </Button>

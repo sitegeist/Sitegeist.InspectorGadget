@@ -7,10 +7,12 @@ export const Field: React.FC<{
     name: string
     label: string
     editor: string
+    defaultValue?: string
     editorOptions?: object
 }> = props => (
     <ReactFinalFormField
         name={props.name}
+        defaultValue={props.defaultValue}
     >{({input, meta}: {input: any, meta: any}) => (
         <div className="fix-neos-ui-validation-messages">
             <EditorEnvelope
@@ -18,7 +20,7 @@ export const Field: React.FC<{
                 label={props.label}
                 editor={props.editor}
                 options={props.editorOptions}
-                validationErrors={(meta.dirty && meta.error) || meta.error?.external ? [meta.error.message] : []}
+                validationErrors={meta.error ? [meta.error] : []}
                 value={input.value}
                 commit={input.onChange}
             />

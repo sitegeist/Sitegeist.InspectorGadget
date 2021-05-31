@@ -13,7 +13,7 @@ export const Modal: React.FC<{
             'sg-ig-inset-0',
             'sg-ig-bg-[rgba(0,0,0,.9)]',
             'sg-ig-animate-overlay-appear',
-            'sg-ig-z-10'
+            'sg-ig-z-[4]'
         )}
     >
         <div

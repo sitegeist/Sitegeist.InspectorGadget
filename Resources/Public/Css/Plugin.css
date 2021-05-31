@@ -21,8 +21,8 @@
     left: 50%;
 }
 
-.sg-ig-z-10 {
-    z-index: 10;
+.sg-ig-z-\[4\] {
+    z-index: 4;
 }
 
 .sg-ig-col-span-2 {

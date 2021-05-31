@@ -9,6 +9,7 @@ interface Editor {
         value: any
         api: typeof Presentation
     }>
+    defaultValue?: any
 }
 
 export function useEditorForType(type: string): undefined | Editor {

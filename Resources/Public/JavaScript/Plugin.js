@@ -25899,9 +25899,8 @@ var Dialog = function Dialog() {
                             for (var _b = __values(Editor.validator(values)), _c = _b.next(); !_c.done; _c = _b.next()) {
                                 var _d = _c.value,
                                     field = _d.field,
-                                    message = _d.message,
-                                    external_1 = _d.external;
-                                result[field] = { message: message, external: external_1 };
+                                    message = _d.message;
+                                result[field] = message;
                             }
                         } catch (e_1_1) {
                             e_1 = { error: e_1_1 };
@@ -25916,12 +25915,11 @@ var Dialog = function Dialog() {
                     return result;
                 } }, function (_a) {
                 var handleSubmit = _a.handleSubmit,
-                    valid = _a.valid,
-                    dirty = _a.dirty;
+                    valid = _a.valid;
                 return React.createElement(presentation_1.Form, { renderBody: function renderBody() {
                         return Editor ? React.createElement(Editor.Form, { api: { Field: Field_1.Field, Layout: presentation_1.Layout } }) : React.createElement(React.Fragment, null, "Missing Editor for: \"", type, "\"");
                     }, renderActions: function renderActions() {
-                        return Editor ? React.createElement(React.Fragment, null, React.createElement(react_ui_components_1.Button, { type: "button", onClick: dismiss }, "Close"), React.createElement(react_ui_components_1.Button, { style: "success", type: "submit", disabled: !valid || !dirty }, "Apply")) : React.createElement(react_ui_components_1.Button, { type: "button", onClick: dismiss }, "Close");
+                        return Editor ? React.createElement(React.Fragment, null, React.createElement(react_ui_components_1.Button, { type: "button", onClick: dismiss }, "Close"), React.createElement(react_ui_components_1.Button, { style: "success", type: "submit", disabled: !valid }, "Apply")) : React.createElement(react_ui_components_1.Button, { type: "button", onClick: dismiss }, "Close");
                     }, onSubmit: handleSubmit });
             });
         } });
@@ -26019,11 +26017,10 @@ var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@n
 var react_final_form_1 = __webpack_require__(/*! react-final-form */ "../../node_modules/react-final-form/dist/react-final-form.es.js");
 var neos_ui_editors_1 = __webpack_require__(/*! @neos-project/neos-ui-editors */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-editors/index.js");
 var Field = function Field(props) {
-    return React.createElement(react_final_form_1.Field, { name: props.name }, function (_a) {
-        var _b;
+    return React.createElement(react_final_form_1.Field, { name: props.name, defaultValue: props.defaultValue }, function (_a) {
         var input = _a.input,
             meta = _a.meta;
-        return React.createElement("div", { className: "fix-neos-ui-validation-messages" }, React.createElement(neos_ui_editors_1.EditorEnvelope, { identifier: "Sitegeist-InspectorGadget-" + props.name, label: props.label, editor: props.editor, options: props.editorOptions, validationErrors: meta.dirty && meta.error || ((_b = meta.error) === null || _b === void 0 ? void 0 : _b.external) ? [meta.error.message] : [], value: input.value, commit: input.onChange }));
+        return React.createElement("div", { className: "fix-neos-ui-validation-messages" }, React.createElement(neos_ui_editors_1.EditorEnvelope, { identifier: "Sitegeist-InspectorGadget-" + props.name, label: props.label, editor: props.editor, options: props.editorOptions, validationErrors: meta.error ? [meta.error] : [], value: input.value, commit: input.onChange }));
     });
 };
 exports.Field = Field;
@@ -26788,7 +26785,7 @@ var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@n
 var ReactDOM = __importStar(__webpack_require__(/*! react-dom */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react-dom/index.js"));
 var classnames_1 = __importDefault(__webpack_require__(/*! classnames */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/classnames/index.js"));
 var Modal = function Modal(props) {
-    return ReactDOM.createPortal(React.createElement("div", { "data-ignore_click_outside": "true", className: classnames_1.default('sg-ig-fixed', 'sg-ig-inset-0', 'sg-ig-bg-[rgba(0,0,0,.9)]', 'sg-ig-animate-overlay-appear', 'sg-ig-z-10') }, React.createElement("div", { className: classnames_1.default('sg-ig-absolute', 'sg-ig-top-1/2', 'sg-ig-left-1/2', 'sg-ig-transform', 'sg-ig--translate-x-1/2 sg-ig--translate-y-1/2 sg-ig-scale-100', 'sg-ig-bg-gray-900', 'sg-ig-shadow-[0,20px,40px,rgba(0,0,0,.4)]', 'sg-ig-opacity-100', 'sg-ig-animate-modal-appear', 'sg-ig-border-2 sg-ig-border-gray-800') }, React.createElement("div", { className: classnames_1.default('sg-ig-text-large', 'sg-ig-leading-tight', 'sg-ig-p-4 sg-ig-pr-[40px]') }, props.renderTitle()), props.renderBody())), document.body);
+    return ReactDOM.createPortal(React.createElement("div", { "data-ignore_click_outside": "true", className: classnames_1.default('sg-ig-fixed', 'sg-ig-inset-0', 'sg-ig-bg-[rgba(0,0,0,.9)]', 'sg-ig-animate-overlay-appear', 'sg-ig-z-[4]') }, React.createElement("div", { className: classnames_1.default('sg-ig-absolute', 'sg-ig-top-1/2', 'sg-ig-left-1/2', 'sg-ig-transform', 'sg-ig--translate-x-1/2 sg-ig--translate-y-1/2 sg-ig-scale-100', 'sg-ig-bg-gray-900', 'sg-ig-shadow-[0,20px,40px,rgba(0,0,0,.4)]', 'sg-ig-opacity-100', 'sg-ig-animate-modal-appear', 'sg-ig-border-2 sg-ig-border-gray-800') }, React.createElement("div", { className: classnames_1.default('sg-ig-text-large', 'sg-ig-leading-tight', 'sg-ig-p-4 sg-ig-pr-[40px]') }, props.renderTitle()), props.renderBody())), document.body);
 };
 exports.Modal = Modal;
 //# sourceMappingURL=Modal.js.map
@@ -27082,7 +27079,7 @@ function useEditValueObject(type, commit) {
     }, [tx.editValueObject, type, commit]);
 }
 var InspectorEditor = function InspectorEditor(props) {
-    var _a, _b, _c, _d;
+    var _a, _b, _c, _d, _e, _f, _g, _h;
     var node = inspectorgadget_neos_bridge_1.useCurrentlyFocusedNode();
     var nodeType = inspectorgadget_neos_bridge_1.useNodeType(node.nodeType);
     var propertyConfiguration = nodeType === null || nodeType === void 0 ? void 0 : nodeType.properties[props.identifier];
@@ -27096,11 +27093,12 @@ var InspectorEditor = function InspectorEditor(props) {
         console.error(message, propertyConfiguration);
         return React.createElement(React.Fragment, null, message);
     }
-    return ((_c = props.options) === null || _c === void 0 ? void 0 : _c.isCollection) ? React.createElement(ListEditor, { value: props.value, itemType: props.options.itemType, addItemLabel: (_d = props.options.addItemLabel) !== null && _d !== void 0 ? _d : 'Sitegeist.InspectorEditor:Main.addItemLabel', commit: props.commit }) : React.createElement(SingleItemEditor, { value: props.value, type: propertyConfiguration.type, options: props.options, commit: props.commit });
+    return ((_c = props.options) === null || _c === void 0 ? void 0 : _c.isCollection) ? React.createElement(ListEditor, { value: props.value, itemType: props.options.itemType, addItemLabel: (_e = (_d = props.options.labels) === null || _d === void 0 ? void 0 : _d.addItem) !== null && _e !== void 0 ? _e : 'Sitegeist.InspectorEditor:Main.addItem', commit: props.commit }) : React.createElement(SingleItemEditor, { value: props.value, type: propertyConfiguration.type, options: props.options, createLabel: (_h = (_g = (_f = props.options) === null || _f === void 0 ? void 0 : _f.labels) === null || _g === void 0 ? void 0 : _g.create) !== null && _h !== void 0 ? _h : 'Sitegeist.InspectorEditor:Main.create', commit: props.commit });
 };
 exports.InspectorEditor = InspectorEditor;
 var SingleItemEditor = function SingleItemEditor(props) {
     var _a;
+    var i18n = inspectorgadget_neos_bridge_1.useI18n();
     var Editor = inspectorgadget_core_1.useEditorForType(props.type);
     var editValueObject = useEditValueObject(props.type, props.commit);
     var deleteValueObject = function deleteValueObject() {
@@ -27110,12 +27108,14 @@ var SingleItemEditor = function SingleItemEditor(props) {
             return editValueObject(props.value);
         } }, React.createElement(Editor.Preview, { value: props.value, api: inspectorgadget_core_1.Presentation }))) : React.createElement(inspectorgadget_core_1.Presentation.Clickable, { onClick: function onClick() {
             return editValueObject(props.value);
-        } }, React.createElement(Editor.Preview, { value: props.value, api: inspectorgadget_core_1.Presentation })) : React.createElement(react_ui_components_1.Button, { onClick: editValueObject }, "Create Value Object") : React.createElement(React.Fragment, null, "Missing Editor for ", props.type);
+        } }, React.createElement(Editor.Preview, { value: props.value, api: inspectorgadget_core_1.Presentation })) : React.createElement(react_ui_components_1.Button, { onClick: function onClick() {
+            var _a;return editValueObject((_a = Editor.defaultValue) !== null && _a !== void 0 ? _a : {});
+        } }, i18n(props.createLabel)) : React.createElement(React.Fragment, null, "Missing Editor for ", props.type);
 };
 var ListEditor = function ListEditor(props) {
     var i18n = inspectorgadget_neos_bridge_1.useI18n();
     var Editor = inspectorgadget_core_1.useEditorForType(props.itemType);
-    var addValueObject = useEditValueObject(props.itemType, React.useCallback(function (value) {
+    var addItem = useEditValueObject(props.itemType, React.useCallback(function (value) {
         props.commit(Array.isArray(props.value) ? __spreadArray(__spreadArray([], __read(props.value)), [value]) : [value]);
     }, [props.commit, props.value]));
     var tx = inspectorgadget_core_1.useEditorTransactions();
@@ -27162,7 +27162,7 @@ var ListEditor = function ListEditor(props) {
                     return editItem(item, index);
                 } }, React.createElement(Editor.Preview, { value: item, api: inspectorgadget_core_1.Presentation }))));
         } }) : null, React.createElement(react_ui_components_1.Button, { onClick: function onClick() {
-            return addValueObject({});
+            var _a;return addItem((_a = Editor.defaultValue) !== null && _a !== void 0 ? _a : {});
         } }, React.createElement(react_ui_components_1.Icon, { icon: "plus" }), "\xA0\xA0\xA0", i18n(props.addItemLabel))) : React.createElement(React.Fragment, null, "Missing Editor for ", props.itemType);
 };
 //# sourceMappingURL=InspectorEditor.js.map

@@ -22,7 +22,10 @@ interface Props {
         isCollection?: boolean
         isSortable?: boolean
         itemType?: string
-        addItemLabel?: string
+        labels?: {
+            create?: string
+            addItem?: string
+        }
     }
     helpMessage: string
     helpThumbnail: string
@@ -72,7 +75,7 @@ export const InspectorEditor: React.FC<Props> = props => {
         <ListEditor
             value={props.value}
             itemType={props.options.itemType!}
-            addItemLabel={props.options.addItemLabel ?? 'Sitegeist.InspectorEditor:Main.addItemLabel'}
+            addItemLabel={props.options.labels?.addItem ?? 'Sitegeist.InspectorEditor:Main.addItem'}
             commit={props.commit}
         />
     ) : (
@@ -80,6 +83,7 @@ export const InspectorEditor: React.FC<Props> = props => {
             value={props.value}
             type={propertyConfiguration.type}
             options={props.options}
+            createLabel={props.options?.labels?.create ?? 'Sitegeist.InspectorEditor:Main.create'}
             commit={props.commit}
         />
     );
@@ -91,8 +95,10 @@ const SingleItemEditor: React.FC<{
     options?: {
         isNullable?: boolean
     }
+    createLabel: string
     commit(value: '' | object): void
 }> = props => {
+    const i18n = useI18n();
     const Editor = useEditorForType(props.type);
     const editValueObject = useEditValueObject(props.type, props.commit);
     const deleteValueObject = () => props.commit('');
@@ -114,8 +120,8 @@ const SingleItemEditor: React.FC<{
             />
         </Presentation.Clickable>
     ) : (
-        <Button onClick={editValueObject}>
-            Create Value Object
+        <Button onClick={() => editValueObject(Editor.defaultValue ?? {})}>
+            {i18n(props.createLabel)}
         </Button>
     ) : (
         <>
@@ -132,7 +138,7 @@ const ListEditor: React.FC<{
 }> = props => {
     const i18n = useI18n();
     const Editor = useEditorForType(props.itemType);
-    const addValueObject = useEditValueObject(props.itemType, React.useCallback((value: any) => {
+    const addItem = useEditValueObject(props.itemType, React.useCallback((value: any) => {
         props.commit(
             Array.isArray(props.value) ? [...props.value, value] : [value]
         );
@@ -191,7 +197,7 @@ const ListEditor: React.FC<{
                 />
             ) : null}
 
-            <Button onClick={() => addValueObject({})}>
+            <Button onClick={() => addItem(Editor.defaultValue ?? {})}>
                 <Icon icon="plus"/>
                 &nbsp;&nbsp;&nbsp;
                 {i18n(props.addItemLabel)}
