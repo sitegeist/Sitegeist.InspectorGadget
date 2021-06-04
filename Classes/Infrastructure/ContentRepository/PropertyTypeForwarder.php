@@ -6,6 +6,12 @@ use Neos\ContentRepository\NodeTypePostprocessor\NodeTypePostprocessorInterface;
 
 final class PropertyTypeForwarder implements NodeTypePostprocessorInterface
 {
+    /**
+     * @param NodeType $nodeType
+     * @param array<mixed> $configuration
+     * @param array<mixed> $options
+     * @return void
+     */
     public function process(NodeType $nodeType, array &$configuration, array $options)
     {
         if (isset($configuration['properties'])) {

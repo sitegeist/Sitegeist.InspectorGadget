@@ -5,7 +5,7 @@ use Neos\Flow\Tests\UnitTestCase;
 use Neos\ContentRepository\Domain\Model\NodeType;
 use Sitegeist\InspectorGadget\Infrastructure\ContentRepository\PropertyTypeForwarder;
 
-final class PropertyTypeForwarderTest extends UnitTestCase 
+final class PropertyTypeForwarderTest extends UnitTestCase
 {
     /**
      * @test
