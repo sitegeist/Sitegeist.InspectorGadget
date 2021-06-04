@@ -3,7 +3,7 @@ import arrayMove from 'array-move';
 
 import {Icon, Button} from '@neos-project/react-ui-components';
 
-import {useCurrentlyFocusedNode, useNodeType, useI18n} from '@sitegeist/inspectorgadget-neos-bridge';
+import {useI18n} from '@sitegeist/inspectorgadget-neos-bridge';
 import {useEditorTransactions, Presentation, useEditorForType} from '@sitegeist/inspectorgadget-core';
 
 interface Props {
@@ -18,6 +18,7 @@ interface Props {
     label: string
     editor: string
     options?: {
+        type?: string
         isNullable?: boolean
         isCollection?: boolean
         isSortable?: boolean
@@ -53,21 +54,17 @@ function useEditValueObject(
 }
 
 export const InspectorEditor: React.FC<Props> = props => {
-    const node = useCurrentlyFocusedNode();
-    const nodeType = useNodeType(node.nodeType);
-    const propertyConfiguration = nodeType?.properties[props.identifier];
-
-    if (!propertyConfiguration?.type) {
+    if (!props.options?.type) {
         const message = `[Sitegeist.InspectorGadget]: Could not determine type of property "${props.identifier}".`;
 
-        console.error(message, propertyConfiguration);
+        console.error(message, props.options);
         return <>{message}</>;
     }
 
     if (props.options?.isCollection && !props.options?.itemType) {
         const message = `[Sitegeist.InspectorGadget]: Could not determine itemType of collection property "${props.identifier}".`;
 
-        console.error(message, propertyConfiguration);
+        console.error(message, props.options);
         return <>{message}</>;
     }
 
@@ -81,7 +78,7 @@ export const InspectorEditor: React.FC<Props> = props => {
     ) : (
         <SingleItemEditor
             value={props.value}
-            type={propertyConfiguration.type}
+            type={props.options?.type}
             options={props.options}
             createLabel={props.options?.labels?.create ?? 'Sitegeist.InspectorEditor:Main.create'}
             commit={props.commit}

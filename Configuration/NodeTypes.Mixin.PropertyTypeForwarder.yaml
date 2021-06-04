@@ -1,0 +1,5 @@
+'Sitegeist.InspectorGadget:Mixin.PropertyTypeForwarder':
+  abstract: true
+  postprocessors:
+    'PropertyTypeForwarder':
+      postprocessor: Sitegeist\InspectorGadget\Infrastructure\ContentRepository\PropertyTypeForwarder
