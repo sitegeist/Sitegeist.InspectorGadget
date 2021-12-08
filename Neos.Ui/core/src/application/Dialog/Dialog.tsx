@@ -30,6 +30,7 @@ interface Editor {
         api: {
             Field: typeof Field
             Layout: typeof Layout
+			ReactFinalForm: typeof ReactFinalForm
         }
     }>
 }
@@ -64,7 +65,7 @@ export const Dialog: React.FC = () => {
                     <StyledForm
                         renderBody={() => Editor ? (
                             <Editor.Form
-                                api={{Field, Layout}}
+                                api={{Field, Layout, ReactFinalForm}}
                             />
                         ) : (
                             <>
