@@ -1,9 +1,0 @@
-Neos:
-  Flow:
-    persistence:
-      doctrine:
-        dbal:
-          mappingTypes:
-            'flow_json_array':
-              dbType: 'json_array'
-              className: 'Sitegeist\InspectorGadget\Infrastructure\Doctrine\DataTypes\JsonArrayType'
