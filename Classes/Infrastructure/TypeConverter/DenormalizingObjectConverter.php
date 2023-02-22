@@ -43,7 +43,7 @@ final class DenormalizingObjectConverter implements TypeConverterInterface
      */
     public function getPriority()
     {
-        return 100;
+        return 101;
     }
 
     /**
