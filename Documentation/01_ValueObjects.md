@@ -309,6 +309,7 @@ Now we can include our manifest:
 <small>*`EXAMPLE: Vendor.Site/Neos.Ui/src/index.js`*</small>
 ```js
 require('./manifest');
+import "regenerator-runtime/runtime";
 ```
 and declare the necessary modules:
 <small>*`EXAMPLE: Vendor.Site/Neos.Ui/src/global.d.ts`*</small>
@@ -334,14 +335,16 @@ but we strongly recommend a typescript based one which might look as follows:
     "buildTargetDirectory": "../Resources/Public/Neos.Ui"
   },
   "devDependencies": {
-    "@neos-project/neos-ui-extensibility": "^7.1.0",
+    "@neos-project/build-essentials": "^8.2.0",
+    "@neos-project/neos-ui-extensibility": "^8.2.0",
     "@types/styled-components": "^5.1.9",
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@neos-project/react-ui-components": "^7.1.0",
+    "@neos-project/react-ui-components": "^8.2.0",
     "array-move": "^3.0.1",
     "react-simple-timefield": "^3.2.3",
+    "regenerator-runtime": "^0.13.11",
     "styled-components": "^5.3.0"
   }
 }
