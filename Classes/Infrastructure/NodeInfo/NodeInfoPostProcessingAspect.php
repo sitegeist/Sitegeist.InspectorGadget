@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace Sitegeist\InspectorGadget\Infrastructure\NodeInfo;
 
+use Neos\ContentRepository\Core\Projection\ContentGraph\Node;
 use Neos\Flow\Annotations as Flow;
 use Neos\Flow\Aop\JoinPointInterface;
 
@@ -17,8 +18,9 @@ final class NodeInfoPostProcessingAspect
     public function postProcessRenderNodeWithPropertiesAndChildrenInformation(
         JoinPointInterface $joinPoint
     ) {
+        /** @var Node $node */
         $node = $joinPoint->getMethodArgument('node');
-        $nodeType = $node->getNodeType();
+        $nodeType = $node->nodeType;
         /** @var array<mixed>|null $result */
         $result = $joinPoint->getAdviceChain()->proceed($joinPoint);
 
