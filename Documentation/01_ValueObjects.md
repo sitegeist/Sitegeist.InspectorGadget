@@ -301,12 +301,20 @@ manifest('@vendor/site-editors', {}, (globalRegistry) => {
 This way, it is defined that properties of type `Vendor\Site\Domain\PostalAddress` using our imported new PostalAddress editor.
 Now we can include our manifest:
 
-<small>*`EXAMPLE: Vendor.Site/Neos.Ui/src/index.js`*</small>
+> **Hint:** This depends on your Neos version
+
+<small>*`EXAMPLE: Vendor.Site/Neos.Ui/src/index.js in Neos 8.0 and 8.1`*</small>
+```js
+require('./manifest');
+```
+
+<small>*`EXAMPLE: Vendor.Site/Neos.Ui/src/index.js in Neos 8.2 and 8.3`*</small>
 ```js
 require('./manifest');
 import "regenerator-runtime/runtime";
 ```
 and declare the necessary modules:
+
 <small>*`EXAMPLE: Vendor.Site/Neos.Ui/src/global.d.ts`*</small>
 ```ts
 declare module '@neos-project/neos-ui-editors';
@@ -316,7 +324,67 @@ declare module '@neos-project/react-ui-components';
 ### Declare the plugin package:
 The package declaration might differ depending on the build,
 but we strongly recommend a typescript based one which might look as follows:
-<small>*`EXAMPLE: Vendor.Site/Neos.Ui/package.json`*</small>
+
+> **Hint:** This depends on your Neos version
+
+<small>*`EXAMPLE: Vendor.Site/Neos.Ui/package.json in Neos 8.0 / 8.1`*</small>
+```json
+{
+    "name": "@vendor/site-editors",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "build": "rm -rf lib && tsc -p tsconfig.json && neos-react-scripts build",
+        "watch": "tsc -w -p tsconfig.json & neos-react-scripts watch & wait"
+    },
+    "neos": {
+        "buildTargetDirectory": "../Resources/Public/Neos.Ui"
+    },
+    "devDependencies": {
+        "@neos-project/neos-ui-extensibility": "^8.1.0",
+        "@neos-project/build-essentials": "^8.1.0",
+        "@types/styled-components": "^5.1.9",
+        "typescript": "^4.2.4"
+    },
+    "dependencies": {
+        "@neos-project/react-ui-components": "^8.1.0",
+        "array-move": "^3.0.1",
+        "react-simple-timefield": "^3.2.3",
+        "styled-components": "^5.3.0"
+    }
+}
+```
+
+<small>*`EXAMPLE: Vendor.Site/Neos.Ui/package.json in Neos 8.2`*</small>
+```json
+{
+    "name": "@vendor/site-editors",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "build": "rm -rf lib && tsc -p tsconfig.json && neos-react-scripts build",
+        "watch": "tsc -w -p tsconfig.json & neos-react-scripts watch & wait"
+    },
+    "neos": {
+        "buildTargetDirectory": "../Resources/Public/Neos.Ui"
+    },
+    "devDependencies": {
+        "@neos-project/neos-ui-extensibility": "^8.2.0",
+        "@neos-project/build-essentials": "^8.2.0",
+        "@types/styled-components": "^5.1.9",
+        "typescript": "^4.2.4"
+    },
+    "dependencies": {
+        "@neos-project/react-ui-components": "^8.2.0",
+        "array-move": "^3.0.1",
+        "react-simple-timefield": "^3.2.3",
+        "regenerator-runtime": "^0.13.11",
+        "styled-components": "^5.3.0"
+    }
+}
+```
+
+<small>*`EXAMPLE: Vendor.Site/Neos.Ui/package.json in Neos 8.3`*</small>
 ```json
 {
   "name": "@vendor/site-editors",
@@ -330,13 +398,12 @@ but we strongly recommend a typescript based one which might look as follows:
     "buildTargetDirectory": "../Resources/Public/Neos.Ui"
   },
   "devDependencies": {
-    "@neos-project/build-essentials": "^8.2.0",
-    "@neos-project/neos-ui-extensibility": "^8.2.0",
+    "@neos-project/neos-ui-extensibility-webpack-adapter": "^8.3.0",
     "@types/styled-components": "^5.1.9",
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@neos-project/react-ui-components": "^8.2.0",
+    "@neos-project/react-ui-components": "^8.3.0",
     "array-move": "^3.0.1",
     "react-simple-timefield": "^3.2.3",
     "regenerator-runtime": "^0.13.11",
