@@ -17,7 +17,7 @@ final class NodeInfoPostProcessingAspect
      */
     public function postProcessRenderNodeWithPropertiesAndChildrenInformation(
         JoinPointInterface $joinPoint
-    ) {
+    ):?array {
         /** @var Node $node */
         $node = $joinPoint->getMethodArgument('node');
         $nodeType = $node->nodeType;
