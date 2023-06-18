@@ -1,8 +1,11 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
+
 namespace Sitegeist\InspectorGadget\Tests\Infrastructure\ContentRepository;
 
+use Neos\ContentRepository\Core\NodeType\NodeType;
 use Neos\Flow\Tests\UnitTestCase;
-use Neos\ContentRepository\Domain\Model\NodeType;
 use Sitegeist\InspectorGadget\Infrastructure\ContentRepository\PropertyTypeForwarder;
 
 final class PropertyTypeForwarderTest extends UnitTestCase
