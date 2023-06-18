@@ -20,31 +20,22 @@ Here a collection type comes into play.
 
 A simple OpeningHoursSpecification might look like this:
 ```php
-<?php declare(strict_types=1);
-namespace Vendor\Site\Domain;
+<?php
+ 
+declare(strict_types=1);
 
-use Neos\Flow\Annotations as Flow;
+namespace Vendor\Site\Domain;
 
 /**
  * An opening hours specification, see https://schema.org/OpeningHoursSpecification
- * @Flow\Proxy(false)
  */
-final class OpeningHoursSpecification implements \JsonSerializable
+final readonly class OpeningHoursSpecification implements \JsonSerializable
 {
-    private string $dayOfWeek;
-
-    private int $opens;
-
-    private int $closes;
-
     private function __construct(
-        string $dayOfWeek,
-        int $opens,
-        int $closes
+        public string $dayOfWeek,
+        public int $opens,
+        public int $closes
     ) {
-        $this->dayOfWeek = $dayOfWeek;
-        $this->opens = $opens;
-        $this->closes = $closes;
     }
     
     /**
@@ -64,11 +55,7 @@ final class OpeningHoursSpecification implements \JsonSerializable
     */
     public function jsonSerialize(): array
     {
-        return [
-            'dayOfWeek' => $this->dayOfWeek,
-            'opens' => $this->opens,
-            'closes' => $this->closes
-        ];
+        return get_object_vars($this);
     }
 }
 ```
@@ -81,48 +68,33 @@ The collection type will enforce its own integrity and must implement \JsonSeria
 as it is directly used in the NodeType config:
 
 ```php
-<?php declare(strict_types=1);
-namespace Vendor\Site\Domain;
+<?php
+ 
+declare(strict_types=1);
 
-use Neos\Flow\Annotations as Flow;
+namespace Vendor\Site\Domain;
 
 /**
  * A collection of opening hours specifications
- * @Flow\Proxy(false)
- * @implements \IteratorAggregate<int,OpeningHoursSpecification>
+ * @implements \IteratorAggregate<int|string,OpeningHoursSpecification>
  */
 final class OpeningHoursSpecifications implements \IteratorAggregate, \JsonSerializable
 {
     /**
-     * @var array<int,OpeningHoursSpecification> 
+     * @var array<int|string,OpeningHoursSpecification> 
      */
     private array $openingHoursSpecifications;
-
-    /**
-     * @var \ArrayIterator<int,OpeningHoursSpecification> 
-     */
-    private \ArrayIterator $iterator;
     
     /**
-     * @param array<int,OpeningHoursSpecification> $openingHoursSpecifications
+     * @param array<int|string,OpeningHoursSpecification> $openingHoursSpecifications
      */
-    private function __construct(array $openingHoursSpecifications)
+    private function __construct(OpeningHoursSpecification ...$openingHoursSpecifications)
     {
-        foreach ($openingHoursSpecifications as $item) {
-            if (!$item instanceof OpeningHoursSpecification) {
-                throw new \InvalidArgumentException(
-                    'OpeningHoursSpecifications can only consist of OpeningHoursSpecification objects.',
-                    1620165755
-                );
-            }
-        }
-        
         $this->openingHoursSpecifications = $openingHoursSpecifications;
-        $this->iterator = new \ArrayIterator($openingHoursSpecifications);
     }
 
     /**
-     * @param array<int,array<string,mixed>> $array
+     * @param array<int|string,array<string,mixed>> $array
      */
     public static function fromArray(array $array): self
     {
@@ -132,15 +104,15 @@ final class OpeningHoursSpecifications implements \IteratorAggregate, \JsonSeria
     }
 
     /**
-     * @return \ArrayIterator<int,OpeningHoursSpecification>|OpeningHoursSpecification[]
+     * @return \ArrayIterator<int|string,OpeningHoursSpecification>
      */
     public function getIterator(): \ArrayIterator
     {
-        return $this->iterator
+        return new \ArrayIterator($this->openingHoursSpecifications);
     }
 
     /**
-     * @return array<int,OpeningHoursSpecification>
+     * @return array<int|string,OpeningHoursSpecification>
      */
     public function jsonSerialize(): array
     {

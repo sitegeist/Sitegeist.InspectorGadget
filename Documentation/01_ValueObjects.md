@@ -28,35 +28,27 @@ Your value object may reside anywhere in your codebase covered by composer and m
 for serialization and deserialization.
 A valid string based ValueObject might look like this:
 ```php
-<?php declare(strict_types=1);
-namespace Vendor\Site\Domain;
+<?php
+ 
+declare(strict_types=1);
 
-use Neos\Flow\Annotations as Flow;
+namespace Vendor\Site\Domain;
 
 /**
  * Tip:
  * It's highly recommended to declare ValueObjects as final
  * to keep them canonical.
- * @Flow\Proxy(false)
  */
-final class ProductIdentifier implements \JsonSerializable
+final readonly class ProductIdentifier implements \JsonSerializable
 {
-    private string $value;
-
     private function __construct(
-        string $value
+        public readonly string $value
     ) {
-        $this->value = $value;
     }
     
     public static function fromString(string $string): self
     {
         return new self($string);
-    }
-
-    public function getValue(): string
-    {
-        return $this->value;
     }
 
     public function jsonSerialize(): string
@@ -67,34 +59,20 @@ final class ProductIdentifier implements \JsonSerializable
 ```
 while a valid array based ValueObject might look like this:
 ```php
-<?php declare(strict_types=1);
+<?php
+ 
+declare(strict_types=1);
+
 namespace Vendor\Site\Domain;
 
-use Neos\Flow\Annotations as Flow;
-
-/**
- * @Flow\Proxy(false)
- */
-final class PostalAddress implements \JsonSerializable
+final readonly class PostalAddress implements \JsonSerializable
 {
-    private string $streetAddress;
-    
-    private string $postalCode;
-    
-    private string $addressLocality;
-    
-    private string $addressCountry;
-
     private function __construct(
-        string $streetAddress,
-        string $postalCode,
-        string $addressLocality,
-        string $addressCountry
+        public string $streetAddress,
+        public string $postalCode,
+        public string $addressLocality,
+        public string $addressCountry
     ) {
-        $this->streetAddress = $streetAddress;
-        $this->postalCode = $postalCode;
-        $this->addressLocality = $addressLocality;
-        $this->addressCountry = $addressCountry;
     }
     
     /**
@@ -115,12 +93,7 @@ final class PostalAddress implements \JsonSerializable
      */
     public function jsonSerialize(): array
     {
-        return [
-            'streetAddress' => $this->streetAddress,    
-            'postalCode' => $this->postalCode,    
-            'addressLocality' => $this->addressLocality,    
-            'addressCountry' => $this->addressCountry    
-        ];
+        return get_object_vars($this);
     }
 }
 ```
@@ -330,13 +303,12 @@ but we strongly recommend a typescript based one which might look as follows:
     "buildTargetDirectory": "../Resources/Public/Neos.Ui"
   },
   "devDependencies": {
-    "@neos-project/build-essentials": "^8.2.0",
-    "@neos-project/neos-ui-extensibility": "^8.2.0",
+    "@neos-project/neos-ui-extensibility-webpack-adapter": "^8.3.0",
     "@types/styled-components": "^5.1.9",
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@neos-project/react-ui-components": "^8.2.0",
+    "@neos-project/react-ui-components": "^8.3.0",
     "array-move": "^3.0.1",
     "react-simple-timefield": "^3.2.3",
     "regenerator-runtime": "^0.13.11",
