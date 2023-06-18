@@ -21,7 +21,7 @@
         }
     ],
     "require": {
-        "neos/neos": "^8.0 || ^9.0 || dev-master"
+        "neos/neos": "^8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4",
