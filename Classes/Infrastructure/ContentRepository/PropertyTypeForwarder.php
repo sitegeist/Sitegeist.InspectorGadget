@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Sitegeist\InspectorGadget\Infrastructure\ContentRepository;
 
-use Neos\ContentRepository\Core\NodeType\NodeType;
-use Neos\ContentRepository\Core\NodeType\NodeTypePostprocessorInterface;
+use Neos\ContentRepository\Domain\Model\NodeType;
+use Neos\ContentRepository\NodeTypePostprocessor\NodeTypePostprocessorInterface;
 
 final class PropertyTypeForwarder implements NodeTypePostprocessorInterface
 {
