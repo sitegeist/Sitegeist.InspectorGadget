@@ -110,11 +110,6 @@ final class PostalAddress implements \JsonSerializable
         );
     }
 
-    public function getValue(): string
-    {
-        return $this->value;
-    }
-
     /**
      * @return array<string,string>
      */
