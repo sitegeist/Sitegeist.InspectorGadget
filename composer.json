@@ -21,7 +21,7 @@
         }
     ],
     "require": {
-        "neos/neos": "^9.0 || dev-master"
+        "neos/neos": "^9.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4",
@@ -34,7 +34,10 @@
     },
     "config": {
         "vendor-dir": "Packages/Libraries",
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "allow-plugins": {
+            "neos/composer-plugin": true
+        }
     },
     "autoload": {
         "psr-4": {
