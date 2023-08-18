@@ -14,7 +14,7 @@ final class JsonArrayType extends FlowJsonArrayType
      * @param array<mixed> $array
      * @return void
      */
-    protected function decodeObjectReferences(array &$array)
+    protected function decodeObjectReferences(array &$array): void
     {
         foreach ($array as &$value) {
             if (is_array($value) && isset($value['__value_object_value']) && isset($value['__value_object_type'])) {
@@ -30,7 +30,7 @@ final class JsonArrayType extends FlowJsonArrayType
      * @return void
      * @throws \RuntimeException
      */
-    protected function encodeObjectReferences(array &$array)
+    protected function encodeObjectReferences(array &$array): void
     {
         foreach ($array as &$value) {
             if ($value instanceof \JsonSerializable && DenormalizingObjectConverter::isDenormalizable(get_class($value))) {
