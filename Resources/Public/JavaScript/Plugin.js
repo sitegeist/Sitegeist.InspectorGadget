@@ -87,9 +87,9 @@
 /******/ ({
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js ***!
-  \***************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -109,9 +109,9 @@ function _arrayLikeToArray(arr, len) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -125,9 +125,9 @@ function _arrayWithHoles(arr) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -143,9 +143,9 @@ function _arrayWithoutHoles(arr) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js":
-/*!********************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
-  \********************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js ***!
+  \********************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -163,9 +163,9 @@ function _assertThisInitialized(self) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/classCallCheck.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/classCallCheck.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/classCallCheck.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -181,9 +181,9 @@ function _classCallCheck(instance, Constructor) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/createClass.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/createClass.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/createClass.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -209,9 +209,9 @@ function _createClass(Constructor, protoProps, staticProps) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/defineProperty.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -236,9 +236,9 @@ function _defineProperty(obj, key, value) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/extends.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/extends.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/extends.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -266,9 +266,9 @@ function _extends() {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -285,9 +285,9 @@ function _getPrototypeOf(o) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/inherits.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/inherits.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/inherits.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -314,9 +314,9 @@ function _inherits(subClass, superClass) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/iterableToArray.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/iterableToArray.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/iterableToArray.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -330,9 +330,9 @@ function _iterableToArray(iter) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js ***!
-  \*******************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -372,9 +372,9 @@ function _iterableToArrayLimit(arr, i) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/nonIterableRest.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/nonIterableRest.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/nonIterableRest.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -388,9 +388,9 @@ function _nonIterableRest() {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -404,9 +404,9 @@ function _nonIterableSpread() {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/objectSpread.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/objectSpread.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/objectSpread.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -437,9 +437,9 @@ function _objectSpread(target) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js":
-/*!***************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
-  \***************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
+  \***************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -464,9 +464,9 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js":
-/*!************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js ***!
-  \************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js ***!
+  \************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -489,9 +489,9 @@ function _possibleConstructorReturn(self, call) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -510,9 +510,9 @@ function _setPrototypeOf(o, p) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/slicedToArray.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/slicedToArray.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/slicedToArray.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -534,9 +534,9 @@ function _slicedToArray(arr, i) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/toConsumableArray.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -558,9 +558,9 @@ function _toConsumableArray(arr) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js ***!
-  \*************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -581,9 +581,9 @@ function _unsupportedIterableToArray(o, minLen) {
 /***/ }),
 
 /***/ "../../node_modules/@babel/runtime/helpers/typeof.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/typeof.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@babel/runtime/helpers/typeof.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -613,9 +613,9 @@ module.exports["default"] = module.exports, module.exports.__esModule = true;
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/dist/createConsumerApi.js":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/createConsumerApi.js ***!
-  \******************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/createConsumerApi.js ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -647,9 +647,9 @@ exports["default"] = createConsumerApi;
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/dist/index.js":
-/*!******************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/index.js ***!
-  \******************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/index.js ***!
+  \******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -671,9 +671,9 @@ exports["default"] = readFromConsumerApi_1["default"]('manifest');
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/dist/manifest.js":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/manifest.js ***!
-  \*********************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/manifest.js ***!
+  \*********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -695,9 +695,9 @@ exports["default"] = function (manifests) {
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/dist/readFromConsumerApi.js":
-/*!********************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/readFromConsumerApi.js ***!
-  \********************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/readFromConsumerApi.js ***!
+  \********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -725,9 +725,9 @@ exports["default"] = readFromConsumerApi;
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/dist/registry/AbstractRegistry.js":
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/registry/AbstractRegistry.js ***!
-  \**************************************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/registry/AbstractRegistry.js ***!
+  \**************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -748,9 +748,9 @@ exports["default"] = AbstractRegistry;
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/dist/registry/SynchronousMetaRegistry.js":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/registry/SynchronousMetaRegistry.js ***!
-  \*********************************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/registry/SynchronousMetaRegistry.js ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -779,9 +779,9 @@ exports["default"] = SynchronousMetaRegistry;
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/dist/registry/SynchronousRegistry.js":
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/registry/SynchronousRegistry.js ***!
-  \*****************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/registry/SynchronousRegistry.js ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -883,9 +883,9 @@ exports["default"] = SynchronousRegistry;
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/dist/registry/index.js":
-/*!***************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/registry/index.js ***!
-  \***************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/dist/registry/index.js ***!
+  \***************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -903,9 +903,9 @@ exports.SynchronousMetaRegistry = SynchronousMetaRegistry_1["default"];
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-editors/index.js":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-editors/index.js ***!
-  \***********************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/neos-ui-editors/index.js ***!
+  \***********************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -923,9 +923,9 @@ module.exports = (0, _readFromConsumerApi2.default)('NeosProjectPackages')().Neo
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/react-ui-components/index.js":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/react-ui-components/index.js ***!
-  \***************************************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/react-ui-components/index.js ***!
+  \***************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -943,9 +943,9 @@ module.exports = (0, _readFromConsumerApi2.default)('NeosProjectPackages')().Rea
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/classnames/index.js":
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/classnames/index.js ***!
-  \*****************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/classnames/index.js ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -963,9 +963,9 @@ module.exports = (0, _readFromConsumerApi2.default)('vendor')().classnames;
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/prop-types/index.js":
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/prop-types/index.js ***!
-  \*****************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/prop-types/index.js ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -983,9 +983,9 @@ module.exports = (0, _readFromConsumerApi2.default)('vendor')().PropTypes;
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react-dom/index.js":
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react-dom/index.js ***!
-  \****************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react-dom/index.js ***!
+  \****************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1003,9 +1003,9 @@ module.exports = (0, _readFromConsumerApi2.default)('vendor')().ReactDOM;
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js":
-/*!************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js ***!
-  \************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js ***!
+  \************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1023,9 +1023,9 @@ module.exports = (0, _readFromConsumerApi2.default)('vendor')().React;
 /***/ }),
 
 /***/ "../../node_modules/@neos-project/positional-array-sorter/dist/positionalArraySorter.js":
-/*!************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@neos-project/positional-array-sorter/dist/positionalArraySorter.js ***!
-  \************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@neos-project/positional-array-sorter/dist/positionalArraySorter.js ***!
+  \************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1286,9 +1286,9 @@ exports["default"] = positionalArraySorter;
 /***/ }),
 
 /***/ "../../node_modules/@xobotyi/scrollbar-width/dist/index.esm.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/@xobotyi/scrollbar-width/dist/index.esm.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/@xobotyi/scrollbar-width/dist/index.esm.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: scrollbarWidth */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1301,9 +1301,9 @@ var e=function(t){if("undefined"==typeof document)return 0;if(document.body&&(!d
 /***/ }),
 
 /***/ "../../node_modules/array-move/index.js":
-/*!************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/array-move/index.js ***!
-  \************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/array-move/index.js ***!
+  \************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1334,9 +1334,9 @@ module.exports.mutate = arrayMoveMutate;
 /***/ }),
 
 /***/ "../../node_modules/copy-to-clipboard/index.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/copy-to-clipboard/index.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/copy-to-clipboard/index.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1459,9 +1459,9 @@ module.exports = copy;
 /***/ }),
 
 /***/ "../../node_modules/fast-deep-equal/react.js":
-/*!*****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/fast-deep-equal/react.js ***!
-  \*****************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/fast-deep-equal/react.js ***!
+  \*****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1524,9 +1524,9 @@ module.exports = function equal(a, b) {
 /***/ }),
 
 /***/ "../../node_modules/fast-shallow-equal/index.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/fast-shallow-equal/index.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/fast-shallow-equal/index.js ***!
+  \********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1552,9 +1552,9 @@ exports.equal = function equal (a, b) {
 /***/ }),
 
 /***/ "../../node_modules/final-form/dist/final-form.es.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/final-form/dist/final-form.es.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/final-form/dist/final-form.es.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: ARRAY_ERROR, FORM_ERROR, configOptions, createForm, fieldSubscriptionItems, formSubscriptionItems, getIn, setIn, version */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3013,9 +3013,9 @@ function createForm(config) {
 /***/ }),
 
 /***/ "../../node_modules/invariant/browser.js":
-/*!*************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/invariant/browser.js ***!
-  \*************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/invariant/browser.js ***!
+  \*************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3074,9 +3074,9 @@ module.exports = invariant;
 /***/ }),
 
 /***/ "../../node_modules/js-cookie/src/js.cookie.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/js-cookie/src/js.cookie.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/js-cookie/src/js.cookie.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3252,9 +3252,9 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /***/ }),
 
 /***/ "../../node_modules/nano-css/addon/__dev__/warnOnMissingDependencies.js":
-/*!********************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/nano-css/addon/__dev__/warnOnMissingDependencies.js ***!
-  \********************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/nano-css/addon/__dev__/warnOnMissingDependencies.js ***!
+  \********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3289,9 +3289,9 @@ module.exports = function warnOnMissingDependencies (addon, renderer, deps) {
 /***/ }),
 
 /***/ "../../node_modules/nano-css/addon/cssom.js":
-/*!****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/nano-css/addon/cssom.js ***!
-  \****************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/nano-css/addon/cssom.js ***!
+  \****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3337,9 +3337,9 @@ exports.addon = function (renderer) {
 /***/ }),
 
 /***/ "../../node_modules/nano-css/addon/vcssom.js":
-/*!*****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/nano-css/addon/vcssom.js ***!
-  \*****************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/nano-css/addon/vcssom.js ***!
+  \*****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3446,9 +3446,9 @@ exports.addon = function (renderer) {
 /***/ }),
 
 /***/ "../../node_modules/nano-css/addon/vcssom/cssToTree.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/nano-css/addon/vcssom/cssToTree.js ***!
-  \***************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/nano-css/addon/vcssom/cssToTree.js ***!
+  \***************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3499,9 +3499,9 @@ exports.cssToTree = cssToTree;
 /***/ }),
 
 /***/ "../../node_modules/nano-css/addon/vcssom/removeRule.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/nano-css/addon/vcssom/removeRule.js ***!
-  \****************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/nano-css/addon/vcssom/removeRule.js ***!
+  \****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3525,9 +3525,9 @@ exports.removeRule = removeRule;
 /***/ }),
 
 /***/ "../../node_modules/nano-css/index.js":
-/*!**********************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/nano-css/index.js ***!
-  \**********************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/nano-css/index.js ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3667,9 +3667,9 @@ exports.create = function (config) {
 /***/ }),
 
 /***/ "../../node_modules/react-final-form/dist/react-final-form.es.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-final-form/dist/react-final-form.es.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-final-form/dist/react-final-form.es.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: Field, Form, FormSpy, useField, useForm, useFormState, version, withTypes */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4432,9 +4432,9 @@ function withTypes() {
 /***/ }),
 
 /***/ "../../node_modules/react-sortable-hoc/dist/react-sortable-hoc.esm.js":
-/*!******************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-sortable-hoc/dist/react-sortable-hoc.esm.js ***!
-  \******************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-sortable-hoc/dist/react-sortable-hoc.esm.js ***!
+  \******************************************************************************************************************************************************************************************/
 /*! exports provided: SortableContainer, sortableContainer, SortableElement, sortableElement, SortableHandle, sortableHandle, arrayMove */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6077,9 +6077,9 @@ function sortableElement(WrappedComponent) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/factory/createBreakpoint.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createBreakpoint.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createBreakpoint.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6123,9 +6123,9 @@ var createBreakpoint = function (breakpoints) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/factory/createGlobalState.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createGlobalState.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createGlobalState.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: createGlobalState, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6169,9 +6169,9 @@ function createGlobalState(initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/factory/createHTMLMediaHook.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createHTMLMediaHook.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createHTMLMediaHook.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6359,9 +6359,9 @@ function createHTMLMediaHook(tag) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/factory/createMemo.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createMemo.js ***!
-  \****************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createMemo.js ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6383,9 +6383,9 @@ var createMemo = function (fn) { return function () {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/factory/createReducer.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createReducer.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createReducer.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6449,9 +6449,9 @@ var createReducer = function () {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/factory/createReducerContext.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createReducerContext.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createReducerContext.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6483,9 +6483,9 @@ var createReducerContext = function (reducer, defaultInitialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/factory/createStateContext.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createStateContext.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/factory/createStateContext.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6517,9 +6517,9 @@ var createStateContext = function (defaultInitialValue) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/index.js":
-/*!***************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/index.js ***!
-  \***************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/index.js ***!
+  \***************************************************************************************************************************************************************/
 /*! exports provided: createMemo, createReducerContext, createReducer, createStateContext, useAsync, useAsyncFn, useAsyncRetry, useAudio, useBattery, useBeforeUnload, useBoolean, useClickAway, useCookie, useCopyToClipboard, useCounter, useCss, useCustomCompareEffect, useDebounce, useDeepCompareEffect, useDefault, useDrop, useDropArea, useEffectOnce, useEnsuredForwardedRef, ensuredForwardRef, useEvent, useError, useFavicon, useFullscreen, useGeolocation, useGetSet, useGetSetState, useHarmonicIntervalFn, useHover, useHoverDirty, useIdle, useIntersection, useInterval, useIsomorphicLayoutEffect, useKey, createBreakpoint, useKeyPress, useKeyPressEvent, useLatest, useLifecycles, useList, useLocalStorage, useLocation, useLockBodyScroll, useLogger, useLongPress, useMap, useMedia, useMediaDevices, useMediatedState, useMethods, useMotion, useMount, useMountedState, useMouse, useMouseHovered, useMouseWheel, useNetworkState, useNumber, useObservable, useOrientation, usePageLeave, usePermission, usePrevious, usePreviousDistinct, usePromise, useQueue, useRaf, useRafLoop, useRafState, useSearchParam, useScratch, useScroll, useScrolling, useSessionStorage, useSetState, useShallowCompareEffect, useSize, useSlider, useSpeech, useStartTyping, useStateWithHistory, useStateList, useThrottle, useThrottleFn, useTimeout, useTimeoutFn, useTitle, useToggle, useTween, useUnmount, useUnmountPromise, useUpdate, useUpdateEffect, useUpsert, useVibrate, useVideo, useStateValidator, useScrollbarWidth, useMultiStateValidator, useWindowScroll, useWindowSize, useMeasure, useRendersCount, useFirstMountState, useSet, createGlobalState, useHash */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6984,9 +6984,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/misc/hookState.js":
-/*!************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/misc/hookState.js ***!
-  \************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/misc/hookState.js ***!
+  \************************************************************************************************************************************************************************/
 /*! exports provided: resolveHookState */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7004,9 +7004,9 @@ function resolveHookState(nextState, currentState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/misc/isDeepEqual.js":
-/*!**************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/misc/isDeepEqual.js ***!
-  \**************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/misc/isDeepEqual.js ***!
+  \**************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7021,9 +7021,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/misc/parseTimeRanges.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/misc/parseTimeRanges.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/misc/parseTimeRanges.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7045,9 +7045,9 @@ function parseTimeRanges(ranges) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/misc/util.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/misc/util.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/misc/util.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: noop, on, off, isBrowser, isNavigator */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7084,9 +7084,9 @@ var isNavigator = typeof navigator !== 'undefined';
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useAsync.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useAsync.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useAsync.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7113,9 +7113,9 @@ function useAsync(fn, deps) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useAsyncFn.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useAsyncFn.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useAsyncFn.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7157,9 +7157,9 @@ function useAsyncFn(fn, deps, initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useAsyncRetry.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useAsyncRetry.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useAsyncRetry.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7194,9 +7194,9 @@ var useAsyncRetry = function (fn, deps) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useAudio.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useAudio.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useAudio.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7211,9 +7211,9 @@ var useAudio = Object(_factory_createHTMLMediaHook__WEBPACK_IMPORTED_MODULE_0__[
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useBattery.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useBattery.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useBattery.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7279,9 +7279,9 @@ function useBattery() {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useBeforeUnload.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useBeforeUnload.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useBeforeUnload.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7319,9 +7319,9 @@ var useBeforeUnload = function (enabled, message) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useBoolean.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useBoolean.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useBoolean.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7335,9 +7335,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useClickAway.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useClickAway.js ***!
-  \**********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useClickAway.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7378,9 +7378,9 @@ var useClickAway = function (ref, onClickAway, events) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useCookie.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useCookie.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useCookie.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7410,9 +7410,9 @@ var useCookie = function (cookieName) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useCopyToClipboard.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useCopyToClipboard.js ***!
-  \****************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useCopyToClipboard.js ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7490,9 +7490,9 @@ var useCopyToClipboard = function () {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useCounter.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useCounter.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useCounter.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7580,9 +7580,9 @@ function useCounter(initialValue, max, min) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useCss.js":
-/*!****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useCss.js ***!
-  \****************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useCss.js ***!
+  \****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7628,9 +7628,9 @@ var useCss = function (css) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useCustomCompareEffect.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useCustomCompareEffect.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useCustomCompareEffect.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7664,9 +7664,9 @@ var useCustomCompareEffect = function (effect, deps, depsEqual) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useDebounce.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useDebounce.js ***!
-  \*********************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useDebounce.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7690,9 +7690,9 @@ function useDebounce(fn, ms, deps) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useDeepCompareEffect.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useDeepCompareEffect.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useDeepCompareEffect.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7720,9 +7720,9 @@ var useDeepCompareEffect = function (effect, deps) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useDefault.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useDefault.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useDefault.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7744,9 +7744,9 @@ var useDefault = function (defaultValue, initialValue) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useDrop.js":
-/*!*****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useDrop.js ***!
-  \*****************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useDrop.js ***!
+  \*****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7830,9 +7830,9 @@ var useDrop = function (options, args) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useDropArea.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useDropArea.js ***!
-  \*********************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useDropArea.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7905,9 +7905,9 @@ var useDropArea = function (options) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useEffectOnce.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useEffectOnce.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useEffectOnce.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7925,9 +7925,9 @@ var useEffectOnce = function (effect) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useEnsuredForwardedRef.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useEnsuredForwardedRef.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useEnsuredForwardedRef.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: default, ensuredForwardRef */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7959,9 +7959,9 @@ function ensuredForwardRef(Component) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useError.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useError.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useError.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -7988,9 +7988,9 @@ var useError = function () {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useEvent.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useEvent.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useEvent.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8039,9 +8039,9 @@ var useEvent = function (name, handler, target, options) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useFavicon.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useFavicon.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useFavicon.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8065,9 +8065,9 @@ var useFavicon = function (href) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useFirstMountState.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useFirstMountState.js ***!
-  \****************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useFirstMountState.js ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: useFirstMountState */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8090,9 +8090,9 @@ function useFirstMountState() {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useFullscreen.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useFullscreen.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useFullscreen.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8177,9 +8177,9 @@ var useFullscreen = function (ref, enabled, options) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useGeolocation.js":
-/*!************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useGeolocation.js ***!
-  \************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useGeolocation.js ***!
+  \************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8238,9 +8238,9 @@ var useGeolocation = function (options) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useGetSet.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useGetSet.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useGetSet.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8270,9 +8270,9 @@ function useGetSet(initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useGetSetState.js":
-/*!************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useGetSetState.js ***!
-  \************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useGetSetState.js ***!
+  \************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8315,9 +8315,9 @@ var useGetSetState = function (initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useHarmonicIntervalFn.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useHarmonicIntervalFn.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useHarmonicIntervalFn.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8348,9 +8348,9 @@ var useHarmonicIntervalFn = function (fn, delay) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useHash.js":
-/*!*****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useHash.js ***!
-  \*****************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useHash.js ***!
+  \*****************************************************************************************************************************************************************/
 /*! exports provided: useHash */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8389,9 +8389,9 @@ var useHash = function () {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useHover.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useHover.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useHover.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8428,9 +8428,9 @@ var useHover = function (element) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useHoverDirty.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useHoverDirty.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useHoverDirty.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8474,9 +8474,9 @@ var useHoverDirty = function (ref, enabled) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useIdle.js":
-/*!*****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useIdle.js ***!
-  \*****************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useIdle.js ***!
+  \*****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8539,9 +8539,9 @@ var useIdle = function (ms, initialState, events) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useIntersection.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useIntersection.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useIntersection.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8574,9 +8574,9 @@ var useIntersection = function (ref, options) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useInterval.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useInterval.js ***!
-  \*********************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useInterval.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8604,9 +8604,9 @@ var useInterval = function (callback, delay) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useIsomorphicLayoutEffect.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useIsomorphicLayoutEffect.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useIsomorphicLayoutEffect.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8624,9 +8624,9 @@ var useIsomorphicLayoutEffect = _misc_util__WEBPACK_IMPORTED_MODULE_1__["isBrows
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useKey.js":
-/*!****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useKey.js ***!
-  \****************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useKey.js ***!
+  \****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8670,9 +8670,9 @@ var useKey = function (key, fn, opts, deps) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useKeyPress.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useKeyPress.js ***!
-  \*********************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useKeyPress.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8695,9 +8695,9 @@ var useKeyPress = function (keyFilter) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useKeyPressEvent.js":
-/*!**************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useKeyPressEvent.js ***!
-  \**************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useKeyPressEvent.js ***!
+  \**************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8725,9 +8725,9 @@ var useKeyPressEvent = function (key, keydown, keyup, useKeyPress) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useLatest.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLatest.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLatest.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8747,9 +8747,9 @@ var useLatest = function (value) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useLifecycles.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLifecycles.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLifecycles.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8776,9 +8776,9 @@ var useLifecycles = function (mount, unmount) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useList.js":
-/*!*****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useList.js ***!
-  \*****************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useList.js ***!
+  \*****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8867,9 +8867,9 @@ function useList(initialList) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useLocalStorage.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLocalStorage.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLocalStorage.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8962,9 +8962,9 @@ var useLocalStorage = function (key, initialValue, options) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useLocation.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLocation.js ***!
-  \*********************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLocation.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9036,9 +9036,9 @@ var hasEventConstructor = typeof Event === 'function';
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useLockBodyScroll.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLockBodyScroll.js ***!
-  \***************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLockBodyScroll.js ***!
+  \***************************************************************************************************************************************************************************/
 /*! exports provided: getClosestBody, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9163,9 +9163,9 @@ var documentListenerAdded = false;
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useLogger.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLogger.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLogger.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9196,9 +9196,9 @@ var useLogger = function (componentName) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useLongPress.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLongPress.js ***!
-  \**********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useLongPress.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9252,9 +9252,9 @@ var useLongPress = function (callback, _a) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMap.js":
-/*!****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMap.js ***!
-  \****************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMap.js ***!
+  \****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9295,9 +9295,9 @@ var useMap = function (initialMap) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMeasure.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMeasure.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMeasure.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9349,9 +9349,9 @@ function useMeasure() {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMedia.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMedia.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMedia.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9389,9 +9389,9 @@ var useMedia = function (query, defaultState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMediaDevices.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMediaDevices.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMediaDevices.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9442,9 +9442,9 @@ var useMediaDevicesMock = function () { return ({}); };
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMediatedState.js":
-/*!**************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMediatedState.js ***!
-  \**************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMediatedState.js ***!
+  \**************************************************************************************************************************************************************************/
 /*! exports provided: useMediatedState */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9472,9 +9472,9 @@ function useMediatedState(mediator, initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMethods.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMethods.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMethods.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9510,9 +9510,9 @@ var useMethods = function (createMethods, initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMotion.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMotion.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMotion.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9579,9 +9579,9 @@ var useMotion = function (initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMount.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMount.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMount.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9600,9 +9600,9 @@ var useMount = function (fn) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMountedState.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMountedState.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMountedState.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9628,9 +9628,9 @@ function useMountedState() {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMouse.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMouse.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMouse.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9692,9 +9692,9 @@ var useMouse = function (ref) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMouseHovered.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMouseHovered.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMouseHovered.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9723,9 +9723,9 @@ var useMouseHovered = function (ref, options) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMouseWheel.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMouseWheel.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMouseWheel.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9752,9 +9752,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useMultiStateValidator.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMultiStateValidator.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useMultiStateValidator.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: useMultiStateValidator */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9792,9 +9792,9 @@ function useMultiStateValidator(states, validator, initialValidity) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useNetworkState.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useNetworkState.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useNetworkState.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9849,9 +9849,9 @@ function useNetworkState(initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useNumber.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useNumber.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useNumber.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9865,9 +9865,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useObservable.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useObservable.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useObservable.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9892,9 +9892,9 @@ function useObservable(observable$, initialValue) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useOrientation.js":
-/*!************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useOrientation.js ***!
-  \************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useOrientation.js ***!
+  \************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9948,9 +9948,9 @@ var useOrientation = function (initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/usePageLeave.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/usePageLeave.js ***!
-  \**********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/usePageLeave.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9986,9 +9986,9 @@ var usePageLeave = function (onPageLeave, args) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/usePermission.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/usePermission.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/usePermission.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10033,9 +10033,9 @@ var usePermission = function (permissionDesc) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/usePrevious.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/usePrevious.js ***!
-  \*********************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/usePrevious.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10057,9 +10057,9 @@ function usePrevious(state) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/usePreviousDistinct.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/usePreviousDistinct.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/usePreviousDistinct.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10088,9 +10088,9 @@ function usePreviousDistinct(value, compare) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/usePromise.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/usePromise.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/usePromise.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10121,9 +10121,9 @@ var usePromise = function () {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useQueue.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useQueue.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useQueue.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10167,9 +10167,9 @@ var useQueue = function (initialValue) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useRaf.js":
-/*!****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useRaf.js ***!
-  \****************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useRaf.js ***!
+  \****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10219,9 +10219,9 @@ var useRaf = function (ms, delay) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useRafLoop.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useRafLoop.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useRafLoop.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10276,9 +10276,9 @@ function useRafLoop(callback, initiallyActive) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useRafState.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useRafState.js ***!
-  \*********************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useRafState.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10309,9 +10309,9 @@ var useRafState = function (initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useRendersCount.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useRendersCount.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useRendersCount.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: useRendersCount */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10329,9 +10329,9 @@ function useRendersCount() {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useScratch.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useScratch.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useScratch.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: ScratchSensor, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10481,9 +10481,9 @@ var ScratchSensor = function (props) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useScroll.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useScroll.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useScroll.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10535,9 +10535,9 @@ var useScroll = function (ref) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useScrollbarWidth.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useScrollbarWidth.js ***!
-  \***************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useScrollbarWidth.js ***!
+  \***************************************************************************************************************************************************************************/
 /*! exports provided: useScrollbarWidth */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10568,9 +10568,9 @@ function useScrollbarWidth() {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useScrolling.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useScrolling.js ***!
-  \**********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useScrolling.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10611,9 +10611,9 @@ var useScrolling = function (ref) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useSearchParam.js":
-/*!************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSearchParam.js ***!
-  \************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSearchParam.js ***!
+  \************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10650,9 +10650,9 @@ var useSearchParamServer = function () { return null; };
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useSessionStorage.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSessionStorage.js ***!
-  \***************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSessionStorage.js ***!
+  \***************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10705,9 +10705,9 @@ var useSessionStorage = function (key, initialValue, raw) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useSet.js":
-/*!****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSet.js ***!
-  \****************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSet.js ***!
+  \****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10744,9 +10744,9 @@ var useSet = function (initialSet) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useSetState.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSetState.js ***!
-  \*********************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSetState.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10771,9 +10771,9 @@ var useSetState = function (initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useShallowCompareEffect.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useShallowCompareEffect.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useShallowCompareEffect.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10805,9 +10805,9 @@ var useShallowCompareEffect = function (effect, deps) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useSize.js":
-/*!*****************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSize.js ***!
-  \*****************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSize.js ***!
+  \*****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10902,9 +10902,9 @@ var useSize = function (element, _a) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useSlider.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSlider.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSlider.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11026,9 +11026,9 @@ var useSlider = function (ref, options) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useSpeech.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSpeech.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useSpeech.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11077,9 +11077,9 @@ var useSpeech = function (text, opts) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useStartTyping.js":
-/*!************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useStartTyping.js ***!
-  \************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useStartTyping.js ***!
+  \************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11140,9 +11140,9 @@ var useStartTyping = function (onStartTyping) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useStateList.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useStateList.js ***!
-  \**********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useStateList.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11213,9 +11213,9 @@ function useStateList(stateSet) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useStateValidator.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useStateValidator.js ***!
-  \***************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useStateValidator.js ***!
+  \***************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11250,9 +11250,9 @@ function useStateValidator(state, validator, initialState) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useStateWithHistory.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useStateWithHistory.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useStateWithHistory.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: useStateWithHistory */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11357,9 +11357,9 @@ function useStateWithHistory(initialState, capacity, initialHistory) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useThrottle.js":
-/*!*********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useThrottle.js ***!
-  \*********************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useThrottle.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11407,9 +11407,9 @@ var useThrottle = function (value, ms) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useThrottleFn.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useThrottleFn.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useThrottleFn.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11455,9 +11455,9 @@ var useThrottleFn = function (fn, ms, args) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useTimeout.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useTimeout.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useTimeout.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11478,9 +11478,9 @@ function useTimeout(ms) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useTimeoutFn.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useTimeoutFn.js ***!
-  \**********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useTimeoutFn.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11524,9 +11524,9 @@ function useTimeoutFn(fn, ms) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useTitle.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useTitle.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useTitle.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11559,9 +11559,9 @@ function useTitle(title, options) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useToggle.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useToggle.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useToggle.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11582,9 +11582,9 @@ var useToggle = function (initialValue) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useTween.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useTween.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useTween.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11619,9 +11619,9 @@ var useTween = function (easingName, ms, delay) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useUnmount.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useUnmount.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useUnmount.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11644,9 +11644,9 @@ var useUnmount = function (fn) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useUnmountPromise.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useUnmountPromise.js ***!
-  \***************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useUnmountPromise.js ***!
+  \***************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11689,9 +11689,9 @@ var useUnmountPromise = function () {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useUpdate.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useUpdate.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useUpdate.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11711,9 +11711,9 @@ function useUpdate() {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useUpdateEffect.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useUpdateEffect.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useUpdateEffect.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11738,9 +11738,9 @@ var useUpdateEffect = function (effect, deps) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useUpsert.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useUpsert.js ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useUpsert.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11769,9 +11769,9 @@ function useUpsert(predicate, initialList) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useVibrate.js":
-/*!********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useVibrate.js ***!
-  \********************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useVibrate.js ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11814,9 +11814,9 @@ function useVibrate(enabled, pattern, loop) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useVideo.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useVideo.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useVideo.js ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11831,9 +11831,9 @@ var useVideo = Object(_factory_createHTMLMediaHook__WEBPACK_IMPORTED_MODULE_0__[
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useWindowScroll.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useWindowScroll.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useWindowScroll.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11884,9 +11884,9 @@ var useWindowScroll = function () {
 /***/ }),
 
 /***/ "../../node_modules/react-use/esm/useWindowSize.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/esm/useWindowSize.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/esm/useWindowSize.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11928,9 +11928,9 @@ var useWindowSize = function (initialWidth, initialHeight) {
 /***/ }),
 
 /***/ "../../node_modules/react-use/node_modules/react-universal-interface/lib/addClassDecoratorSupport.js":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/addClassDecoratorSupport.js ***!
-  \*************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/addClassDecoratorSupport.js ***!
+  \*************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11949,9 +11949,9 @@ exports.default = addClassDecoratorSupport;
 /***/ }),
 
 /***/ "../../node_modules/react-use/node_modules/react-universal-interface/lib/createEnhancer.js":
-/*!***************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/createEnhancer.js ***!
-  \***************************************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/createEnhancer.js ***!
+  \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11995,9 +11995,9 @@ exports.default = createEnhancer;
 /***/ }),
 
 /***/ "../../node_modules/react-use/node_modules/react-universal-interface/lib/hookToRenderProp.js":
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/hookToRenderProp.js ***!
-  \*****************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/hookToRenderProp.js ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12017,9 +12017,9 @@ exports.default = hookToRenderProp;
 /***/ }),
 
 /***/ "../../node_modules/react-use/node_modules/react-universal-interface/lib/index.js":
-/*!******************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/index.js ***!
-  \******************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/index.js ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12039,9 +12039,9 @@ exports.hookToRenderProp = hookToRenderProp_1.default;
 /***/ }),
 
 /***/ "../../node_modules/react-use/node_modules/react-universal-interface/lib/render.js":
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/render.js ***!
-  \*******************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/render.js ***!
+  \*******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12102,9 +12102,9 @@ exports.default = render;
 /***/ }),
 
 /***/ "../../node_modules/react-use/node_modules/react-universal-interface/lib/wrapInStatefulComponent.js":
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/wrapInStatefulComponent.js ***!
-  \************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/react-universal-interface/lib/wrapInStatefulComponent.js ***!
+  \************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12135,9 +12135,9 @@ exports.default = wrapInStatefulComponent;
 /***/ }),
 
 /***/ "../../node_modules/react-use/node_modules/tslib/tslib.es6.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/tslib/tslib.es6.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/react-use/node_modules/tslib/tslib.es6.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __createBinding, __exportStar, __values, __read, __spread, __spreadArrays, __spreadArray, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12407,9 +12407,9 @@ function __classPrivateFieldSet(receiver, state, value, kind, f) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/index.js":
-/*!************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/index.js ***!
-  \************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/index.js ***!
+  \************************************************************************************************************************************************************/
 /*! exports provided: Observable, ConnectableObservable, GroupedObservable, observable, Subject, BehaviorSubject, ReplaySubject, AsyncSubject, asap, asapScheduler, async, asyncScheduler, queue, queueScheduler, animationFrame, animationFrameScheduler, VirtualTimeScheduler, VirtualAction, Scheduler, Subscription, Subscriber, Notification, NotificationKind, pipe, noop, identity, isObservable, ArgumentOutOfRangeError, EmptyError, ObjectUnsubscribedError, UnsubscriptionError, TimeoutError, bindCallback, bindNodeCallback, combineLatest, concat, defer, empty, forkJoin, from, fromEvent, fromEventPattern, generate, iif, interval, merge, never, of, onErrorResumeNext, pairs, partition, race, range, throwError, timer, using, zip, scheduled, EMPTY, NEVER, config */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12652,9 +12652,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/AsyncSubject.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/AsyncSubject.js ***!
-  \****************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/AsyncSubject.js ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: AsyncSubject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12716,9 +12716,9 @@ var AsyncSubject = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/BehaviorSubject.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/BehaviorSubject.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/BehaviorSubject.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: BehaviorSubject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12776,9 +12776,9 @@ var BehaviorSubject = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/InnerSubscriber.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/InnerSubscriber.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/InnerSubscriber.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: InnerSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12820,9 +12820,9 @@ var InnerSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/Notification.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Notification.js ***!
-  \****************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Notification.js ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: NotificationKind, Notification */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12914,9 +12914,9 @@ var Notification = /*@__PURE__*/ (function () {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/Observable.js":
-/*!**************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Observable.js ***!
-  \**************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Observable.js ***!
+  \**************************************************************************************************************************************************************************/
 /*! exports provided: Observable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13049,9 +13049,9 @@ function getPromiseCtor(promiseCtor) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/Observer.js":
-/*!************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Observer.js ***!
-  \************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Observer.js ***!
+  \************************************************************************************************************************************************************************/
 /*! exports provided: empty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13082,9 +13082,9 @@ var empty = {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/OuterSubscriber.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/OuterSubscriber.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/OuterSubscriber.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: OuterSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13119,9 +13119,9 @@ var OuterSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/ReplaySubject.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/ReplaySubject.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/ReplaySubject.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: ReplaySubject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13261,9 +13261,9 @@ var ReplayEvent = /*@__PURE__*/ (function () {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/Scheduler.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Scheduler.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Scheduler.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: Scheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13294,9 +13294,9 @@ var Scheduler = /*@__PURE__*/ (function () {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/Subject.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Subject.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Subject.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: SubjectSubscriber, Subject, AnonymousSubject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13475,9 +13475,9 @@ var AnonymousSubject = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/SubjectSubscription.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/SubjectSubscription.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/SubjectSubscription.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: SubjectSubscription */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13523,9 +13523,9 @@ var SubjectSubscription = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/Subscriber.js":
-/*!**************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Subscriber.js ***!
-  \**************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Subscriber.js ***!
+  \**************************************************************************************************************************************************************************/
 /*! exports provided: Subscriber, SafeSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13778,9 +13778,9 @@ var SafeSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/Subscription.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Subscription.js ***!
-  \****************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/Subscription.js ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: Subscription */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13936,9 +13936,9 @@ function flattenUnsubscriptionErrors(errors) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/config.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/config.js ***!
-  \**********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/config.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: config */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13969,9 +13969,9 @@ var config = {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/innerSubscribe.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/innerSubscribe.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/innerSubscribe.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: SimpleInnerSubscriber, ComplexInnerSubscriber, SimpleOuterSubscriber, ComplexOuterSubscriber, innerSubscribe */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14091,9 +14091,9 @@ function innerSubscribe(result, innerSubscriber) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/ConnectableObservable.js":
-/*!************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/ConnectableObservable.js ***!
-  \************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/ConnectableObservable.js ***!
+  \************************************************************************************************************************************************************************************************/
 /*! exports provided: ConnectableObservable, connectableObservableDescriptor */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14254,9 +14254,9 @@ var RefCountSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/SubscribeOnObservable.js":
-/*!************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/SubscribeOnObservable.js ***!
-  \************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/SubscribeOnObservable.js ***!
+  \************************************************************************************************************************************************************************************************/
 /*! exports provided: SubscribeOnObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14323,9 +14323,9 @@ var SubscribeOnObservable = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/bindCallback.js":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/bindCallback.js ***!
-  \***************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/bindCallback.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! exports provided: bindCallback */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14448,9 +14448,9 @@ function dispatchError(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/bindNodeCallback.js":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/bindNodeCallback.js ***!
-  \*******************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/bindNodeCallback.js ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! exports provided: bindNodeCallback */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14581,9 +14581,9 @@ function dispatchError(arg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/combineLatest.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/combineLatest.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/combineLatest.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: combineLatest, CombineLatestOperator, CombineLatestSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14704,9 +14704,9 @@ var CombineLatestSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/concat.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/concat.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/concat.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: concat */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14731,9 +14731,9 @@ function concat() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/defer.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/defer.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/defer.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: defer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14767,9 +14767,9 @@ function defer(observableFactory) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/empty.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/empty.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/empty.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: EMPTY, empty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14793,9 +14793,9 @@ function emptyScheduled(scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/forkJoin.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/forkJoin.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/forkJoin.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: forkJoin */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14881,9 +14881,9 @@ function forkJoinInternal(sources, keys) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/from.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/from.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/from.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: from */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14914,9 +14914,9 @@ function from(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/fromArray.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/fromArray.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/fromArray.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: fromArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14944,9 +14944,9 @@ function fromArray(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/fromEvent.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/fromEvent.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/fromEvent.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: fromEvent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15025,9 +15025,9 @@ function isEventTarget(sourceObj) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/fromEventPattern.js":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/fromEventPattern.js ***!
-  \*******************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/fromEventPattern.js ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! exports provided: fromEventPattern */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15075,9 +15075,9 @@ function fromEventPattern(addHandler, removeHandler, resultSelector) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/generate.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/generate.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/generate.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: generate */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15217,9 +15217,9 @@ function dispatch(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/iif.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/iif.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/iif.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: iif */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15246,9 +15246,9 @@ function iif(condition, trueResult, falseResult) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/interval.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/interval.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/interval.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: interval */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15291,9 +15291,9 @@ function dispatch(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/merge.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/merge.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/merge.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: merge */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15337,9 +15337,9 @@ function merge() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/never.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/never.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/never.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: NEVER, never */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15362,9 +15362,9 @@ function never() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/of.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/of.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/of.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: of */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15398,9 +15398,9 @@ function of() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/onErrorResumeNext.js":
-/*!********************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/onErrorResumeNext.js ***!
-  \********************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/onErrorResumeNext.js ***!
+  \********************************************************************************************************************************************************************************************/
 /*! exports provided: onErrorResumeNext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15443,9 +15443,9 @@ function onErrorResumeNext() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/pairs.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/pairs.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/pairs.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: pairs, dispatch */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15499,9 +15499,9 @@ function dispatch(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/partition.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/partition.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/partition.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: partition */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15529,9 +15529,9 @@ function partition(source, predicate, thisArg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/race.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/race.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/race.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: race, RaceOperator, RaceSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15628,9 +15628,9 @@ var RaceSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/range.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/range.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/range.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: range, dispatch */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15692,9 +15692,9 @@ function dispatch(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/throwError.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/throwError.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/throwError.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: throwError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15722,9 +15722,9 @@ function dispatch(_a) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/timer.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/timer.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/timer.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: timer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15781,9 +15781,9 @@ function dispatch(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/using.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/using.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/using.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: using */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15831,9 +15831,9 @@ function using(resourceFactory, observableFactory) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/observable/zip.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/zip.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/observable/zip.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: zip, ZipOperator, ZipSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16070,9 +16070,9 @@ var ZipBufferIterator = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/audit.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/audit.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/audit.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: audit */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16154,9 +16154,9 @@ var AuditSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/auditTime.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/auditTime.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/auditTime.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: auditTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16182,9 +16182,9 @@ function auditTime(duration, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/buffer.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/buffer.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/buffer.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: buffer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16234,9 +16234,9 @@ var BufferSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/bufferCount.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/bufferCount.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/bufferCount.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: bufferCount */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16340,9 +16340,9 @@ var BufferSkipCountSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/bufferTime.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/bufferTime.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/bufferTime.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: bufferTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16506,9 +16506,9 @@ function dispatchBufferClose(arg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/bufferToggle.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/bufferToggle.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/bufferToggle.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: bufferToggle */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16630,9 +16630,9 @@ var BufferToggleSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/bufferWhen.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/bufferWhen.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/bufferWhen.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: bufferWhen */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16728,9 +16728,9 @@ var BufferWhenSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/catchError.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/catchError.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/catchError.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: catchError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16793,9 +16793,9 @@ var CatchSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/combineAll.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/combineAll.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/combineAll.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: combineAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16814,9 +16814,9 @@ function combineAll(project) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/combineLatest.js":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/combineLatest.js ***!
-  \***************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/combineLatest.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! exports provided: combineLatest */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16851,9 +16851,9 @@ function combineLatest() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/concat.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/concat.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/concat.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: concat */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16876,9 +16876,9 @@ function concat() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/concatAll.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/concatAll.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/concatAll.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: concatAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16897,9 +16897,9 @@ function concatAll() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/concatMap.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/concatMap.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/concatMap.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: concatMap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16918,9 +16918,9 @@ function concatMap(project, resultSelector) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/concatMapTo.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/concatMapTo.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/concatMapTo.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: concatMapTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16939,9 +16939,9 @@ function concatMapTo(innerObservable, resultSelector) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/count.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/count.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/count.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: count */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17009,9 +17009,9 @@ var CountSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/debounce.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/debounce.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/debounce.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: debounce */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17099,9 +17099,9 @@ var DebounceSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/debounceTime.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/debounceTime.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/debounceTime.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: debounceTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17180,9 +17180,9 @@ function dispatchNext(subscriber) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/defaultIfEmpty.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/defaultIfEmpty.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/defaultIfEmpty.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: defaultIfEmpty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17235,9 +17235,9 @@ var DefaultIfEmptySubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/delay.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/delay.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/delay.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: delay */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17347,9 +17347,9 @@ var DelayMessage = /*@__PURE__*/ (function () {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/delayWhen.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/delayWhen.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/delayWhen.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: delayWhen */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17498,9 +17498,9 @@ var SubscriptionDelaySubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/dematerialize.js":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/dematerialize.js ***!
-  \***************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/dematerialize.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! exports provided: dematerialize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17541,9 +17541,9 @@ var DeMaterializeSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/distinct.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/distinct.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/distinct.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: distinct, DistinctSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17622,9 +17622,9 @@ var DistinctSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/distinctUntilChanged.js":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/distinctUntilChanged.js ***!
-  \**********************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/distinctUntilChanged.js ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! exports provided: distinctUntilChanged */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17698,9 +17698,9 @@ var DistinctUntilChangedSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/distinctUntilKeyChanged.js":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/distinctUntilKeyChanged.js ***!
-  \*************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/distinctUntilKeyChanged.js ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! exports provided: distinctUntilKeyChanged */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17719,9 +17719,9 @@ function distinctUntilKeyChanged(key, compare) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/elementAt.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/elementAt.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/elementAt.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: elementAt */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17756,9 +17756,9 @@ function elementAt(index, defaultValue) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/endWith.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/endWith.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/endWith.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: endWith */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17783,9 +17783,9 @@ function endWith() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/every.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/every.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/every.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: every */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17850,9 +17850,9 @@ var EverySubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/exhaust.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/exhaust.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/exhaust.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: exhaust */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17909,9 +17909,9 @@ var SwitchFirstSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/exhaustMap.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/exhaustMap.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/exhaustMap.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: exhaustMap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18008,9 +18008,9 @@ var ExhaustMapSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/expand.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/expand.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/expand.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: expand, ExpandOperator, ExpandSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18125,9 +18125,9 @@ var ExpandSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/filter.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/filter.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/filter.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: filter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18184,9 +18184,9 @@ var FilterSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/finalize.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/finalize.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/finalize.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: finalize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18227,9 +18227,9 @@ var FinallySubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/find.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/find.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/find.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: find, FindValueOperator, FindValueSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18304,9 +18304,9 @@ var FindValueSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/findIndex.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/findIndex.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/findIndex.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: findIndex */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18325,9 +18325,9 @@ function findIndex(predicate, thisArg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/first.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/first.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/first.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: first */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18357,9 +18357,9 @@ function first(predicate, defaultValue) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/groupBy.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/groupBy.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/groupBy.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: groupBy, GroupedObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18559,9 +18559,9 @@ var InnerRefCountSubscription = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/ignoreElements.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/ignoreElements.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/ignoreElements.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: ignoreElements */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18601,9 +18601,9 @@ var IgnoreElementsSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/isEmpty.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/isEmpty.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/isEmpty.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: isEmpty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18650,9 +18650,9 @@ var IsEmptySubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/last.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/last.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/last.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: last */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18682,9 +18682,9 @@ function last(predicate, defaultValue) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/map.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/map.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/map.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: map, MapOperator */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18744,9 +18744,9 @@ var MapSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/mapTo.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/mapTo.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/mapTo.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: mapTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18788,9 +18788,9 @@ var MapToSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/materialize.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/materialize.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/materialize.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: materialize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18843,9 +18843,9 @@ var MaterializeSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/max.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/max.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/max.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: max */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18867,9 +18867,9 @@ function max(comparer) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/merge.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/merge.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/merge.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: merge */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18892,9 +18892,9 @@ function merge() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/mergeAll.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/mergeAll.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/mergeAll.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: mergeAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -18918,9 +18918,9 @@ function mergeAll(concurrent) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/mergeMap.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/mergeMap.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/mergeMap.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: mergeMap, MergeMapOperator, MergeMapSubscriber, flatMap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19040,9 +19040,9 @@ var flatMap = mergeMap;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/mergeMapTo.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/mergeMapTo.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/mergeMapTo.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: mergeMapTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19070,9 +19070,9 @@ function mergeMapTo(innerObservable, resultSelector, concurrent) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/mergeScan.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/mergeScan.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/mergeScan.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: mergeScan, MergeScanOperator, MergeScanSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19184,9 +19184,9 @@ var MergeScanSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/min.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/min.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/min.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: min */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19208,9 +19208,9 @@ function min(comparer) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/multicast.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/multicast.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/multicast.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: multicast, MulticastOperator */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19262,9 +19262,9 @@ var MulticastOperator = /*@__PURE__*/ (function () {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/observeOn.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/observeOn.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/observeOn.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: observeOn, ObserveOnOperator, ObserveOnSubscriber, ObserveOnMessage */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19351,9 +19351,9 @@ var ObserveOnMessage = /*@__PURE__*/ (function () {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/onErrorResumeNext.js":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/onErrorResumeNext.js ***!
-  \*******************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/onErrorResumeNext.js ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! exports provided: onErrorResumeNext, onErrorResumeNextStatic */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19446,9 +19446,9 @@ var OnErrorResumeNextSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/pairwise.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/pairwise.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/pairwise.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: pairwise */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19499,9 +19499,9 @@ var PairwiseSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/partition.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/partition.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/partition.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: partition */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19527,9 +19527,9 @@ function partition(predicate, thisArg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/pluck.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/pluck.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/pluck.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: pluck */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19572,9 +19572,9 @@ function plucker(props, length) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/publish.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/publish.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/publish.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: publish */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19597,9 +19597,9 @@ function publish(selector) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/publishBehavior.js":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/publishBehavior.js ***!
-  \*****************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/publishBehavior.js ***!
+  \*****************************************************************************************************************************************************************************************/
 /*! exports provided: publishBehavior */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19620,9 +19620,9 @@ function publishBehavior(value) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/publishLast.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/publishLast.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/publishLast.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: publishLast */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19643,9 +19643,9 @@ function publishLast() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/publishReplay.js":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/publishReplay.js ***!
-  \***************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/publishReplay.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! exports provided: publishReplay */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19671,9 +19671,9 @@ function publishReplay(bufferSize, windowTime, selectorOrScheduler, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/race.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/race.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/race.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: race */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19703,9 +19703,9 @@ function race() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/reduce.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/reduce.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/reduce.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: reduce */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19737,9 +19737,9 @@ function reduce(accumulator, seed) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/refCount.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/refCount.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/refCount.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: refCount */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19811,9 +19811,9 @@ var RefCountSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/repeat.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/repeat.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/repeat.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: repeat */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19881,9 +19881,9 @@ var RepeatSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/repeatWhen.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/repeatWhen.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/repeatWhen.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: repeatWhen */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19980,9 +19980,9 @@ var RepeatWhenSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/retry.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/retry.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/retry.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: retry */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20038,9 +20038,9 @@ var RetrySubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/retryWhen.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/retryWhen.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/retryWhen.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: retryWhen */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20129,9 +20129,9 @@ var RetryWhenSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/sample.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/sample.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/sample.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: sample */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20189,9 +20189,9 @@ var SampleSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/sampleTime.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/sampleTime.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/sampleTime.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: sampleTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20254,9 +20254,9 @@ function dispatchNotification(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/scan.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/scan.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/scan.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: scan */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20341,9 +20341,9 @@ var ScanSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/sequenceEqual.js":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/sequenceEqual.js ***!
-  \***************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/sequenceEqual.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! exports provided: sequenceEqual, SequenceEqualOperator, SequenceEqualSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20469,9 +20469,9 @@ var SequenceEqualCompareToSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/share.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/share.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/share.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: share */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20497,9 +20497,9 @@ function share() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/shareReplay.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/shareReplay.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/shareReplay.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: shareReplay */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20577,9 +20577,9 @@ function shareReplayOperator(_a) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/single.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/single.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/single.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: single */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20662,9 +20662,9 @@ var SingleSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/skip.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/skip.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/skip.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: skip */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20709,9 +20709,9 @@ var SkipSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/skipLast.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/skipLast.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/skipLast.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: skipLast */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20776,9 +20776,9 @@ var SkipLastSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/skipUntil.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/skipUntil.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/skipUntil.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: skipUntil */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20838,9 +20838,9 @@ var SkipUntilSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/skipWhile.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/skipWhile.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/skipWhile.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: skipWhile */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20899,9 +20899,9 @@ var SkipWhileSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/startWith.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/startWith.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/startWith.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: startWith */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20933,9 +20933,9 @@ function startWith() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/subscribeOn.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/subscribeOn.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/subscribeOn.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: subscribeOn */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20969,9 +20969,9 @@ var SubscribeOnOperator = /*@__PURE__*/ (function () {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/switchAll.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/switchAll.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/switchAll.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: switchAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -20992,9 +20992,9 @@ function switchAll() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/switchMap.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/switchMap.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/switchMap.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: switchMap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21085,9 +21085,9 @@ var SwitchMapSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/switchMapTo.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/switchMapTo.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/switchMapTo.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: switchMapTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21106,9 +21106,9 @@ function switchMapTo(innerObservable, resultSelector) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/take.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/take.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/take.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: take */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21173,9 +21173,9 @@ var TakeSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/takeLast.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/takeLast.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/takeLast.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: takeLast */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21255,9 +21255,9 @@ var TakeLastSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/takeUntil.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/takeUntil.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/takeUntil.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: takeUntil */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21308,9 +21308,9 @@ var TakeUntilSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/takeWhile.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/takeWhile.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/takeWhile.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: takeWhile */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21381,9 +21381,9 @@ var TakeWhileSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/tap.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/tap.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/tap.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: tap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21474,9 +21474,9 @@ var TapSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/throttle.js":
-/*!**********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/throttle.js ***!
-  \**********************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/throttle.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: defaultThrottleConfig, throttle */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21581,9 +21581,9 @@ var ThrottleSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/throttleTime.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/throttleTime.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/throttleTime.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: throttleTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21684,9 +21684,9 @@ function dispatchNext(arg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/throwIfEmpty.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/throwIfEmpty.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/throwIfEmpty.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: throwIfEmpty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21755,9 +21755,9 @@ function defaultErrorFactory() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/timeInterval.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/timeInterval.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/timeInterval.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: timeInterval, TimeInterval */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21804,9 +21804,9 @@ var TimeInterval = /*@__PURE__*/ (function () {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/timeout.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/timeout.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/timeout.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: timeout */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21834,9 +21834,9 @@ function timeout(due, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/timeoutWith.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/timeoutWith.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/timeoutWith.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: timeoutWith */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21918,9 +21918,9 @@ var TimeoutWithSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/timestamp.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/timestamp.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/timestamp.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: timestamp, Timestamp */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21953,9 +21953,9 @@ var Timestamp = /*@__PURE__*/ (function () {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/toArray.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/toArray.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/toArray.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: toArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -21981,9 +21981,9 @@ function toArray() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/window.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/window.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/window.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: window */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22064,9 +22064,9 @@ var WindowSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/windowCount.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/windowCount.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/windowCount.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: windowCount */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22159,9 +22159,9 @@ var WindowCountSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/windowTime.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/windowTime.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/windowTime.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: windowTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22334,9 +22334,9 @@ function dispatchWindowClose(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/windowToggle.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/windowToggle.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/windowToggle.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: windowToggle */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22482,9 +22482,9 @@ var WindowToggleSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/windowWhen.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/windowWhen.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/windowWhen.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: windowWhen */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22584,9 +22584,9 @@ var WindowSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/withLatestFrom.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/withLatestFrom.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/withLatestFrom.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: withLatestFrom */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22684,9 +22684,9 @@ var WithLatestFromSubscriber = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/zip.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/zip.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/zip.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: zip */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22711,9 +22711,9 @@ function zip() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/operators/zipAll.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/zipAll.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/operators/zipAll.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: zipAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22732,9 +22732,9 @@ function zipAll(project) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduled/scheduleArray.js":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduled/scheduleArray.js ***!
-  \***************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduled/scheduleArray.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! exports provided: scheduleArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22769,9 +22769,9 @@ function scheduleArray(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduled/scheduleIterable.js":
-/*!******************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduled/scheduleIterable.js ***!
-  \******************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduled/scheduleIterable.js ***!
+  \******************************************************************************************************************************************************************************************/
 /*! exports provided: scheduleIterable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22832,9 +22832,9 @@ function scheduleIterable(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduled/scheduleObservable.js":
-/*!********************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduled/scheduleObservable.js ***!
-  \********************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduled/scheduleObservable.js ***!
+  \********************************************************************************************************************************************************************************************/
 /*! exports provided: scheduleObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22868,9 +22868,9 @@ function scheduleObservable(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduled/schedulePromise.js":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduled/schedulePromise.js ***!
-  \*****************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduled/schedulePromise.js ***!
+  \*****************************************************************************************************************************************************************************************/
 /*! exports provided: schedulePromise */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22904,9 +22904,9 @@ function schedulePromise(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduled/scheduled.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduled/scheduled.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduled/scheduled.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: scheduled */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22953,9 +22953,9 @@ function scheduled(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/Action.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/Action.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/Action.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: Action */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22987,9 +22987,9 @@ var Action = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/AnimationFrameAction.js":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AnimationFrameAction.js ***!
-  \**********************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AnimationFrameAction.js ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! exports provided: AnimationFrameAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23041,9 +23041,9 @@ var AnimationFrameAction = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/AnimationFrameScheduler.js":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AnimationFrameScheduler.js ***!
-  \*************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AnimationFrameScheduler.js ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! exports provided: AnimationFrameScheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23090,9 +23090,9 @@ var AnimationFrameScheduler = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/AsapAction.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AsapAction.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AsapAction.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: AsapAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23146,9 +23146,9 @@ var AsapAction = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/AsapScheduler.js":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AsapScheduler.js ***!
-  \***************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AsapScheduler.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! exports provided: AsapScheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23195,9 +23195,9 @@ var AsapScheduler = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/AsyncAction.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AsyncAction.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AsyncAction.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: AsyncAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23306,9 +23306,9 @@ var AsyncAction = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/AsyncScheduler.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AsyncScheduler.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/AsyncScheduler.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: AsyncScheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23380,9 +23380,9 @@ var AsyncScheduler = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/QueueAction.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/QueueAction.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/QueueAction.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: QueueAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23437,9 +23437,9 @@ var QueueAction = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/QueueScheduler.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/QueueScheduler.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/QueueScheduler.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: QueueScheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23465,9 +23465,9 @@ var QueueScheduler = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/VirtualTimeScheduler.js":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/VirtualTimeScheduler.js ***!
-  \**********************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/VirtualTimeScheduler.js ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! exports provided: VirtualTimeScheduler, VirtualAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23593,9 +23593,9 @@ var VirtualAction = /*@__PURE__*/ (function (_super) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/animationFrame.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/animationFrame.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/animationFrame.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: animationFrameScheduler, animationFrame */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23616,9 +23616,9 @@ var animationFrame = animationFrameScheduler;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/asap.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/asap.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/asap.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: asapScheduler, asap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23639,9 +23639,9 @@ var asap = asapScheduler;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/async.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/async.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/async.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: asyncScheduler, async */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23662,9 +23662,9 @@ var async = asyncScheduler;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/scheduler/queue.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/queue.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/scheduler/queue.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: queueScheduler, queue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23685,9 +23685,9 @@ var queue = queueScheduler;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/symbol/iterator.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/symbol/iterator.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/symbol/iterator.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: getSymbolIterator, iterator, $$iterator */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23711,9 +23711,9 @@ var $$iterator = iterator;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/symbol/observable.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/symbol/observable.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/symbol/observable.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: observable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23728,9 +23728,9 @@ var observable = /*@__PURE__*/ (function () { return typeof Symbol === 'function
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/symbol/rxSubscriber.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/symbol/rxSubscriber.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/symbol/rxSubscriber.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: rxSubscriber, $$rxSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23751,9 +23751,9 @@ var $$rxSubscriber = rxSubscriber;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/ArgumentOutOfRangeError.js":
-/*!********************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/ArgumentOutOfRangeError.js ***!
-  \********************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/ArgumentOutOfRangeError.js ***!
+  \********************************************************************************************************************************************************************************************/
 /*! exports provided: ArgumentOutOfRangeError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23778,9 +23778,9 @@ var ArgumentOutOfRangeError = ArgumentOutOfRangeErrorImpl;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/EmptyError.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/EmptyError.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/EmptyError.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: EmptyError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23805,9 +23805,9 @@ var EmptyError = EmptyErrorImpl;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/Immediate.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/Immediate.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/Immediate.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: Immediate, TestTools */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23848,9 +23848,9 @@ var TestTools = {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/ObjectUnsubscribedError.js":
-/*!********************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/ObjectUnsubscribedError.js ***!
-  \********************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/ObjectUnsubscribedError.js ***!
+  \********************************************************************************************************************************************************************************************/
 /*! exports provided: ObjectUnsubscribedError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23875,9 +23875,9 @@ var ObjectUnsubscribedError = ObjectUnsubscribedErrorImpl;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/TimeoutError.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/TimeoutError.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/TimeoutError.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: TimeoutError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23902,9 +23902,9 @@ var TimeoutError = TimeoutErrorImpl;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/UnsubscriptionError.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/UnsubscriptionError.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/UnsubscriptionError.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: UnsubscriptionError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23931,9 +23931,9 @@ var UnsubscriptionError = UnsubscriptionErrorImpl;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/canReportError.js":
-/*!***********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/canReportError.js ***!
-  \***********************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/canReportError.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: canReportError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23964,9 +23964,9 @@ function canReportError(observer) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/hostReportError.js":
-/*!************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/hostReportError.js ***!
-  \************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/hostReportError.js ***!
+  \************************************************************************************************************************************************************************************/
 /*! exports provided: hostReportError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23983,9 +23983,9 @@ function hostReportError(err) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/identity.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/identity.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/identity.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: identity */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24002,9 +24002,9 @@ function identity(x) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isArray.js":
-/*!****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isArray.js ***!
-  \****************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isArray.js ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: isArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24019,9 +24019,9 @@ var isArray = /*@__PURE__*/ (function () { return Array.isArray || (function (x)
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isArrayLike.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isArrayLike.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isArrayLike.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: isArrayLike */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24036,9 +24036,9 @@ var isArrayLike = (function (x) { return x && typeof x.length === 'number' && ty
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isDate.js":
-/*!***************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isDate.js ***!
-  \***************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isDate.js ***!
+  \***************************************************************************************************************************************************************************/
 /*! exports provided: isDate */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24055,9 +24055,9 @@ function isDate(value) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isFunction.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isFunction.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isFunction.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: isFunction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24074,9 +24074,9 @@ function isFunction(x) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isInteropObservable.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isInteropObservable.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isInteropObservable.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: isInteropObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24095,9 +24095,9 @@ function isInteropObservable(input) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isIterable.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isIterable.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isIterable.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: isIterable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24116,9 +24116,9 @@ function isIterable(input) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isNumeric.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isNumeric.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isNumeric.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: isNumeric */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24137,9 +24137,9 @@ function isNumeric(val) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isObject.js":
-/*!*****************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isObject.js ***!
-  \*****************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isObject.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! exports provided: isObject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24156,9 +24156,9 @@ function isObject(x) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isObservable.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isObservable.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isObservable.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: isObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24177,9 +24177,9 @@ function isObservable(obj) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isPromise.js":
-/*!******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isPromise.js ***!
-  \******************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isPromise.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! exports provided: isPromise */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24196,9 +24196,9 @@ function isPromise(value) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/isScheduler.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isScheduler.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/isScheduler.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: isScheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24215,9 +24215,9 @@ function isScheduler(value) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/noop.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/noop.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/noop.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: noop */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24232,9 +24232,9 @@ function noop() { }
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/not.js":
-/*!************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/not.js ***!
-  \************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/not.js ***!
+  \************************************************************************************************************************************************************************/
 /*! exports provided: not */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24256,9 +24256,9 @@ function not(pred, thisArg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/pipe.js":
-/*!*************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/pipe.js ***!
-  \*************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/pipe.js ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: pipe, pipeFromArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24293,9 +24293,9 @@ function pipeFromArray(fns) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/subscribeTo.js":
-/*!********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeTo.js ***!
-  \********************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeTo.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! exports provided: subscribeTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24347,9 +24347,9 @@ var subscribeTo = function (result) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/subscribeToArray.js":
-/*!*************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeToArray.js ***!
-  \*************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeToArray.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: subscribeToArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24371,9 +24371,9 @@ var subscribeToArray = function (array) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/subscribeToIterable.js":
-/*!****************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeToIterable.js ***!
-  \****************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeToIterable.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! exports provided: subscribeToIterable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24420,9 +24420,9 @@ var subscribeToIterable = function (iterable) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/subscribeToObservable.js":
-/*!******************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeToObservable.js ***!
-  \******************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeToObservable.js ***!
+  \******************************************************************************************************************************************************************************************/
 /*! exports provided: subscribeToObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24449,9 +24449,9 @@ var subscribeToObservable = function (obj) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/subscribeToPromise.js":
-/*!***************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeToPromise.js ***!
-  \***************************************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeToPromise.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! exports provided: subscribeToPromise */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24479,9 +24479,9 @@ var subscribeToPromise = function (promise) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/subscribeToResult.js":
-/*!**************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeToResult.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/subscribeToResult.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: subscribeToResult */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24513,9 +24513,9 @@ function subscribeToResult(outerSubscriber, result, outerValue, outerIndex, inne
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/internal/util/toSubscriber.js":
-/*!*********************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/toSubscriber.js ***!
-  \*********************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/internal/util/toSubscriber.js ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: toSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24549,9 +24549,9 @@ function toSubscriber(nextOrObserver, error, complete) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm5/operators/index.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/operators/index.js ***!
-  \**********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/rxjs/_esm5/operators/index.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! exports provided: audit, auditTime, buffer, bufferCount, bufferTime, bufferToggle, bufferWhen, catchError, combineAll, combineLatest, concat, concatAll, concatMap, concatMapTo, count, debounce, debounceTime, defaultIfEmpty, delay, delayWhen, dematerialize, distinct, distinctUntilChanged, distinctUntilKeyChanged, elementAt, endWith, every, exhaust, exhaustMap, expand, filter, finalize, find, findIndex, first, groupBy, ignoreElements, isEmpty, last, map, mapTo, materialize, max, merge, mergeAll, mergeMap, flatMap, mergeMapTo, mergeScan, min, multicast, observeOn, onErrorResumeNext, pairwise, partition, pluck, publish, publishBehavior, publishLast, publishReplay, race, reduce, repeat, repeatWhen, retry, retryWhen, refCount, sample, sampleTime, scan, sequenceEqual, share, shareReplay, single, skip, skipLast, skipUntil, skipWhile, startWith, subscribeOn, switchAll, switchMap, switchMapTo, take, takeLast, takeUntil, takeWhile, tap, throttle, throttleTime, throwIfEmpty, timeInterval, timeout, timeoutWith, timestamp, toArray, window, windowCount, windowTime, windowToggle, windowWhen, withLatestFrom, zip, zipAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -24978,9 +24978,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/screenfull/dist/screenfull.js":
-/*!**********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/screenfull/dist/screenfull.js ***!
-  \**********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/screenfull/dist/screenfull.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25173,9 +25173,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/set-harmonic-interval/lib/index.esm.js":
-/*!*******************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/set-harmonic-interval/lib/index.esm.js ***!
-  \*******************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/set-harmonic-interval/lib/index.esm.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! exports provided: clearHarmonicInterval, setHarmonicInterval */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -25242,9 +25242,9 @@ var clearHarmonicInterval = function (_a) {
 /***/ }),
 
 /***/ "../../node_modules/throttle-debounce/esm/index.js":
-/*!***********************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/throttle-debounce/esm/index.js ***!
-  \***********************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/throttle-debounce/esm/index.js ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: debounce, throttle */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -25397,9 +25397,9 @@ function debounce (delay, atBegin, callback) {
 /***/ }),
 
 /***/ "../../node_modules/toggle-selection/index.js":
-/*!******************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/toggle-selection/index.js ***!
-  \******************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/toggle-selection/index.js ***!
+  \******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -25447,9 +25447,9 @@ module.exports = function () {
 /***/ }),
 
 /***/ "../../node_modules/ts-easing/lib/index.js":
-/*!***************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/ts-easing/lib/index.js ***!
-  \***************************************************************************************************************************************/
+/*!***************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/ts-easing/lib/index.js ***!
+  \***************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25528,9 +25528,9 @@ exports.easing = {
 /***/ }),
 
 /***/ "../../node_modules/tslib/tslib.es6.js":
-/*!***********************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/tslib/tslib.es6.js ***!
-  \***********************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/tslib/tslib.es6.js ***!
+  \***********************************************************************************************************************************************************/
 /*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __createBinding, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -25782,9 +25782,9 @@ function __classPrivateFieldSet(receiver, privateMap, value) {
 /***/ }),
 
 /***/ "../../node_modules/typesafe-actions/dist/typesafe-actions.umd.production.js":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** /home/radandt/projects/servicebund-relaunch-2021/Packages/Plugins/Sitegeist.InspectorGadget/node_modules/typesafe-actions/dist/typesafe-actions.umd.production.js ***!
-  \*************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** /home/wbehncke/Workspaces/Neos/neos-contributions/instances/sitegeist-plugins-issue-10-93/Sitegeist.InspectorGadget/node_modules/typesafe-actions/dist/typesafe-actions.umd.production.js ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26756,16 +26756,13 @@ var __importStar = undefined && undefined.__importStar || function (mod) {
     }__setModuleDefault(result, mod);
     return result;
 };
-var __importDefault = undefined && undefined.__importDefault || function (mod) {
-    return mod && mod.__esModule ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Modal = void 0;
 var React = __importStar(__webpack_require__(/*! react */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react/index.js"));
 var ReactDOM = __importStar(__webpack_require__(/*! react-dom */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/react-dom/index.js"));
-var classnames_1 = __importDefault(__webpack_require__(/*! classnames */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/vendor/classnames/index.js"));
+var react_ui_components_1 = __webpack_require__(/*! @neos-project/react-ui-components */ "../../node_modules/@neos-project/neos-ui-extensibility/src/shims/neosProjectPackages/react-ui-components/index.js");
 var Modal = function Modal(props) {
-    return ReactDOM.createPortal(React.createElement("div", { "data-ignore_click_outside": "true", className: classnames_1.default('sg-ig-fixed', 'sg-ig-inset-0', 'sg-ig-bg-[rgba(0,0,0,.9)]', 'sg-ig-animate-overlay-appear', 'sg-ig-z-[4]') }, React.createElement("div", { className: classnames_1.default('sg-ig-absolute', 'sg-ig-top-1/2', 'sg-ig-left-1/2', 'sg-ig-transform', 'sg-ig--translate-x-1/2 sg-ig--translate-y-1/2 sg-ig-scale-100', 'sg-ig-bg-gray-900', 'sg-ig-shadow-[0,20px,40px,rgba(0,0,0,.4)]', 'sg-ig-opacity-100', 'sg-ig-animate-modal-appear', 'sg-ig-border-2 sg-ig-border-gray-800') }, React.createElement("div", { className: classnames_1.default('sg-ig-text-large', 'sg-ig-leading-tight', 'sg-ig-p-4 sg-ig-pr-[40px]') }, props.renderTitle()), props.renderBody())), document.body);
+    return ReactDOM.createPortal(React.createElement(react_ui_components_1.Dialog, { isOpen: true, title: props.renderTitle(), onRequestClose: function onRequestClose() {}, preventClosing: true }, props.renderBody()), document.body);
 };
 exports.Modal = Modal;
 //# sourceMappingURL=Modal.js.map

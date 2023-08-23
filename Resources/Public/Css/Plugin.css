@@ -1,30 +1,3 @@
-.sg-ig-fixed {
-    position: fixed;
-}
-
-.sg-ig-absolute {
-    position: absolute;
-}
-
-.sg-ig-inset-0 {
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-}
-
-.sg-ig-top-1\/2 {
-    top: 50%;
-}
-
-.sg-ig-left-1\/2 {
-    left: 50%;
-}
-
-.sg-ig-z-\[4\] {
-    z-index: 4;
-}
-
 .sg-ig-col-span-2 {
     grid-column: span 2 / span 2;
 }
@@ -79,70 +52,6 @@
 
 .sg-ig-max-w-\[420px\] {
     max-width: 420px;
-}
-
-.sg-ig-transform {
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.sg-ig--translate-x-1\/2 {
-    --tw-translate-x: -50%;
-}
-
-.sg-ig--translate-y-1\/2 {
-    --tw-translate-y: -50%;
-}
-
-.sg-ig-scale-100 {
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-}
-
-@-webkit-keyframes overlayAppear {
-
-    from {
-        opacity: 0;
-    }
-}
-
-@keyframes overlayAppear {
-
-    from {
-        opacity: 0;
-    }
-}
-
-.sg-ig-animate-overlay-appear {
-    -webkit-animation: overlayAppear .5s ease-in-out;
-            animation: overlayAppear .5s ease-in-out;
-}
-
-@-webkit-keyframes modalAppear {
-
-    from {
-        opacity: 0;
-        transform: translateX(-50%) translateY(-50%) scale(.94);
-    }
-}
-
-@keyframes modalAppear {
-
-    from {
-        opacity: 0;
-        transform: translateX(-50%) translateY(-50%) scale(.94);
-    }
-}
-
-.sg-ig-animate-modal-appear {
-    -webkit-animation: modalAppear .5s ease-in-out;
-            animation: modalAppear .5s ease-in-out;
 }
 
 .sg-ig-cursor-pointer {
@@ -203,10 +112,6 @@
     border-width: 1px;
 }
 
-.sg-ig-border-2 {
-    border-width: 2px;
-}
-
 .sg-ig-border-none {
     border-style: none;
 }
@@ -223,10 +128,6 @@
 .sg-ig-bg-gray-900 {
     --tw-bg-opacity: 1;
     background-color: rgba(20, 20, 20, var(--tw-bg-opacity));
-}
-
-.sg-ig-bg-\[rgba\(0\,0\,0\,\.9\)\] {
-    background-color: rgba(0,0,0,.9);
 }
 
 .sg-ig-p-0 {
@@ -247,24 +148,12 @@
     padding-bottom: 0.5rem;
 }
 
-.sg-ig-pr-\[40px\] {
-    padding-right: 40px;
-}
-
 .sg-ig-text-small {
     font-size: 12px;
 }
 
-.sg-ig-text-large {
-    font-size: 20px;
-}
-
 .sg-ig-leading-none {
     line-height: 1;
-}
-
-.sg-ig-leading-tight {
-    line-height: 1.25;
 }
 
 .sg-ig-text-gray-500 {
@@ -275,15 +164,6 @@
 .sg-ig-text-white {
     --tw-text-opacity: 1;
     color: rgba(255, 255, 255, var(--tw-text-opacity));
-}
-
-.sg-ig-opacity-100 {
-    opacity: 1;
-}
-
-.sg-ig-shadow {
-    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .fix-neos-ui-validation-messages ul,
