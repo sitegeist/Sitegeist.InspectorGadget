@@ -1,4 +1,5 @@
 <?php declare(strict_types=1);
+
 namespace Sitegeist\InspectorGadget\Infrastructure\Doctrine\DataTypes;
 
 use Neos\Flow\Annotations as Flow;
@@ -8,14 +9,12 @@ use Sitegeist\InspectorGadget\Infrastructure\TypeConverter\DenormalizingObjectCo
 /**
  * @Flow\Proxy(false)
  */
-final class JsonArrayType extends FlowJsonArrayType
-{
+final class JsonArrayType extends FlowJsonArrayType {
     /**
      * @param array<mixed> $array
      * @return void
      */
-    protected function decodeObjectReferences(array &$array)
-    {
+    protected function decodeObjectReferences(array &$array): void {
         foreach ($array as &$value) {
             if (is_array($value) && isset($value['__value_object_value']) && isset($value['__value_object_type'])) {
                 $value = self::deserializeValueObject($value);
@@ -30,8 +29,7 @@ final class JsonArrayType extends FlowJsonArrayType
      * @return void
      * @throws \RuntimeException
      */
-    protected function encodeObjectReferences(array &$array)
-    {
+    protected function encodeObjectReferences(array &$array): void {
         foreach ($array as &$value) {
             if ($value instanceof \JsonSerializable && DenormalizingObjectConverter::isDenormalizable(get_class($value))) {
                 $value = self::serializeValueObject($value);
@@ -46,8 +44,7 @@ final class JsonArrayType extends FlowJsonArrayType
      * @return array<mixed>
      * @throws \RuntimeException
      */
-    public static function serializeValueObject(\JsonSerializable $valueObject): array
-    {
+    public static function serializeValueObject(\JsonSerializable $valueObject): array {
         if ($json = json_encode($valueObject)) {
             return [
                 '__value_object_type' => get_class($valueObject),
@@ -70,8 +67,7 @@ final class JsonArrayType extends FlowJsonArrayType
      * @return \JsonSerializable
      * @throws \InvalidArgumentException
      */
-    public static function deserializeValueObject(array $serializedValueObject): \JsonSerializable
-    {
+    public static function deserializeValueObject(array $serializedValueObject): \JsonSerializable {
         if (isset($serializedValueObject['__value_object_value']) && isset($serializedValueObject['__value_object_type'])) {
             return DenormalizingObjectConverter::convertFromSource(
                 $serializedValueObject['__value_object_value'],

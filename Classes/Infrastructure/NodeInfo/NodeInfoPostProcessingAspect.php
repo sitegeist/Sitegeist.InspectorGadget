@@ -1,6 +1,7 @@
 <?php declare(strict_types=1);
 namespace Sitegeist\InspectorGadget\Infrastructure\NodeInfo;
 
+use Neos\ContentRepositoryRegistry\ContentRepositoryRegistry;
 use Neos\Flow\Annotations as Flow;
 use Neos\Flow\Aop\JoinPointInterface;
 
@@ -9,6 +10,10 @@ use Neos\Flow\Aop\JoinPointInterface;
  */
 final class NodeInfoPostProcessingAspect
 {
+
+    #[Flow\Inject]
+    protected ContentRepositoryRegistry $contentRepositoryRegistry;
+
     /**
      * @Flow\Around("method(Neos\Neos\Ui\Fusion\Helper\NodeInfoHelper->renderNodeWithPropertiesAndChildrenInformation())")
      * @param JoinPointInterface $joinPoint
@@ -18,7 +23,8 @@ final class NodeInfoPostProcessingAspect
         JoinPointInterface $joinPoint
     ) {
         $node = $joinPoint->getMethodArgument('node');
-        $nodeType = $node->getNodeType();
+        $nodeTypeManager = $this->contentRepositoryRegistry->get($node->contentRepositoryId)->getNodeTypeManager();
+        $nodeType = $nodeTypeManager->getNodeType($node->nodeTypeName);
         /** @var array<mixed>|null $result */
         $result = $joinPoint->getAdviceChain()->proceed($joinPoint);
 
